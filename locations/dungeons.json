@@ -1,0 +1,1409 @@
+[
+  {
+	  "name": "Dungeons",
+	  "chest_unopened_img": "images/locations/available.png",
+	  "chest_opened_img": "images/locations/collected.png",
+	  "children":
+	  [
+	    {
+			"name": "Beach Cave",
+			"sections":
+			[
+			  {
+				  "name": "Complete Beach Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Beach Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Beach Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 207,
+				  "y": 197
+			  }
+			]
+			
+		},
+		{
+			"name": "Drenched Bluff",
+			"access_rules": ["Drenched Bluff"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Drenched Bluff"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Drenched Bluff"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Drenched Bluff"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 232,
+				  "y": 201
+			  }
+			]
+			
+		},
+		{
+			"name": "Mt. Bristle",
+			"access_rules": ["Mt. Bristle"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Mt. Bristle",
+				  "chest_unopened_img": "images/locations/drowzee.png",
+				  "chest_opened_img": "images/locations/drowzee-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Mt. Bristle"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Mt. Bristle"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 306,
+				  "y": 128
+			  }
+			]
+			
+		},
+		{
+			"name": "Waterfall Cave",
+			"access_rules": ["Waterfall Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Waterfall Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Waterfall Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Waterfall Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 248,
+				  "y": 162
+			  }
+			]
+			
+		},
+		{
+			"name": "Apple Woods",
+			"access_rules": ["Apple Woods"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Apple Woods"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Apple Woods"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Apple Woods"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 322,
+				  "y": 155
+			  }
+			]
+			
+		},
+		{
+			"name": "Craggy Coast",
+			"access_rules": ["Craggy Coast"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Craggy Coast"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Craggy Coast"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Craggy Coast"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 293,
+				  "y": 201
+			  }
+			]
+			
+		},
+		{
+			"name": "Side Path",
+			"access_rules": ["Side Path"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Side Path"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Side Path"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Side Path"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 300,
+				  "y": 201
+			  }
+			]
+			
+		},
+		{
+			"name": "Mt. Horn",
+			"access_rules": ["Mt. Horn"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Mt. Horn"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Mt. Horn"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Mt. Horn"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 344,
+				  "y": 190
+			  }
+			]
+			
+		},
+		{
+			"name": "Rock Path",
+			"access_rules": ["Rock Path"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Rock Path"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Rock Path"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Rock Path"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 351,
+				  "y": 190
+			  }
+			]
+			
+		},
+		{
+			"name": "Foggy Forest",
+			"access_rules": ["Foggy Forest"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Foggy Forest"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Foggy Forest"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Foggy Forest"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 394,
+				  "y": 205
+			  }
+			]
+			
+		},
+		{
+			"name": "Forest Path",
+			"access_rules": ["Forest Path"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Forest Path"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Forest Path"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Forest Path"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 400,
+				  "y": 205
+			  }
+			]
+			
+		},
+		{
+			"name": "Steam Cave",
+			"access_rules": ["Steam Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Steam Cave",
+				  "chest_unopened_img": "images/locations/groudon.png",
+				  "chest_opened_img": "images/locations/groudon-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Steam Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Steam Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 415,
+				  "y": 230
+			  }
+			]
+			
+		},
+		{
+			"name": "Amp Plains",
+			"access_rules": ["Amp Plains"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Amp Plains",
+				  "chest_unopened_img": "images/locations/manectric.png",
+				  "chest_opened_img": "images/locations/manectric-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Amp Plains"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Amp Plains"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 255,
+				  "y": 105
+			  }
+			]
+			
+		},
+		{
+			"name": "Northern Desert",
+			"access_rules": ["Northern Desert"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Northern Desert"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Northern Desert"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Northern Desert"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 205,
+				  "y": 105
+			  }
+			]
+			
+		},
+		{
+			"name": "Quicksand Cave",
+			"access_rules": ["Quicksand Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Quicksand Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Quicksand Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Quicksand Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 175,
+				  "y": 108
+			  }
+			]
+			
+		},
+		{
+			"name": "Crystal Cave",
+			"access_rules": ["Crystal Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Crystal Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Crystal Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Crystal Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 303,
+				  "y": 89
+			  }
+			]
+			
+		},
+		{
+			"name": "Crystal Crossing",
+			"access_rules": ["Crystal Crossing"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Crystal Crossing"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Crystal Crossing"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Crystal Crossing"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 293,
+				  "y": 70
+			  }
+			]
+			
+		},
+		{
+			"name": "Chasm Cave",
+			"access_rules": ["Chasm Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Chasm Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Chasm Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Chasm Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 112,
+				  "y": 73
+			  }
+			]
+			
+		},
+		{
+			"name": "Dark Hill",
+			"access_rules": ["Dark Hill"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Dark Hill"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Dark Hill"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Dark Hill"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 112,
+				  "y": 93
+			  }
+			]
+			
+		},
+		{
+			"name": "Sealed Ruin",
+			"access_rules": ["Sealed Ruin"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Sealed Ruin"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Sealed Ruin"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Sealed Ruin"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 143,
+				  "y": 116
+			  }
+			]
+			
+		},
+		{
+			"name": "Dusk Forest",
+			"access_rules": ["Dusk Forest"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Dusk Forest"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Dusk Forest"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Dusk Forest"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 153,
+				  "y": 100
+			  }
+			]
+			
+		},
+		{
+			"name": "Deep Dusk Forest",
+			"access_rules": ["Deep Dusk Forest"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Deep Dusk Forest",
+				  "chest_unopened_img": "images/locations/celebi.png",
+				  "chest_opened_img": "images/locations/celebi-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Deep Dusk Forest"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Deep Dusk Forest"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 163,
+				  "y": 90
+			  }
+			]
+			
+		},
+		{
+			"name": "Treeshroud Forest",
+			"access_rules": ["Treeshroud Forest"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Treeshroud Forest"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Treeshroud Forest"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Treeshroud Forest"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 365,
+				  "y": 110
+			  }
+			]
+			
+		},
+		{
+			"name": "Brine Cave",
+			"access_rules": ["Brine Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Brine Cave"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Brine Cave"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Brine Cave"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 192,
+				  "y": 148
+			  }
+			]
+			
+		},
+		{
+			"name": "Hidden Land",
+			"access_rules": ["Hidden Land"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Hidden Land",
+				  "chest_unopened_img": "images/locations/dusknoir.png",
+				  "chest_opened_img": "images/locations/dusknoir-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Hidden Land"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Hidden Land"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 85,
+				  "y": 200
+			  }
+			]
+			
+		},
+		{
+			"name": "Temporal Tower",
+			"access_rules": ["Temporal Tower"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Temporal Tower",
+				  "chest_unopened_img": "images/locations/primal_dialga.png",
+				  "chest_opened_img": "images/locations/primal_dialga-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Temporal Tower"],
+				  "visibility_rules": ["$late_missions,$darkraiGoal"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Temporal Tower"],
+				  "visibility_rules": ["$late_outlaws,$darkraiGoal"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 60,
+				  "y": 183
+			  }
+			]
+		},
+		{
+			"name": "Mystifying Forest",
+			"access_rules": ["Mystifying Forest"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Mystifying Forest",
+				  "chest_unopened_img": "images/locations/wigglytuff.png",
+				  "chest_opened_img": "images/locations/wigglytuff-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Mystifying Forest"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Mystifying Forest"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 248,
+				  "y": 133
+			  }
+			]
+		},
+		{
+			"name": "Blizzard Island",
+			"access_rules": ["Blizzard Island"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Blizzard Island"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Blizzard Island"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Blizzard Island"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 80,
+				  "y": 270
+			  }
+			]
+		},
+		{
+			"name": "Crevice Cave",
+			"access_rules": ["Crevice Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Crevice Cave",
+				  "chest_unopened_img": "images/locations/scizor.png",
+				  "chest_opened_img": "images/locations/scizor-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Crevice Cave"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Crevice Cave"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 83,
+				  "y": 288
+			  }
+			]
+		},
+		{
+			"name": "Surrounded Sea",
+			"access_rules": ["Surrounded Sea"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Surrounded Sea",
+				  "chest_unopened_img": "images/locations/manaphy_egg.png",
+				  "chest_opened_img": "images/locations/manaphy_egg-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Surrounded Sea"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Surrounded Sea"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 205,
+				  "y": 290
+			  }
+			]
+		},
+		{
+			"name": "Miracle Sea",
+			"access_rules": ["Miracle Sea"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Miracle Sea",
+				  "chest_unopened_img": "images/locations/manaphy_egg.png",
+				  "chest_opened_img": "images/locations/manaphy_egg-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Miracle Sea"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Miracle Sea"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 84,
+				  "y": 132
+			  }
+			]
+		},
+		{
+			"name": "Aegis Cave",
+			"access_rules": ["Aegis Cave"],
+			"visibility_rules": ["Aegis Cave"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Aegis Cave",
+				  "chest_unopened_img": "images/locations/regigigas.png",
+				  "chest_opened_img": "images/locations/regigigas-gray.png"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Miracle Sea"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Miracle Sea"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 344,
+				  "y": 257
+			  }
+			]
+		},
+		{
+			"name": "Mt. Travail",
+			"access_rules": ["Mt. Travail"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Mt. Travail"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Mt. Travail"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Mt. Travail"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 397,
+				  "y": 135
+			  }
+			]
+		},
+		{
+			"name": "The Nightmare",
+			"access_rules": ["The Nightmare"],
+			"sections":
+			[
+			  {
+				  "name": "Complete The Nightmare"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|The Nightmare"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|The Nightmare"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "crossroad",
+				  "x": 160,
+				  "y": 280
+			  }
+			]
+		},
+		{
+			"name": "Spacial Rift",
+			"access_rules": ["Spacial Rift"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Spacial Rift"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Spacial Rift"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Spacial Rift"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 450,
+				  "y": 170
+			  }
+			]
+		},
+		{
+			"name": "Dark Crater",
+			"access_rules": ["Dark Crater"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Dark Crater"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 60,
+				  "y": 42
+			  }
+			]
+		},
+		{
+			"name": "Concealed Ruins",
+			"access_rules": ["Concealed Ruins"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Concealed Ruins"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Concealed Ruins"],
+				  "visibility_rules": ["$late_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Concealed Ruins"],
+				  "visibility_rules": ["$late_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 450,
+				  "y": 170
+			  }
+			]
+		},
+		{
+			"name": "Serenity River",
+			"access_rules": ["Serenity River"],
+			"sections":
+			[
+			  {
+				  "name": "Complete Serenity River"
+			  },
+			  {
+				  "name": "Mission",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/mission.png",
+				  "chest_opened_img": "images/locations/mission-gray.png",
+				  "access_rules": ["$completed|Serenity River"],
+				  "visibility_rules": ["$early_missions"]
+			  },
+			  {
+				  "name": "Outlaw",
+				  "clear_as_group": false,
+				  "item_count": 50,
+				  "chest_unopened_img": "images/locations/outlaw.png",
+				  "chest_opened_img": "images/locations/outlaw-gray.png",
+				  "access_rules": ["$completed|Serenity River"],
+				  "visibility_rules": ["$early_outlaws"]
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 240,
+				  "y": 172
+			  }
+			]
+			
+		},
+	  ]
+	  
+  }
+]

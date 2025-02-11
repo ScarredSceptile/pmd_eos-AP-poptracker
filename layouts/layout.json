@@ -1,0 +1,52 @@
+{
+  "item_tracker": {
+    "type": "container",
+    "background": "#212121",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "margin": "0,0,0,0",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Items"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Settings",
+              "content": {
+                "type": "layout",
+                "key": "Settings"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "group",
+              "header": "Overworld",
+              "margin": "0,0,0,0",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

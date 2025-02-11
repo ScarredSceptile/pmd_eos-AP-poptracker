@@ -1,0 +1,28 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "RelicFragmentCount",
+                "BagUpgrades",
+                "Drenched Bluff"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

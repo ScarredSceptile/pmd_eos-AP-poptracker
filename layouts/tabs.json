@@ -1,0 +1,29 @@
+{
+	"tabbed_maps": {
+		"type": "tabbed",
+		"tabs":
+		[
+		  {
+			  "title": "Overworld",
+			  "content": {
+				  "type": "map",
+				  "maps": "overworld"
+			  }
+		  },
+		  {
+			  "title": "Guildmaster Chambers",
+			  "content": {
+				  "type": "map",
+				  "maps": "guildmaster_chambers"
+			  }
+		  },
+		  {
+			  "title": "Guild B2",
+			  "content": {
+				  "type": "map",
+				  "maps": "guild_b2"
+			  }
+		  },
+		]
+	}
+}

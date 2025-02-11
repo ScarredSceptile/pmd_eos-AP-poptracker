@@ -1,0 +1,444 @@
+[
+  {
+	  "name": "Relic Fragments",
+	  "type": "consumable",
+	  "codes": "RelicFragmentCount",
+      "max_quantity": 20,
+	  "img": "images/items/relic-fragments.png",
+  },
+  {
+	  "name": "Bag upgrades",
+	  "type": "consumable",
+	  "codes": "BagUpgrades",
+      "max_quantity": 5,
+	  "img": "images/items/inventory.png"
+  },
+  {
+	  "name": "Instruments",
+	  "type": "consumable",
+	  "codes": "Instruments",
+      "max_quantity": 20,
+	  "img": "images/items/instrument.png"
+  },
+  {
+	  "name": "Victory",
+	  "type": "toggle",
+	  "codes": "Victory",
+  },
+  {
+	  "name": "Drenched Bluff",
+	  "type": "toggle",
+	  "codes": "Drenched Bluff",
+	  "img": "images/items/instrument.png"
+  },
+  {
+	  "name": "Mt. Bristle",
+	  "type": "toggle",
+	  "codes": "Mt. Bristle"
+  },
+  {
+	  "name": "Waterfall Cave",
+	  "type": "toggle",
+	  "codes": "Waterfall Cave"
+  },
+  {
+	  "name": "Apple Woods",
+	  "type": "toggle",
+	  "codes": "Apple Woods"
+  },
+  {
+	  "name": "Craggy Coast",
+	  "type": "toggle",
+	  "codes": "Craggy Coast"
+  },
+  {
+	  "name": "Side Path",
+	  "type": "toggle",
+	  "codes": "Side Path"
+  },
+  {
+	  "name": "Mt. Horn",
+	  "type": "toggle",
+	  "codes": "Mt. Horn"
+  },
+  {
+	  "name": "Rock Path",
+	  "type": "toggle",
+	  "codes": "Rock Path"
+  },
+  {
+	  "name": "Foggy Forest",
+	  "type": "toggle",
+	  "codes": "Foggy Forest"
+  },
+  {
+	  "name": "Forest Path",
+	  "type": "toggle",
+	  "codes": "Forest Path"
+  },
+  {
+	  "name": "Steam Cave",
+	  "type": "toggle",
+	  "codes": "Steam Cave"
+  },
+  {
+	  "name": "Amp Plains",
+	  "type": "toggle",
+	  "codes": "Amp Plains"
+  },
+  {
+	  "name": "Northern Desert",
+	  "type": "toggle",
+	  "codes": "Northern Desert"
+  },
+  {
+	  "name": "Quicksand Cave",
+	  "type": "toggle",
+	  "codes": "Quicksand Cave"
+  },
+  {
+	  "name": "Crystal Cave",
+	  "type": "toggle",
+	  "codes": "Crystal Cave"
+  },
+  {
+	  "name": "Crystal Crossing",
+	  "type": "toggle",
+	  "codes": "Crystal Crossing"
+  },
+  {
+	  "name": "Chasm Cave",
+	  "type": "toggle",
+	  "codes": "Chasm Cave"
+  },
+  {
+	  "name": "Dark Hill",
+	  "type": "toggle",
+	  "codes": "Dark Hill"
+  },
+  {
+	  "name": "Sealed Ruin",
+	  "type": "toggle",
+	  "codes": "Sealed Ruin"
+  },
+  {
+	  "name": "Dusk Forest",
+	  "type": "toggle",
+	  "codes": "Dusk Forest"
+  },
+  {
+	  "name": "Deep Dusk Forest",
+	  "type": "toggle",
+	  "codes": "Deep Dusk Forest"
+  },
+  {
+	  "name": "Treeshroud Forest",
+	  "type": "toggle",
+	  "codes": "Treeshroud Forest"
+  },
+  {
+	  "name": "Brine Cave",
+	  "type": "toggle",
+	  "codes": "Brine Cave"
+  },
+  {
+	  "name": "Temporal Tower",
+	  "type": "toggle",
+	  "codes": "Temporal Tower"
+  },
+  {
+	  "name": "Mystifying Forest",
+	  "type": "toggle",
+	  "codes": "Mystifying Forest"
+  },
+  {
+	  "name": "Blizzard Island",
+	  "type": "toggle",
+	  "codes": "Blizzard Island"
+  },
+  {
+	  "name": "Crevice Cave",
+	  "type": "toggle",
+	  "codes": "Crevice Cave"
+  },
+  {
+	  "name": "Surrounded Sea",
+	  "type": "toggle",
+	  "codes": "Surrounded Sea"
+  },
+  {
+	  "name": "Miracle Sea",
+	  "type": "toggle",
+	  "codes": "Miracle Sea"
+  },
+  {
+	  "name": "Mt. Travail",
+	  "type": "toggle",
+	  "codes": "Mt. Travail"
+  },
+  {
+	  "name": "The Nightmare",
+	  "type": "toggle",
+	  "codes": "The Nightmare"
+  },
+  {
+	  "name": "Spacial Rift",
+	  "type": "toggle",
+	  "codes": "Spacial Rift"
+  },
+  {
+	  "name": "Dark Crater",
+	  "type": "toggle",
+	  "codes": "Dark Crater"
+  },
+  {
+	  "name": "Concealed Ruins",
+	  "type": "toggle",
+	  "codes": "Concealed Ruins"
+  },
+  {
+	  "name": "Marine Resort",
+	  "type": "toggle",
+	  "codes": "Marine Resort"
+  },
+  {
+	  "name": "Bottomless Sea",
+	  "type": "toggle",
+	  "codes": "Bottomless Sea"
+  },
+  {
+	  "name": "Shimmer Desert",
+	  "type": "toggle",
+	  "codes": "Shimmer Desert"
+  },
+  {
+	  "name": "Mt. Avalanche",
+	  "type": "toggle",
+	  "codes": "Mt. Avalanche"
+  },
+  {
+	  "name": "Giant Volcano",
+	  "type": "toggle",
+	  "codes": "Giant Volcano"
+  },
+  {
+	  "name": "World Abyss",
+	  "type": "toggle",
+	  "codes": "World Abyss"
+  },
+  {
+	  "name": "Sky Stairway",
+	  "type": "toggle",
+	  "codes": "Sky Stairway"
+  },
+  {
+	  "name": "Mystery Jungle",
+	  "type": "toggle",
+	  "codes": "Mystery Jungle"
+  },
+  {
+	  "name": "Serenity River",
+	  "type": "toggle",
+	  "codes": "Serenity River"
+  },
+  {
+	  "name": "Landslide Cave",
+	  "type": "toggle",
+	  "codes": "Landslide Cave"
+  },
+  {
+	  "name": "Lush Prairie",
+	  "type": "toggle",
+	  "codes": "Lush Prairie"
+  },
+  {
+	  "name": "Tiny Meadow",
+	  "type": "toggle",
+	  "codes": "Tiny Meadow"
+  },
+  {
+	  "name": "Labyrinth Cave",
+	  "type": "toggle",
+	  "codes": "Labyrinth Cave"
+  },
+  {
+	  "name": "Oran Forest",
+	  "type": "toggle",
+	  "codes": "Oran Forest"
+  },
+  {
+	  "name": "Lake Afar",
+	  "type": "toggle",
+	  "codes": "Lake Afar"
+  },
+  {
+	  "name": "Happy Outlook",
+	  "type": "toggle",
+	  "codes": "Happy Outlook"
+  },
+  {
+	  "name": "Mt. Mistral",
+	  "type": "toggle",
+	  "codes": "Mt. Mistral"
+  },
+  {
+	  "name": "Shimmer Hill",
+	  "type": "toggle",
+	  "codes": "Shimmer Hill"
+  },
+  {
+	  "name": "Lost Wilderness",
+	  "type": "toggle",
+	  "codes": "Lost Wilderness"
+  },
+  {
+	  "name": "Midnight Forest",
+	  "type": "toggle",
+	  "codes": "Midnight Forest"
+  },
+  {
+	  "name": "Zero Isle North",
+	  "type": "toggle",
+	  "codes": "Zero Isle North"
+  },
+  {
+	  "name": "Zero Isle East",
+	  "type": "toggle",
+	  "codes": "Zero Isle East"
+  },
+  {
+	  "name": "Zero Isle West",
+	  "type": "toggle",
+	  "codes": "Zero Isle West"
+  },
+  {
+	  "name": "Zero Isle South",
+	  "type": "toggle",
+	  "codes": "Zero Isle South"
+  },
+  {
+	  "name": "Zero Isle Center",
+	  "type": "toggle",
+	  "codes": "Zero Isle Center"
+  },
+  {
+	  "name": "Destiny Tower",
+	  "type": "toggle",
+	  "codes": "Destiny Tower"
+  },
+  {
+	  "name": "Oblivion Forest",
+	  "type": "toggle",
+	  "codes": "Oblivion Forest"
+  },
+  {
+	  "name": "Treacherous Waters",
+	  "type": "toggle",
+	  "codes": "Treacherous Waters"
+  },
+  {
+	  "name": "Southeastern Islands",
+	  "type": "toggle",
+	  "codes": "Southeastern Islands"
+  },
+  {
+	  "name": "Inferno Cave",
+	  "type": "toggle",
+	  "codes": "Inferno Cave"
+  },
+  {
+	  "name": "1st Station Pass",
+	  "type": "toggle",
+	  "codes": "1st Station Pass"
+  },
+  {
+	  "name": "Bidoof SE",
+	  "type": "toggle",
+	  "codes": "Bidoof SE"
+  },
+  {
+	  "name": "IgglyBuff SE",
+	  "type": "toggle",
+	  "codes": "IgglyBuff SE"
+  },
+  {
+	  "name": "Grovyle + Dusknoir SE",
+	  "type": "toggle",
+	  "codes": "Grovyle + Dusknoir SE"
+  },
+  {
+	  "name": "Team Charm SE",
+	  "type": "toggle",
+	  "codes": "Team Charm SE"
+  },
+  {
+	  "name": "Sunflora SE",
+	  "type": "toggle",
+	  "codes": "Sunflora SE"
+  },
+  {
+	  "name": "Star Cave2",
+	  "type": "toggle",
+	  "codes": "Star Cave2"
+  },
+  {
+	  "name": "Shaymin Village",
+	  "type": "toggle",
+	  "codes": "Shaymin Village"
+  },
+  {
+	  "name": "Luminous Spring",
+	  "type": "toggle",
+	  "codes": "Luminous Spring"
+  },
+  {
+	  "name": "Dojo Normal/Fly Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Normal/Fly Maze"
+  },
+  {
+	  "name": "Dojo Dark/Fire Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Dark/Fire Maze"
+  },
+  {
+	  "name": "Dojo Rock/Water Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Rock/Water Maze"
+  },
+  {
+	  "name": "Dojo Grass Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Grass Maze"
+  },
+  {
+	  "name": "Dojo Elec/Steel Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Elec/Steel Maze"
+  },
+  {
+	  "name": "Dojo Ice/Ground Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Ice/Ground Maze"
+  },
+  {
+	  "name": "Dojo Fight/Psych Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Fight/Psych Maze"
+  },
+  {
+	  "name": "Dojo Poison/Bug Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Poison/Bug Maze"
+  },
+  {
+	  "name": "Dojo Dragon Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Dragon Maze"
+  },
+  {
+	  "name": "Dojo Ghost Maze",
+	  "type": "toggle",
+	  "codes": "Dojo Ghost Maze"
+  }
+]

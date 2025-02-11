@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "codes": "Goal",
+    "stages": [
+      {
+        "img": "images/settings/dialga.png",
+        "codes": "Goal,goal_dialga",
+        "name": "Goal - Defeat Primal Dialga"
+      },
+      {
+        "img": "images/settings/darkrai.png",
+        "codes": "Goal,goal_darkrai",
+        "name": "Goal - Defeat Darkrai"
+      }
+	]
+  },
+  {
+	  "name": "Required Relic Fragment Shards",
+	  "type": "consumable",
+      "max_quantity": 10,
+	  "min_quantity": 4,
+	  "initial_quantity": 4,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/relic.png",
+	  "disabled_img_mods": "none",
+	  "codes": "RequiredRelicFragmentShards"
+  },
+  {
+	  "name": "Extra Relic Fragment Shards",
+	  "type": "consumable",
+      "max_quantity": 10,
+	  "initial_quantity": 4,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/relic.png",
+	  "disabled_img_mods": "none",
+	  "codes": "ExtraRelicFragmentShards"
+  },
+  {
+	  "name": "Early Mission Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 4,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/mission.png",
+	  "disabled_img_mods": "none",
+	  "codes": "EarlyMissionChecks"
+  },
+  {
+	  "name": "Late Mission Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 2,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/mission.png",
+	  "disabled_img_mods": "none",
+	  "codes": "LateMissionChecks"
+  },
+  {
+	  "name": "Early Outlaw Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 4,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/outlaw.png",
+	  "disabled_img_mods": "none",
+	  "codes": "EarlyOutlawChecks"
+  },
+  {
+	  "name": "Late Outlaw Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 2,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/outlaw.png",
+	  "disabled_img_mods": "none",
+	  "codes": "LateOutlawChecks"
+  }
+]
