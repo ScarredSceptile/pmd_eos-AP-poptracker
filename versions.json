@@ -2,8 +2,8 @@
 	"versions": [
 		{
 			"package_version": 0.1.0,
-			"download_url": "",
-			"sha256": "",
+			"download_url": "https://github.com/ScarredSceptile/pme_eos-AP-poptracker/releases/download/v0.1.0/pme_eos-AP-poptracker-v0.1.0.zip",
+			"sha256": "31349188b109e4b920843436a3a2d64625979bd18d9d2ccc4f9858a7713c4ddb",
 			"changelog": ["Initial Release"]
 		}
 	]
