@@ -12,4 +12,4 @@ This tracker is not made for manual usage, please be warned that missions and ou
 
 # Example image
 
-![Example image](/images/example.png)
+![Example image](/images/example.PNG)
