@@ -77,11 +77,46 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Overworld",
+              "title": "Maps",
               "content": {
-                "type": "map",
-                "maps": [
-                  "overworld"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Overworld",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "overworld"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Future Hidden Land",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "future-hidden-land"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Future Blizzard Island",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "future-frozen"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Igglybuff SE",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "igglybuff-area"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -152,30 +187,22 @@
                         "guildmaster_chambers"
                       ]
                     }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Future World",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
+                  },
                   {
-                    "title": "Hidden Land",
+                    "title": "Bidoofs Room",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "future-hidden-land"
+                        "bidoof-room"
                       ]
                     }
                   },
                   {
-                    "title": "Frozen World",
+                    "title": "Sunfloras Room",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "future-frozen"
+                        "sunflora-room"
                       ]
                     }
                   }

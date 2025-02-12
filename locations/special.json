@@ -1,0 +1,353 @@
+[
+  {
+	  "name": "SpecialDungeons",
+	  "chest_unopened_img": "images/locations/available.png",
+	  "chest_opened_img": "images/locations/collected.png",
+	  "children":
+	  [
+	    {
+			"name": "SE Star Cave",
+			"access_rules": ["Bidoof SE"],
+			"chest_unopened_img": "images/locations/bidoof.png",
+			"chest_opened_img": "images/locations/bidoof-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Star Cave"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 323,
+				  "y": 192
+			  }
+			]
+		},
+	    {
+			"name": "SE Murky Forest",
+			"access_rules": ["IgglyBuff SE"],
+			"chest_unopened_img": "images/locations/igglybuff.png",
+			"chest_opened_img": "images/locations/igglybuff-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Murky Forest"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "igglybuff-area",
+				  "x": 140,
+				  "y": 100
+			  }
+			]
+		},
+	    {
+			"name": "SE Eastern Cave",
+			"access_rules": ["IgglyBuff SE"],
+			"chest_unopened_img": "images/locations/igglybuff.png",
+			"chest_opened_img": "images/locations/igglybuff-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Eastern Cave"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "igglybuff-area",
+				  "x": 252,
+				  "y": 132
+			  }
+			]
+		},
+	    {
+			"name": "SE Fortune Ravine",
+			"access_rules": ["IgglyBuff SE"],
+			"chest_unopened_img": "images/locations/igglybuff.png",
+			"chest_opened_img": "images/locations/igglybuff-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Fortune Ravine"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "igglybuff-area",
+				  "x": 324,
+				  "y": 52
+			  }
+			]
+		},
+	    {
+			"name": "SE Barren Valley",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Barren Valley"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 124,
+				  "y": 92
+			  }
+			]
+		},
+	    {
+			"name": "SE Dark Wasteland",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Dark Wasteland"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 132,
+				  "y": 68
+			  }
+			]
+		},
+	    {
+			"name": "SE Temporal Tower",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Temporal Tower"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 84,
+				  "y": 44
+			  }
+			]
+		},
+	    {
+			"name": "SE Dusk Forest",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Dusk Forest"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 171,
+				  "y": 92
+			  }
+			]
+		},
+	    {
+			"name": "SE Spacial Cliffs",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Spacial Cliffs"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-hidden-land",
+				  "x": 172,
+				  "y": 124
+			  }
+			]
+		},
+	    {
+			"name": "SE Dark Ice Mountain",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Dark Ice Mountain"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-frozen",
+				  "x": 76,
+				  "y": 84
+			  }
+			]
+		},
+	    {
+			"name": "SE Icicle Forest",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Icicle Forest"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-frozen",
+				  "x": 132,
+				  "y": 116
+			  }
+			]
+		},
+	    {
+			"name": "SE Vast Ice Mountain",
+			"access_rules": ["Grovyle + Dusknoir SE"],
+			"chest_unopened_img": "images/locations/grovyle.png",
+			"chest_opened_img": "images/locations/grovyle-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Vast Ice Mountain"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "future-frozen",
+				  "x": 188,
+				  "y": 92
+			  }
+			]
+		},
+	    {
+			"name": "SE Southern Jungle",
+			"access_rules": ["Team Charm SE"],
+			"chest_unopened_img": "images/locations/team-charm.png",
+			"chest_opened_img": "images/locations/team-charm-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Southern Jungle"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 292,
+				  "y": 300
+			  }
+			]
+		},
+	    {
+			"name": "SE Boulder Quarry",
+			"access_rules": ["Team Charm SE"],
+			"chest_unopened_img": "images/locations/team-charm.png",
+			"chest_opened_img": "images/locations/team-charm-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Boulder Quarry"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 308,
+				  "y": 296
+			  }
+			]
+		},
+	    {
+			"name": "SE Boulder Quarry Paths",
+			"access_rules": ["Team Charm SE"],
+			"chest_unopened_img": "images/locations/team-charm.png",
+			"chest_opened_img": "images/locations/team-charm-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Right Cave Path"
+			  },
+			  {
+				  "name": "Complete SE Left Cave Path"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 300,
+				  "y": 300
+			  }
+			]
+		},
+	    {
+			"name": "SE Limestone Cavern",
+			"access_rules": ["Team Charm SE"],
+			"chest_unopened_img": "images/locations/team-charm.png",
+			"chest_opened_img": "images/locations/team-charm-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Limestone Cavern"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 308,
+				  "y": 276
+			  }
+			]
+		},
+	    {
+			"name": "SE Spring Cave",
+			"access_rules": ["Sunflora SE"],
+			"chest_unopened_img": "images/locations/sunflora.png",
+			"chest_opened_img": "images/locations/sunflora-gray.png",
+			"sections":
+			[
+			  {
+				  "name": "Complete SE Spring Cave"
+			  }
+			],
+			"map_locations":
+			[
+			  {
+				  "map": "overworld",
+				  "x": 272,
+				  "y": 188
+			  }
+			]
+		},
+	  ]
+  }
+]

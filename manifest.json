@@ -7,7 +7,7 @@
 	"variants": {
 		"standard": {
 			"display_name": "Map Tracker",
-			"flags": []
+			"flags": ["ap"]
 		}
 	},
 	"versions_url": "https://raw.githubusercontent.com/ScarredSceptile/pme_eos-AP-poptracker/versions/versions.json"

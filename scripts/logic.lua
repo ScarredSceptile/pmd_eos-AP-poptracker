@@ -23,6 +23,18 @@ function darkraiGoal()
 	return count > 0
 end
 
+function canClearTemporalTower()
+	local tower = Tracker:ProviderCountForCode("Temporal Tower")
+	local relicCount = Tracker:ProviderCountForCode("RelicFragmentCount")
+	local relicGoal = Tracker:ProviderCountForCode("RequiredRelicFragmentShards")
+	return relicCount >= relicGoal and tower == 1
+end
+
+function dungeonCleared(dungeonName)
+	local dungeon = Tracker:FindObjectForCode("@Dungeons/"..dungeonName.."/Complete "..dungeonName)
+	return dungeon.AvailableChestCount == 0
+end
+
 function has(item)
     return Tracker:ProviderCountForCode(item) == 1
 end

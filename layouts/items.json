@@ -14,13 +14,47 @@
             "item_margin": "10, 10",
             "h_alignment": "left",
             "rows": [
-              [
-                "RelicFragmentCount",
-                "BagUpgrades",
-                "Drenched Bluff"
-              ]
+              ["RelicFragmentCount", "BagUpgrades", "Instruments", "Secret Rank"],
+			  ["Mystery Part", "Secret Slab", "Amber Tear", "Friend Bow"]
             ]
-          }
+          },
+		  {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "center",
+            "rows": [
+			    ["Drenched Bluff", "Mt. Bristle", "Waterfall Cave", "Apple Woods", "Craggy Coast", "Side Path", "Mt. Horn", "Rock Path", "Foggy Forest", "Forest Path", "Steam Cave"],
+				["Amp Plains", "Northern Desert", "Quicksand Cave", "Crystal Cave", "Crystal Crossing", "Chasm Cave", "Dark Hill", "Sealed Ruin", "Dusk Forest", "Deep Dusk Forest", "Brine Cave"],
+				["Temporal Tower", "Mystifying Forest", "Blizzard Island", "Crevice Cave", "Surrounded Sea", "Miracle Sea", "Mt. Travail", "The Nightmare", "Spacial Rift", "Dark Crater", "Concealed Ruins"],
+				["Marine Resort", "Bottomless Sea", "Shimmer Desert", "Mt. Avalanche", "Giant Volcano", "World Abyss", "Sky Stairway", "Mystery Jungle", "Serenity River", "Landslide Cave", "Lush Prairie"],
+				["Tiny Meadow", "Labyrinth Cave", "Oran Forest", "Lake Afar", "Happy Outlook", "Mt. Mistral", "Shimmer Hill", "Lost Wilderness", "Midnight Forest", "Zero Isle North", "Zero Isle East"],
+				["Zero Isle West", "Zero Isle South", "Zero Isle Center", "Destiny Tower", "Oblivion Forest", "Treacherous Waters", "Southeastern Islands", "Inferno Cave", "1st Station Pass", "Star Cave2"]
+			  ]
+		  },
+		  {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "center",
+            "rows": [
+			    ["Articuno", "Mew", "Celebi", "Regirock", "Regice"],
+				["Registeel", "Kyogre", "Groudon", "Rayquaza", "Uxie"],
+				["Mesprit", "Uxie", "Dialga", "Primal Dialga", "Palkia"],
+				["Heatran", "Regigigas", "Giratina", "Cresselia", "Phione"],
+				["Manaphy", "Shaymin"]
+			  ]
+		  },
+		  {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+			    ["Dojo Normal/Fly Maze", "Dojo Dark/Fire Maze"], 
+				["Dojo Rock/Water Maze", "Dojo Grass Maze"], 
+				["Dojo Elec/Steel Maze", "Dojo Ice/Ground Maze"], 
+				["Dojo Fight/Psych Maze", "Dojo Poison/Bug Maze"],
+				["Dojo Dragon Maze", "Dojo Ghost Maze"]
+			  ]
+		  }
         ]
       }
     ]

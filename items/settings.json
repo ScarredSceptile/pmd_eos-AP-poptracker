@@ -79,5 +79,45 @@
 	  "img": "images/settings/outlaw.png",
 	  "disabled_img_mods": "none",
 	  "codes": "LateOutlawChecks"
+  },
+  {
+	  "name": "Legendary Amount",
+	  "type": "consumable",
+      "max_quantity": 22,
+	  "initial_quantity": 3,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/legendary.png",
+	  "disabled_img_mods": "none",
+	  "codes": "LegendaryAmount"
+  },
+  {
+	  "name": "Dojos to start with",
+	  "type": "consumable",
+      "max_quantity": 10,
+	  "initial_quantity": 0,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/dojo.png",
+	  "disabled_img_mods": "none",
+	  "codes": "DojoDungeonsRandomization"
+  },
+  {
+	  "name": "Required Instruments",
+	  "type": "consumable",
+      "max_quantity": 10,
+	  "initial_quantity": 0,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/instrument.png",
+	  "disabled_img_mods": "none",
+	  "codes": "RequiredInstruments"
+  },
+  {
+	  "name": "Extra Instruments",
+	  "type": "consumable",
+      "max_quantity": 10,
+	  "initial_quantity": 0,
+	  "overlay_font_size": 16,
+	  "img": "images/settings/instrument.png",
+	  "disabled_img_mods": "none",
+	  "codes": "ExtraInstruments"
   }
 ]
