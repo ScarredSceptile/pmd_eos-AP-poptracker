@@ -35,6 +35,11 @@
 				  "map": "overworld",
 				  "x": 212,
 				  "y": 196
+			  },
+			  {
+				  "map": "beach",
+				  "x": 70,
+				  "y": 190
 			  }
 			]
 			
@@ -911,6 +916,11 @@
 				  "map": "overworld",
 				  "x": 84,
 				  "y": 220
+			  },
+			  {
+				"map": "beach",
+				"x": 488,
+				"y": 120
 			  }
 			]
 			
@@ -952,6 +962,11 @@
 				  "map": "overworld",
 				  "x": 60,
 				  "y": 180
+			  },
+			  {
+				"map": "beach",
+				"x": 500,
+				"y": 120
 			  }
 			]
 		},
@@ -1039,7 +1054,7 @@
 				  "chest_opened_img": "images/locations/scizor-gray.png"
 			  },
 			  {
-				  "name": "Rescue Scizor",
+				  "name": "Secret Rank",
 				  "chest_unopened_img": "images/locations/scizor.png",
 				  "chest_opened_img": "images/locations/scizor-gray.png"
 			  },
@@ -2365,6 +2380,9 @@
 				  "name": "Complete 4th Station Pass"
 			  },
 			  {
+				  "name": "Complete 5th Station Clearing"
+			  },
+			  {
 				  "name": "4th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
@@ -2479,6 +2497,9 @@
 				  "name": "Complete Sky Peak Summit Pass"
 			  },
 			  {
+				  "name": "Complete Sky Peak Summit"
+			  },
+			  {
 				  "name": "Sky Peak Summit Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
@@ -2493,12 +2514,6 @@
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
-			  },
-			  {
-				  "name": "Complete 5th Station Clearing"
-			  },
-			  {
-				  "name": "Complete Sky Peak Summit"
 			  }
 			],
 			"map_locations":

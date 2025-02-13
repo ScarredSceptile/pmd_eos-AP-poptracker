@@ -171,6 +171,15 @@
                     }
                   },
                   {
+                    "title": "Beach",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "beach"
+                      ]
+                    }
+                  },
+                  {
                     "title": "Guild B2",
                     "content": {
                       "type": "map",
