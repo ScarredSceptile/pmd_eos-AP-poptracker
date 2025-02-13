@@ -25,9 +25,13 @@ end
 
 function canClearTemporalTower()
 	local tower = Tracker:ProviderCountForCode("Temporal Tower")
+	return enoughRelicFragments() and tower == 1
+end
+
+function enoughRelicFragments()
 	local relicCount = Tracker:ProviderCountForCode("RelicFragmentCount")
 	local relicGoal = Tracker:ProviderCountForCode("RequiredRelicFragmentShards")
-	return relicCount >= relicGoal and tower == 1
+	return relicCount >= relicGoal
 end
 
 function dungeonCleared(dungeonName)

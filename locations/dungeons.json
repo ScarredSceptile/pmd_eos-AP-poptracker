@@ -880,7 +880,7 @@
 		},
 		{
 			"name": "Hidden Land",
-			"access_rules": ["$canClearTemporalTower"],
+			"access_rules": ["$enoughRelicFragments"],
 			"sections":
 			[
 			  {
