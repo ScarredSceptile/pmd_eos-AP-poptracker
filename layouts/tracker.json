@@ -162,6 +162,15 @@
                     }
                   },
                   {
+                    "title": "Dojo",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dojo"
+                      ]
+                    }
+                  },
+                  {
                     "title": "Crossroad",
                     "content": {
                       "type": "map",

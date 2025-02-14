@@ -14,8 +14,11 @@
             "item_margin": "10, 10",
             "h_alignment": "left",
             "rows": [
-              ["RelicFragmentCount", "BagUpgrades", "Instruments", "Secret Rank"],
-			  ["Mystery Part", "Secret Slab", "Amber Tear", "Friend Bow"]
+              ["RelicFragmentCount", "BagUpgrades", "Instruments", "Secret Rank", "Manaphy"],
+			  ["Mystery Part", "Secret Slab", "Amber Tear", "Friend Bow", "Miracle Chest", "Wonder Chest"],
+			  ["Bidoof SE", "Igglybuff SE", "Sunflora SE", "Team Charm SE", "Grovyle + Dusknoir SE"],
+			  ["Hot Springs", "Luminous Spring", "Recruit Evolution", "Hero Evolution"],
+			  ["Recruitment", "Formation Control"]
             ]
           },
 		  {

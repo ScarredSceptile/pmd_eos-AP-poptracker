@@ -97,9 +97,6 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	local count = 0
-	if slot_data["BagOnStart"] then
-		Tracker:FindObjectForCode("BagUpgrades").AcquiredCount = tonumber(slot_data["BagOnStart"])
-	end
 	if slot_data["EarlyOutlawsAmount"] then
 		count = tonumber(slot_data["EarlyOutlawsAmount"])
 		Tracker:FindObjectForCode("EarlyOutlawChecks").AcquiredCount = count

@@ -168,9 +168,9 @@
 			[
 			  {
 				  "name": "Manaphy Join Team",
-				  "access_rules": ["$dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea"],
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
+				  "access_rules": ["$dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea,[$dungeonCleared|Temporal Tower]"],
+				  "chest_unopened_img": "images/locations/legendaries/manaphy.png",
+				  "chest_opened_img": "images/locations/legendaries/manaphy-gray.png",
 			  },
 			  {
 				  "name": "Manaphy Leads To Marine Resort",
@@ -195,8 +195,8 @@
 			[
 			  {
 				  "name": "Recruit Cresselia",
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
+				  "chest_unopened_img": "images/locations/legendaries/cresselia.png",
+				  "chest_opened_img": "images/locations/legendaries/cresselia-gray.png",
 			  }
 			],
 			"map_locations":

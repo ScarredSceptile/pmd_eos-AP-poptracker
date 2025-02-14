@@ -11,7 +11,7 @@
 	  "type": "consumable",
 	  "codes": "BagUpgrades",
       "max_quantity": 5,
-	  "img": "images/items/inventory.png"
+	  "img": "images/items/bag.png"
   },
   {
 	  "name": "Instruments",
@@ -419,31 +419,31 @@
 	  "name": "Bidoof SE",
 	  "type": "toggle",
 	  "codes": "Bidoof SE",
-	  "img": "images/overlay/1.png"
+	  "img": "images/items/bidoof.png"
   },
   {
 	  "name": "IgglyBuff SE",
 	  "type": "toggle",
 	  "codes": "IgglyBuff SE",
-	  "img": "images/overlay/2.png"
+	  "img": "images/items/igglybuff.png"
   },
   {
 	  "name": "Grovyle + Dusknoir SE",
 	  "type": "toggle",
 	  "codes": "Grovyle + Dusknoir SE",
-	  "img": "images/overlay/4.png"
+	  "img": "images/items/grovyle.png"
   },
   {
 	  "name": "Team Charm SE",
 	  "type": "toggle",
 	  "codes": "Team Charm SE",
-	  "img": "images/overlay/4.png"
+	  "img": "images/items/team-charm.png"
   },
   {
 	  "name": "Sunflora SE",
 	  "type": "toggle",
 	  "codes": "Sunflora SE",
-	  "img": "images/overlay/3.png"
+	  "img": "images/items/sunflora.png"
   },
   {
 	  "name": "Star Cave2",
@@ -459,7 +459,8 @@
   {
 	  "name": "Luminous Spring",
 	  "type": "toggle",
-	  "codes": "Luminous Spring"
+	  "codes": "Luminous Spring",
+	  "img": "images/items/luminous.png"
   },
   {
 	  "name": "Dojo Normal/Fly Maze",
@@ -531,24 +532,78 @@
 	  "name": "Mystery Part",
 	  "type": "toggle",
 	  "codes": "Mystery Part",
-	  "img": "images/items/no-image.png"
+	  "img": "images/items/mystery_part.png"
   },
   {
 	  "name": "Secret Slab",
 	  "type": "toggle",
 	  "codes": "Secret Slab",
-	  "img": "images/items/no-image.png"
+	  "img": "images/items/secret_slab.png"
   },
   {
 	  "name": "Amber Tear",
 	  "type": "toggle",
 	  "codes": "Amber Tear",
-	  "img": "images/items/no-image.png"
+	  "img": "images/items/amber_tear.png"
   },
   {
 	  "name": "Friend Bow",
 	  "type": "toggle",
 	  "codes": "Friend Bow",
-	  "img": "images/items/no-image.png"
+	  "img": "images/items/friend_bow.png"
+  },
+  {
+	  "name": "Golden Mask",
+	  "type": "toggle",
+	  "codes": "Golden Mask",
+	  "img:": "images/items/golden_mask.png"
+  },
+  {
+	  "name": "Manaphy Egg",
+	  "type": "toggle",
+	  "codes": "Manaphy Egg",
+	  "img": "images/items/manaphy_egg.png"
+  },
+  {
+	  "name": "Hero Evolution",
+	  "type": "toggle",
+	  "codes": "Hero Evolution",
+	  "img": "images/items/evolution.png"
+  },
+  {
+	  "name": "Recruit Evolution",
+	  "type": "toggle",
+	  "codes": "Recruit Evolution",
+	  "img": "images/items/evolution.png"
+  },
+  {
+	  "name": "Recruitment",
+	  "type": "toggle",
+	  "codes": "Recruitment",
+	  "img": "images/items/recruitment.png"
+  },
+  {
+	  "name": "Formation Control",
+	  "type": "toggle",
+	  "codes": "Formation Control",
+	  "img": "images/items/recruitment.png"
+  },
+  {
+	  "name": "Hot Springs",
+	  "type": "toggle",
+	  "codes": "Hot Springs",
+	  "img": "images/items/hot_springs.png"
+  },
+  {
+	  "name": "Miracle Chest",
+	  "type": "toggle",
+	  "codes": "Miracle Chest",
+	  "img": "images/items/miracle_chest.png"
+  },
+  {
+	  "name": "Wonder Chest",
+	  "type": "toggle",
+	  "codes": "Wonder Chest",
+	  "img": "images/items/wonder_chest.png"
   }
 ]

@@ -417,7 +417,9 @@
 			  },
 			  {
 				  "name": "Recruit Uxie",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "chest_unopened_img": "images/locations/legendaries/uxie.png",
+				  "chest_opened_img": "images/locations/legendaries/uxie-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"]
 			  },
 			  {
 				  "name": "Mission",
@@ -528,7 +530,9 @@
 			  },
 			  {
 				  "name": "Recruit Mesprit",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "chest_unopened_img": "images/locations/legendaries/mesprit.png",
+				  "chest_opened_img": "images/locations/legendaries/mesprit-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"]
 			  },
 			  {
 				  "name": "Mission",
@@ -602,7 +606,9 @@
 			  },
 			  {
 				  "name": "Recruit Azelf",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "chest_unopened_img": "images/locations/legendaries/azelf.png",
+				  "chest_opened_img": "images/locations/legendaries/azelf-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"]
 			  },
 			  {
 				  "name": "Mission",
@@ -890,8 +896,8 @@
 			  },
 			  {
 				  "name": "Grovyle + Dusknoir SE Location",
-				  "chest_unopened_img": "images/locations/dusknoir.png",
-				  "chest_opened_img": "images/locations/dusknoir-gray.png"
+				  "chest_unopened_img": "images/locations/grovyle.png",
+				  "chest_opened_img": "images/locations/grovyle-gray.png"
 			  },
 			  {
 				  "name": "Mission",
@@ -937,7 +943,9 @@
 			  },
 			  {
 				  "name": "Recruit Dialga",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"],
+				  "chest_unopened_img": "images/locations/legendaries/dialga.png",
+				  "chest_opened_img": "images/locations/legendaries/dialga-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"],
 			  },
 			  {
 				  "name": "Mission",
@@ -1132,7 +1140,9 @@
 			  },
 			  {
 				  "name": "Recruit Phione",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, $dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea"]
+				  "chest_unopened_img": "images/locations/legendaries/phione.png",
+				  "chest_opened_img": "images/locations/legendaries/phione-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], $dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1275,7 +1285,9 @@
 			  },
 			  {
 				  "name": "Recruit Palkia",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "chest_unopened_img": "images/locations/legendaries/palkia.png",
+				  "chest_opened_img": "images/locations/legendaries/palkia-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1305,7 +1317,7 @@
 		},
 		{
 			"name": "Dark Crater",
-			"access_rules": ["Dark Crater, $dungeonCleared|Temporal Tower"],
+			"access_rules": ["Dark Crater, [$dungeonCleared|Temporal Tower]"],
 			"sections":
 			[
 			  {
@@ -1401,13 +1413,15 @@
 			  },
 			  {
 				  "name": "Get Aqua-Monica",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Kyogre",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/kyogre.png",
+				  "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1445,13 +1459,15 @@
 			  },
 			  {
 				  "name": "Get Terra Cymbal",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Groudon",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/groudon.png",
+				  "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1489,13 +1505,15 @@
 			  },
 			  {
 				  "name": "Get Icy Flute",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Articuno",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/articuno.png",
+				  "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1533,13 +1551,15 @@
 			  },
 			  {
 				  "name": "Get Fiery Drum",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Heatran",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/heatran.png",
+				  "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1577,13 +1597,15 @@
 			  },
 			  {
 				  "name": "Get Rock Horn",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Giratina",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/giratina.png",
+				  "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1621,13 +1643,15 @@
 			  },
 			  {
 				  "name": "Get Sky Melodica",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Rayquaza",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
+				  "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1665,13 +1689,15 @@
 			  },
 			  {
 				  "name": "Get Grass Cornet",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"],
 				  "chest_unopened_img": "images/locations/instrument.png",
 				  "chest_opened_img": "images/locations/instrument-gray.png",
 			  },
 			  {
 				  "name": "Recruit Mew",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "chest_unopened_img": "images/locations/legendaries/mew.png",
+				  "chest_opened_img": "images/locations/legendaries/mew-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower], Secret Rank"]
 			  },
 			  {
 				  "name": "Mission",
@@ -2317,7 +2343,9 @@
 			[
 			  {
 				  "name": "Recruit Shaymin",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"],
+				  "chest_unopened_img": "images/locations/legendaries/shaymin.png",
+				  "chest_opened_img": "images/locations/legendaries/shaymin-gray.png",
+				  "access_rules": ["[$dungeonCleared|Temporal Tower]"],
 			  },
 			  {
 				  "name": "Complete 1st Station Pass"
