@@ -34,6 +34,12 @@ function enoughRelicFragments()
 	return relicCount >= relicGoal
 end
 
+function enoughInstruments()
+	local instrumentCount = Tracker:ProviderCountForCode("Instruments")
+	local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
+	return instrumentCount >= instrumentGoal
+end
+
 function dungeonCleared(dungeonName)
 	local dungeon = Tracker:FindObjectForCode("@Dungeons/"..dungeonName.."/Complete "..dungeonName)
 	return dungeon.AvailableChestCount == 0
