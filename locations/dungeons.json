@@ -1317,7 +1317,7 @@
 		},
 		{
 			"name": "Dark Crater",
-			"access_rules": ["Dark Crater, [$dungeonCleared|Temporal Tower], $enoughInstruments"],
+			"access_rules": ["$canAccessDarkCrater"],
 			"sections":
 			[
 			  {

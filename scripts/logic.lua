@@ -34,10 +34,14 @@ function enoughRelicFragments()
 	return relicCount >= relicGoal
 end
 
-function enoughInstruments()
-	local instrumentCount = Tracker:ProviderCountForCode("Instruments")
-	local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
-	return instrumentCount >= instrumentGoal
+function canAccessDarkCrater()
+	if darkraiGoal() then
+		local tower = Tracker:FindObjectForCode("@Dungeons/Temporal Tower/Complete Temporal Tower")
+		local instrumentCount = Tracker:ProviderCountForCode("Instruments")
+		local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
+		return instrumentCount >= instrumentGoal and tower.AvailableChestCount == 0
+	end
+	return Tracker:ProviderCountForCode("Dark Crater") == 1
 end
 
 function dungeonCleared(dungeonName)
