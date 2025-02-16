@@ -168,7 +168,7 @@
 			[
 			  {
 				  "name": "Manaphy Join Team",
-				  "access_rules": ["$dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea,[$dungeonCleared|Temporal Tower]"],
+				  "access_rules": ["$dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea,$dungeonCleared|Temporal Tower"],
 				  "chest_unopened_img": "images/locations/legendaries/manaphy.png",
 				  "chest_opened_img": "images/locations/legendaries/manaphy-gray.png",
 			  },
