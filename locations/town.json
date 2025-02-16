@@ -44,9 +44,9 @@
 			"map_locations":
 			[
 			  {
-				  "map": "sunflora-room",
-				  "x": 260,
-				  "y": 194
+				  "map": "bidoof-room",
+				  "x": 215,
+				  "y": 239
 			  }
 			]
 		},{
@@ -62,7 +62,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "bidoof-room",
+				  "map": "sunflora-room",
 				  "x": 260,
 				  "y": 130
 			  }
