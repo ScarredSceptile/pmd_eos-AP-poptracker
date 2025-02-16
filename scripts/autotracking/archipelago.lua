@@ -137,6 +137,12 @@ function apply_slot_data(slot_data)
 	else
 		Tracker:FindObjectForCode("ExtraRelicFragmentShards").AcquiredCount = 0
 	end
+	if slot_data["RequiredInstruments"] then
+		Tracker:FindObjectForCode("RequiredInstruments").AcuiredCount = tonumber(slot_data["RequiredInstruments"])
+	end
+	if slot_data["ExtraInstruments"] then
+		Tracker:FindObjectForCode("ExtraInstruments").AcuiredCount = tonumber(slot_data["ExtraInstruments"])
+	end
 	if slot_data["Goal"] then
 		Tracker:FindObjectForCode("Goal").AcquiredCount = tonumber(slot_data["Goal"])
 	end
