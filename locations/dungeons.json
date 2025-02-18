@@ -983,7 +983,7 @@
 		},
 		{
 			"name": "Temporal Tower",
-			"access_rules": ["$canClearTemporalTower"],
+			"access_rules": ["Temporal Tower, Complete Hidden Land"],
 			"sections":
 			[
 			  {
@@ -2465,6 +2465,7 @@
 				  "name": "1st Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 1st Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2473,6 +2474,7 @@
 				  "name": "1st Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 1st Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2484,6 +2486,7 @@
 				  "name": "2nd Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 2nd Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2492,6 +2495,7 @@
 				  "name": "2nd Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 2nd Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2503,6 +2507,7 @@
 				  "name": "3rd Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 3rd Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2511,6 +2516,7 @@
 				  "name": "3rd Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 3rd Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2525,6 +2531,7 @@
 				  "name": "4th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 4th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2533,6 +2540,7 @@
 				  "name": "4th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 4th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2544,6 +2552,7 @@
 				  "name": "5th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 5th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2552,6 +2561,7 @@
 				  "name": "5th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 5th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2563,6 +2573,7 @@
 				  "name": "6th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 6th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2571,6 +2582,7 @@
 				  "name": "6th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 6th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2582,6 +2594,7 @@
 				  "name": "7th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 7th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2590,6 +2603,7 @@
 				  "name": "7th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 7th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2601,6 +2615,7 @@
 				  "name": "8th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 8th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2609,6 +2624,7 @@
 				  "name": "8th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 8th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2620,6 +2636,7 @@
 				  "name": "9th Station Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 9th Station Pass"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2628,6 +2645,7 @@
 				  "name": "9th Station Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete 9th Station Pass"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
