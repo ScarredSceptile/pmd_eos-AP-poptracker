@@ -26,12 +26,14 @@
             "item_margin": "10, 10",
             "h_alignment": "center",
             "rows": [
-			    ["Beach Cave", "Drenched Bluff", "Mt. Bristle", "Waterfall Cave", "Apple Woods", "Craggy Coast", "Side Path", "Mt. Horn", "Rock Path", "Foggy Forest", "Forest Path"],
-				["Steam Cave", "Amp Plains", "Northern Desert", "Quicksand Cave", "Crystal Cave", "Crystal Crossing", "Chasm Cave", "Dark Hill", "Sealed Ruin", "Dusk Forest", "Deep Dusk Forest"],
-				["Brine Cave", "Temporal Tower", "Mystifying Forest", "Blizzard Island", "Crevice Cave", "Surrounded Sea", "Miracle Sea", "Mt. Travail", "The Nightmare", "Spacial Rift", "Dark Crater"],
-				["Concealed Ruins", "Marine Resort", "Bottomless Sea", "Shimmer Desert", "Mt. Avalanche", "Giant Volcano", "World Abyss", "Sky Stairway", "Mystery Jungle", "Serenity River", "Landslide Cave"],
-				["Lush Prairie", "Tiny Meadow", "Labyrinth Cave", "Oran Forest", "Lake Afar", "Happy Outlook", "Mt. Mistral", "Shimmer Hill", "Lost Wilderness", "Midnight Forest", "Zero Isle North"],
-				["Zero Isle East", "Zero Isle West", "Zero Isle South", "Zero Isle Center", "Destiny Tower", "Oblivion Forest", "Treacherous Waters", "Southeastern Islands", "Inferno Cave", "1st Station Pass", "Star Cave2"]
+			    ["Beach Cave", "Drenched Bluff", "Mt. Bristle", "Waterfall Cave", "Apple Woods", "Craggy Coast", "Side Path", "Mt. Horn", "Rock Path"],
+				["Foggy Forest", "Forest Path", "Steam Cave", "Amp Plains", "Northern Desert", "Quicksand Cave", "Crystal Cave", "Crystal Crossing", "Chasm Cave"],
+				["Dark Hill", "Sealed Ruin", "Dusk Forest", "Deep Dusk Forest", "Treeshroud Forest", "Brine Cave", "Temporal Tower", "Mystifying Forest", "Blizzard Island"],
+				["Crevice Cave", "Surrounded Sea", "Miracle Sea", "Mt. Travail", "The Nightmare", "Spacial Rift", "Dark Crater", "Concealed Ruins", "Marine Resort"],
+				["Bottomless Sea", "Shimmer Desert", "Mt. Avalanche", "Giant Volcano", "World Abyss", "Sky Stairway", "Mystery Jungle", "Serenity River", "Landslide Cave"],
+				["Lush Prairie", "Tiny Meadow", "Labyrinth Cave", "Oran Forest", "Lake Afar", "Happy Outlook", "Mt. Mistral", "Shimmer Hill", "Lost Wilderness"],
+				[ "Midnight Forest", "Zero Isle North", "Zero Isle East", "Zero Isle West", "Zero Isle South", "Zero Isle Center", "Destiny Tower", "Oblivion Forest", "Treacherous Waters"],
+				["Southeastern Islands", "Inferno Cave", "1st Station Pass", "Star Cave"]
 			  ]
 		  },
 		  {

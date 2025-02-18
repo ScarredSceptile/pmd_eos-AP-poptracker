@@ -397,9 +397,9 @@
 	  "img": "images/overlay/64.png"
   },
   {
-	  "name": "Star Cave2",
+	  "name": "Star Cave",
 	  "type": "toggle",
-	  "codes": "Star Cave2",
+	  "codes": "Star Cave",
 	  "img": "images/overlay/65.png"
   }
  ]
