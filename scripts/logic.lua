@@ -10,12 +10,12 @@ end
 
 function late_missions()
 	local latemissionCount = Tracker:ProviderCountForCode("LateMissionChecks")
-	return latemissionCount > 0
+	return latemissionCount > 0 and darkraiGoal()
 end
 
 function late_outlaws()
 	local lateoutlawCount = Tracker:ProviderCountForCode("LateOutlawChecks")
-	return lateoutlawCount > 0
+	return lateoutlawCount > 0 and darkraiGoal()
 end
 
 function darkraiGoal()

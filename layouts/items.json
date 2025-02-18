@@ -51,10 +51,10 @@
             "item_margin": "10, 10",
             "h_alignment": "left",
             "rows": [
-			    ["Dojo Normal/Fly Maze", "Dojo Dark/Fire Maze"], 
-				["Dojo Rock/Water Maze", "Dojo Grass Maze"], 
-				["Dojo Elec/Steel Maze", "Dojo Ice/Ground Maze"], 
-				["Dojo Fight/Psych Maze", "Dojo Poison/Bug Maze"],
+			    ["Dojo Normal&Fly Maze", "Dojo Dark&Fire Maze"], 
+				["Dojo Rock&Water Maze", "Dojo Grass Maze"], 
+				["Dojo Elec&Steel Maze", "Dojo Ice&Ground Maze"], 
+				["Dojo Fight&Psych Maze", "Dojo Poison&Bug Maze"],
 				["Dojo Dragon Maze", "Dojo Ghost Maze"]
 			  ]
 		  }

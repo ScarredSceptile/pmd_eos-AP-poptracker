@@ -94,9 +94,27 @@ function updateLate(type, count)
 	end
 end
 
+function tprint (tbl, indent)
+  if not indent then indent = 0 end
+  for k, v in pairs(tbl) do
+    formatting = string.rep("  ", indent) .. k .. ": "
+    if type(v) == "table" then
+      print(formatting)
+      tprint(v, indent+1)
+    elseif type(v) == 'boolean' then
+      print(formatting .. tostring(v))      
+    else
+      print(formatting .. v)
+    end
+  end
+end
+
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	local count = 0
+	print("Before dumping the slot data")
+	tprint(slot_data, 2)
 	if slot_data["EarlyOutlawsAmount"] then
 		count = tonumber(slot_data["EarlyOutlawsAmount"])
 		Tracker:FindObjectForCode("EarlyOutlawChecks").AcquiredCount = count
@@ -144,7 +162,7 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("ExtraInstruments").AcquiredCount = tonumber(slot_data["ExtraInstruments"])
 	end
 	if slot_data["Goal"] then
-		Tracker:FindObjectForCode("Goal").AcquiredCount = tonumber(slot_data["Goal"])
+		Tracker:FindObjectForCode("Goal").CurrentStage = tonumber(slot_data["Goal"])
 	end
 	if slot_data["LegendaryAmount"] then
 		Tracker:FindObjectForCode("LegendaryAmount").AcquiredCount = tonumber(slot_data["LegendaryAmount"])

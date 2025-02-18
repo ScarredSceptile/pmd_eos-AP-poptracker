@@ -16,6 +16,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Beach Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -24,6 +25,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Beach Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -56,6 +58,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Drenched Bluff"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -64,6 +67,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Drenched Bluff"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -96,6 +100,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Bristle"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -104,6 +109,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Bristle"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -131,6 +137,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Waterfall Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -139,6 +146,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Waterfall Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -169,6 +177,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Apple Woods"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -177,6 +186,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Apple Woods"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -204,6 +214,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Craggy Coast"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -212,6 +223,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Craggy Coast"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -239,6 +251,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Side Path"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -247,6 +260,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Side Path"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -274,6 +288,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Horn"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -282,6 +297,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Horn"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -309,6 +325,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Rock Path"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -317,6 +334,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Rock Path"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -344,6 +362,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Foggy Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -352,6 +371,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Foggy Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -379,6 +399,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Forest Path"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -387,6 +408,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Forest Path"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -419,12 +441,13 @@
 				  "name": "Recruit Uxie",
 				  "chest_unopened_img": "images/locations/legendaries/uxie.png",
 				  "chest_opened_img": "images/locations/legendaries/uxie-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower, Complete Steam Cave"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Steam Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -433,6 +456,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Steam Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -462,6 +486,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Amp Plains"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -470,6 +495,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Amp Plains"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -497,6 +523,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Northern Desert"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -505,6 +532,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Northern Desert"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -532,12 +560,13 @@
 				  "name": "Recruit Mesprit",
 				  "chest_unopened_img": "images/locations/legendaries/mesprit.png",
 				  "chest_opened_img": "images/locations/legendaries/mesprit-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower, Complete Quicksand Cave"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Quicksand Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -546,6 +575,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Quicksand Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -573,6 +603,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crystal Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -581,6 +612,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crystal Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -608,12 +640,13 @@
 				  "name": "Recruit Azelf",
 				  "chest_unopened_img": "images/locations/legendaries/azelf.png",
 				  "chest_opened_img": "images/locations/legendaries/azelf-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower, Complete Crystal Crossing"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crystal Crossing"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -622,6 +655,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crystal Crossing"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -649,6 +683,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Chasm Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -657,6 +692,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Chasm Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -684,6 +720,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Dark Hill"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -692,6 +729,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Dark Hill"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -719,6 +757,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Sealed Ruin"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -727,6 +766,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Sealed Ruin"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -754,6 +794,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Dusk Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -762,6 +803,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Dusk Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -791,6 +833,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Deep Dusk Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -799,6 +842,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Deep Dusk Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -826,6 +870,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Treeshroud Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -834,6 +879,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Treeshroud Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -861,6 +907,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Brine Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -869,6 +916,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Brine Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -903,6 +951,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Hidden Land"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -911,6 +960,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Hidden Land"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -945,12 +995,13 @@
 				  "name": "Recruit Dialga",
 				  "chest_unopened_img": "images/locations/legendaries/dialga.png",
 				  "chest_opened_img": "images/locations/legendaries/dialga-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"],
+				  "access_rules": ["Complete Temporal Tower"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Temporal Tower"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions,$darkraiGoal"]
@@ -959,6 +1010,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Temporal Tower"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws,$darkraiGoal"]
@@ -995,6 +1047,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mystifying Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1003,6 +1056,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mystifying Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1029,6 +1083,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Blizzard Island"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1037,6 +1092,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Blizzard Island"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1070,6 +1126,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crevice Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1078,6 +1135,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Crevice Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1106,6 +1164,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Surrounded Sea"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1114,6 +1173,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Surrounded Sea"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1130,7 +1190,7 @@
 		},
 		{
 			"name": "Miracle Sea",
-			"access_rules": ["Miracle Sea"],
+			"access_rules": ["Miracle Sea, Complete Surrounded Sea"],
 			"sections":
 			[
 			  {
@@ -1142,12 +1202,13 @@
 				  "name": "Recruit Phione",
 				  "chest_unopened_img": "images/locations/legendaries/phione.png",
 				  "chest_opened_img": "images/locations/legendaries/phione-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, $dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea"]
+				  "access_rules": ["Complete Temporal Tower, Complete Miracle Sea"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Miracle Sea"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1156,6 +1217,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Miracle Sea"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1185,6 +1247,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Aegis Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1193,6 +1256,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Aegis Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1219,6 +1283,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Travail"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1227,6 +1292,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Travail"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1243,7 +1309,7 @@
 		},
 		{
 			"name": "The Nightmare",
-			"access_rules": ["The Nightmare,$dungeonCleared|Mt. Bristle"],
+			"access_rules": ["The Nightmare, Complete Mt. Bristle"],
 			"sections":
 			[
 			  {
@@ -1253,6 +1319,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete The Nightmare"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1261,6 +1328,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete The Nightmare"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1287,12 +1355,13 @@
 				  "name": "Recruit Palkia",
 				  "chest_unopened_img": "images/locations/legendaries/palkia.png",
 				  "chest_opened_img": "images/locations/legendaries/palkia-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower, Complete Spacial Rift"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Spacial Rift"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1301,6 +1370,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Spacial Rift"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1323,7 +1393,7 @@
 			  {
 				  "name": "Complete Dark Crater",
 				  "chest_unopened_img": "images/locations/darkrai.png",
-				  "chest_opened_img": "images/locations/darkrai-gray.png",
+				  "chest_opened_img": "images/locations/darkrai-gray.png"
 			  }
 			],
 			"map_locations":
@@ -1347,6 +1417,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Concealed Ruins"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1355,6 +1426,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Concealed Ruins"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1381,6 +1453,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Marine Resort"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1389,6 +1462,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Marine Resort"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1409,25 +1483,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Bottomless Sea",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete Bottomless Sea"
 			  },
 			  {
 				  "name": "Get Aqua-Monica",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Bottomless Sea"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Kyogre",
 				  "chest_unopened_img": "images/locations/legendaries/kyogre.png",
 				  "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Bottomless Sea"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Bottomless Sea"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1436,6 +1510,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Bottomless Sea"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1456,25 +1531,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Shimmer Desert",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete Shimmer Desert"
 			  },
 			  {
 				  "name": "Get Terra Cymbal",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Shimmer Desert"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Groudon",
 				  "chest_unopened_img": "images/locations/legendaries/groudon.png",
 				  "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Shimmer Desert"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Shimmer Desert"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1483,6 +1558,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Shimmer Desert"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1503,25 +1579,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Mt. Avalanche",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete Mt. Avalanche"
 			  },
 			  {
 				  "name": "Get Icy Flute",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mt. Avalanche"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Articuno",
 				  "chest_unopened_img": "images/locations/legendaries/articuno.png",
 				  "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mt. Avalanche"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Avalanche"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1530,6 +1606,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Avalanche"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1550,25 +1627,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Giant Volcano",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete Giant Volcano"
 			  },
 			  {
 				  "name": "Get Fiery Drum",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Giant Volcano"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Heatran",
 				  "chest_unopened_img": "images/locations/legendaries/heatran.png",
 				  "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Giant Volcano"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Giant Volcano"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1577,6 +1654,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Giant Volcano"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1597,25 +1675,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete World Abyss",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete World Abyss"
 			  },
 			  {
 				  "name": "Get Rock Horn",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete World Abyss"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Giratina",
 				  "chest_unopened_img": "images/locations/legendaries/giratina.png",
 				  "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete World Abyss"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete World Abyss"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1624,6 +1702,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete World Abyss"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1644,25 +1723,25 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Sky Stairway",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"]
+				  "name": "Complete Sky Stairway"
 			  },
 			  {
 				  "name": "Get Sky Melodica",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Sky Stairway"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Rayquaza",
 				  "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
 				  "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Sky Stairway"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Sky Stairway"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1671,6 +1750,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Sky Stairway"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1695,20 +1775,21 @@
 			  },
 			  {
 				  "name": "Get Grass Cornet",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"],
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mystery Jungle"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "chest_opened_img": "images/locations/instrument-gray.png"
 			  },
 			  {
 				  "name": "Recruit Mew",
 				  "chest_unopened_img": "images/locations/legendaries/mew.png",
 				  "chest_opened_img": "images/locations/legendaries/mew-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower, Secret Rank"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mystery Jungle"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mystery Jungle"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1717,7 +1798,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["$dungeonCleared|Mystery Jungle"],
+				  "access_rules": ["Complete Mystery Jungle"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1744,6 +1825,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Serenity River"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1752,6 +1834,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Serenity River"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1779,6 +1862,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Landslide Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1787,6 +1871,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Landslide Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1814,6 +1899,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lush Prairie"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1822,6 +1908,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lush Prairie"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1849,6 +1936,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Tiny Meadow"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1857,6 +1945,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Tiny Meadow"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1884,6 +1973,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Labyrinth Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1892,6 +1982,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Labyrinth Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1919,6 +2010,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Oran Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -1927,6 +2019,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Oran Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -1954,6 +2047,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lake Afar"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1962,6 +2056,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lake Afar"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1989,6 +2084,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Happy Outlook"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1997,6 +2093,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Happy Outlook"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2024,6 +2121,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Mistral"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2032,6 +2130,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Mt. Mistral"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2059,6 +2158,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Shimmer Hill"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2067,6 +2167,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Shimmer Hill"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2094,6 +2195,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lost Wilderness"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2102,6 +2204,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Lost Wilderness"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2129,6 +2232,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Midnight Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2137,6 +2241,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Midnight Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2351,7 +2456,7 @@
 				  "name": "Recruit Shaymin",
 				  "chest_unopened_img": "images/locations/legendaries/shaymin.png",
 				  "chest_opened_img": "images/locations/legendaries/shaymin-gray.png",
-				  "access_rules": ["$dungeonCleared|Temporal Tower"],
+				  "access_rules": ["$dungeonCleared|Temporal Tower"]
 			  },
 			  {
 				  "name": "Complete 1st Station Pass"
@@ -2572,6 +2677,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Star Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2580,6 +2686,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
+				  "access_rules": ["Complete Star Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2594,7 +2701,7 @@
 			  }
 			]
 			
-		},
+		}
 	  ]
 	  
   }

@@ -1,0 +1,482 @@
+[
+	{
+		"name": "Beach Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Beach Cave",
+		"img": "images/dungeons/beachcave.png"
+	},
+	{
+		"name": "Drenched Bluff Complete",
+		"type": "toggle",
+		"codes": "Complete Drenched Bluff",
+		"img": "images/dungeons/drenchedbluff.png"
+	},
+	{
+		"name": "Mt. Bristle Complete",
+		"type": "toggle",
+		"codes": "Complete Mt. Bristle",
+		"img": "images/dungeons/mtbristle.png"
+	},
+	{
+		"name": "Waterfall Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Waterfall Cave",
+		"img": "images/dungeons/waterfallcave.png"
+	},
+	{
+		"name": "Apple Woods Complete",
+		"type": "toggle",
+		"codes": "Complete Apple Woods",
+		"img": "images/dungeons/applewoods.png"
+	},
+	{
+		"name": "Craggy Coast Complete",
+		"type": "toggle",
+		"codes": "Complete Craggy Coast",
+		"img": "images/overlay/4.png"
+	},
+	{
+		"name": "Side Path Complete",
+		"type": "toggle",
+		"codes": "Complete Side Path",
+		"img": "images/overlay/5.png"
+	},
+	{
+		"name": "Mt. Horn Complete",
+		"type": "toggle",
+		"codes": "Complete Mt. Horn",
+		"img": "images/overlay/6.png"
+	},
+	{
+		"name": "Rock Path Complete",
+		"type": "toggle",
+		"codes": "Complete Rock Path",
+		"img": "images/overlay/7.png"
+	},
+	{
+		"name": "Foggy Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Foggy Forest",
+		"img": "images/overlay/8.png"
+	},
+	{
+		"name": "Forest Path Complete",
+		"type": "toggle",
+		"codes": "Complete Forest Path",
+		"img": "images/overlay/9.png"
+	},
+	{
+		"name": "Steam Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Steam Cave",
+		"img": "images/overlay/10.png"
+	},
+	{
+		"name": "Amp Plains Complete",
+		"type": "toggle",
+		"codes": "Complete Amp Plains",
+		"img": "images/overlay/11.png"
+	},
+	{
+		"name": "Northern Desert Complete",
+		"type": "toggle",
+		"codes": "Complete Northern Desert",
+		"img": "images/overlay/12.png"
+	},
+	{
+		"name": "Quicksand Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Quicksand Cave",
+		"img": "images/overlay/13.png"
+	},
+	{
+		"name": "Crystal Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Crystal Cave",
+		"img": "images/overlay/14.png"
+	},
+	{
+		"name": "Crystal Crossing Complete",
+		"type": "toggle",
+		"codes": "Complete Crystal Crossing",
+		"img": "images/overlay/15.png"
+	},
+	{
+		"name": "Chasm Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Chasm Cave",
+		"img": "images/overlay/16.png"
+	},
+	{
+		"name": "Dark Hill Complete",
+		"type": "toggle",
+		"codes": "Complete Dark Hill",
+		"img": "images/overlay/17.png"
+	},
+	{
+		"name": "Sealed Ruin Complete",
+		"type": "toggle",
+		"codes": "Complete Sealed Ruin",
+		"img": "images/overlay/18.png"
+	},
+	{
+		"name": "Dusk Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Dusk Forest",
+		"img": "images/overlay/19.png"
+	},
+	{
+		"name": "Deep Dusk Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Deep Dusk Forest",
+		"img": "images/overlay/20.png"
+	},
+	{
+		"name": "Treeshroud Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Treeshroud Forest",
+		"img": "images/overlay/21.png"
+	},
+	{
+		"name": "Brine Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Brine Cave",
+		"img": "images/overlay/22.png"
+	},
+	{
+		"name": "Hidden Land Complete",
+		"type": "toggle",
+		"codes": "Complete Hidden Land",
+		"img": "images/overlay/22.png"
+	},
+	{
+		"name": "Temporal Tower Complete",
+		"type": "toggle",
+		"codes": "Complete Temporal Tower",
+		"img": "images/overlay/23.png"
+	},
+	{
+		"name": "Mystifying Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Mystifying Forest",
+		"img": "images/overlay/24.png"
+	},
+	{
+		"name": "Blizzard Island Complete",
+		"type": "toggle",
+		"codes": "Complete Blizzard Island",
+		"img": "images/overlay/25.png"
+	},
+	{
+		"name": "Crevice Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Crevice Cave",
+		"img": "images/overlay/26.png"
+	},
+	{
+		"name": "Surrounded Sea Complete",
+		"type": "toggle",
+		"codes": "Complete Surrounded Sea",
+		"img": "images/overlay/27.png"
+	},
+	{
+		"name": "Miracle Sea Complete",
+		"type": "toggle",
+		"codes": "Complete Miracle Sea",
+		"img": "images/overlay/28.png"
+	},
+	{
+		"name": "Mt. Travail Complete",
+		"type": "toggle",
+		"codes": "Complete Mt. Travail",
+		"img": "images/overlay/29.png"
+	},
+	{
+		"name": "The Nightmare Complete",
+		"type": "toggle",
+		"codes": "Complete The Nightmare",
+		"img": "images/overlay/30.png"
+	},
+	{
+		"name": "Spacial Rift Complete",
+		"type": "toggle",
+		"codes": "Complete Spacial Rift",
+		"img": "images/overlay/31.png"
+	},
+	{
+		"name": "Dark Crater Complete",
+		"type": "toggle",
+		"codes": "Complete Dark Crater",
+		"img": "images/overlay/32.png"
+	},
+	{
+		"name": "Concealed Ruins Complete",
+		"type": "toggle",
+		"codes": "Complete Concealed Ruins",
+		"img": "images/overlay/33.png"
+	},
+	{
+		"name": "Marine Resort Complete",
+		"type": "toggle",
+		"codes": "Complete Marine Resort",
+		"img": "images/overlay/34.png"
+	},
+	{
+		"name": "Bottomless Sea Complete",
+		"type": "toggle",
+		"codes": "Complete Bottomless Sea",
+		"img": "images/overlay/35.png"
+	},
+	{
+		"name": "Shimmer Desert Complete",
+		"type": "toggle",
+		"codes": "Complete Shimmer Desert",
+		"img": "images/overlay/36.png"
+	},
+	{
+		"name": "Mt. Avalanche Complete",
+		"type": "toggle",
+		"codes": "Complete Mt. Avalanche",
+		"img": "images/overlay/37.png"
+	},
+	{
+		"name": "Giant Volcano Complete",
+		"type": "toggle",
+		"codes": "Complete Giant Volcano",
+		"img": "images/overlay/38.png"
+	},
+	{
+		"name": "World Abyss Complete",
+		"type": "toggle",
+		"codes": "Complete World Abyss",
+		"img": "images/overlay/39.png"
+	},
+	{
+		"name": "Sky Stairway Complete",
+		"type": "toggle",
+		"codes": "Complete Sky Stairway",
+		"img": "images/overlay/40.png"
+	},
+	{
+		"name": "Mystery Jungle Complete",
+		"type": "toggle",
+		"codes": "Complete Mystery Jungle",
+		"img": "images/overlay/41.png"
+	},
+	{
+		"name": "Serenity River Complete",
+		"type": "toggle",
+		"codes": "Complete Serenity River",
+		"img": "images/overlay/42.png"
+	},
+	{
+		"name": "Landslide Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Landslide Cave",
+		"img": "images/overlay/43.png"
+	},
+	{
+		"name": "Lush Prairie Complete",
+		"type": "toggle",
+		"codes": "Complete Lush Prairie",
+		"img": "images/overlay/44.png"
+	},
+	{
+		"name": "Tiny Meadow Complete",
+		"type": "toggle",
+		"codes": "Complete Tiny Meadow",
+		"img": "images/overlay/45.png"
+	},
+	{
+		"name": "Labyrinth Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Labyrinth Cave",
+		"img": "images/overlay/46.png"
+	},
+	{
+		"name": "Oran Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Oran Forest",
+		"img": "images/overlay/47.png"
+	},
+	{
+		"name": "Lake Afar Complete",
+		"type": "toggle",
+		"codes": "Complete Lake Afar",
+		"img": "images/overlay/48.png"
+	},
+	{
+		"name": "Happy Outlook Complete",
+		"type": "toggle",
+		"codes": "Complete Happy Outlook",
+		"img": "images/overlay/49.png"
+	},
+	{
+		"name": "Mt. Mistral Complete",
+		"type": "toggle",
+		"codes": "Complete Mt. Mistral",
+		"img": "images/overlay/50.png"
+	},
+	{
+		"name": "Shimmer Hill Complete",
+		"type": "toggle",
+		"codes": "Complete Shimmer Hill",
+		"img": "images/overlay/51.png"
+	},
+	{
+		"name": "Lost Wilderness Complete",
+		"type": "toggle",
+		"codes": "Complete Lost Wilderness",
+		"img": "images/overlay/52.png"
+	},
+	{
+		"name": "Midnight Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Midnight Forest",
+		"img": "images/overlay/53.png"
+	},
+	{
+		"name": "Zero Isle North Complete",
+		"type": "toggle",
+		"codes": "Complete Zero Isle North",
+		"img": "images/overlay/54.png"
+	},
+	{
+		"name": "Zero Isle East Complete",
+		"type": "toggle",
+		"codes": "Complete Zero Isle East",
+		"img": "images/overlay/55.png"
+	},
+	{
+		"name": "Zero Isle West Complete",
+		"type": "toggle",
+		"codes": "Complete Zero Isle West",
+		"img": "images/overlay/56.png"
+	},
+	{
+		"name": "Zero Isle South Complete",
+		"type": "toggle",
+		"codes": "Complete Zero Isle South",
+		"img": "images/overlay/57.png"
+	},
+	{
+		"name": "Zero Isle Center Complete",
+		"type": "toggle",
+		"codes": "Complete Zero Isle Center",
+		"img": "images/overlay/58.png"
+	},
+	{
+		"name": "Destiny Tower Complete",
+		"type": "toggle",
+		"codes": "Complete Destiny Tower",
+		"img": "images/overlay/59.png"
+	},
+	{
+		"name": "Oblivion Forest Complete",
+		"type": "toggle",
+		"codes": "Complete Oblivion Forest",
+		"img": "images/overlay/60.png"
+	},
+	{
+		"name": "Treacherous Waters Complete",
+		"type": "toggle",
+		"codes": "Complete Treacherous Waters",
+		"img": "images/overlay/61.png"
+	},
+	{
+		"name": "Southeastern Islands Complete",
+		"type": "toggle",
+		"codes": "Complete Southeastern Islands",
+		"img": "images/overlay/62.png"
+	},
+	{
+		"name": "Inferno Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Inferno Cave",
+		"img": "images/overlay/63.png"
+	},
+	{
+		"name": "1st Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 1st Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "2nd Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 2nd Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "3rd Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 3rd Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "4th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 4th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "5th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 5th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "6th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 6th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "7th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 7th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "8th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 8th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "9th Station Pass Complete",
+		"type": "toggle",
+		"codes": "Complete 9th Station Pass",
+		"img": "images/overlay/64.png"
+	},
+	{
+		"name": "Star Cave Complete",
+		"type": "toggle",
+		"codes": "Complete Star Cave",
+		"img": "images/overlay/65.png"
+	},
+	{
+		"name": "Manaphy Egg Hatch",
+		"type": "toggle",
+		"codes": "Manaphy Egg Hatch",
+		"img": "images/locations/manaphy.png"
+	},
+	{
+		"name": "Manaphy Fed",
+		"type": "toggle",
+		"codes": "Manaphy Fed",
+		"img": "images/locations/manaphy.png"
+	},
+	{
+		"name": "Manaphy Healed",
+		"type": "toggle",
+		"codes": "Manaphy Healed",
+		"img": "images/locations/manaphy.png"
+	},
+	{
+		"name": "Manaphy Join Team",
+		"type": "toggle",
+		"codes": "Manaphy Join Team",
+		"img": "images/locations/legendaries/manaphy.png"
+	}
+]

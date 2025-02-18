@@ -69,19 +69,19 @@
   {
 	  "name": "Dojo Normal/Fly Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Normal/Fly Maze",
+	  "codes": "Dojo Normal&Fly Maze",
 	  "img": "images/overlay/1.png"
   },
   {
 	  "name": "Dojo Dark/Fire Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Dark/Fire Maze",
+	  "codes": "Dojo Dark&Fire Maze",
 	  "img": "images/overlay/2.png"
   },
   {
 	  "name": "Dojo Rock/Water Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Rock/Water Maze",
+	  "codes": "Dojo Rock&Water Maze",
 	  "img": "images/overlay/3.png"
   },
   {
@@ -93,25 +93,25 @@
   {
 	  "name": "Dojo Elec/Steel Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Elec/Steel Maze",
+	  "codes": "Dojo Elec&Steel Maze",
 	  "img": "images/overlay/5.png"
   },
   {
 	  "name": "Dojo Ice/Ground Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Ice/Ground Maze",
+	  "codes": "Dojo Ice&Ground Maze",
 	  "img": "images/overlay/6.png"
   },
   {
 	  "name": "Dojo Fight/Psych Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Fight/Psych Maze",
+	  "codes": "Dojo Fight&Psych Maze",
 	  "img": "images/overlay/7.png"
   },
   {
 	  "name": "Dojo Poison/Bug Maze",
 	  "type": "toggle",
-	  "codes": "Dojo Poison/Bug Maze",
+	  "codes": "Dojo Poison&Bug Maze",
 	  "img": "images/overlay/8.png"
   },
   {

@@ -7,6 +7,7 @@ Tracker:AddLocations("locations/town.json")
 Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddItems("items/dungeons.json")
+Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/legendaries.json")

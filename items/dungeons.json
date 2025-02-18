@@ -16,19 +16,19 @@
 	  "name": "Mt. Bristle",
 	  "type": "toggle",
 	  "codes": "Mt. Bristle",
-	  "img": "images/overlay/1.png"
+	  "img": "images/dungeons/mtbristle.png"
   },
   {
 	  "name": "Waterfall Cave",
 	  "type": "toggle",
 	  "codes": "Waterfall Cave",
-	  "img": "images/overlay/2.png"
+	  "img": "images/dungeons/waterfallcave.png"
   },
   {
 	  "name": "Apple Woods",
 	  "type": "toggle",
 	  "codes": "Apple Woods",
-	  "img": "images/overlay/3.png"
+	  "img": "images/dungeons/applewoods.png"
   },
   {
 	  "name": "Craggy Coast",
