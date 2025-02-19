@@ -34,13 +34,13 @@
 	  "name": "Craggy Coast",
 	  "type": "toggle",
 	  "codes": "Craggy Coast",
-	  "img": "images/overlay/4.png"
+	  "img": "images/dungeons/craggycoast.png"
   },
   {
 	  "name": "Side Path",
 	  "type": "toggle",
 	  "codes": "Side Path",
-	  "img": "images/overlay/5.png"
+	  "img": "images/dungeons/sidepath.png"
   },
   {
 	  "name": "Mt. Horn",

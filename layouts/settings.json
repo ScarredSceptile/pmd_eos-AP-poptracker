@@ -9,47 +9,64 @@
         "orientation": "horizontal",
         "margin": "0,0",
         "content": [
+
           {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-              [
-                "Goal"
-              ],
-              [
-                "RequiredRelicFragmentShards",
-                "ExtraRelicFragmentShards",
-				"RequiredInstruments",
-				"ExtraInstruments"
-              ],
-              [
-                "EarlyMissionChecks",
-                "LateMissionChecks",
-                "EarlyOutlawChecks",
-                "LateOutlawChecks"
-              ],
-			  [
-				"DojoDungeonsRandomization",
-				"LegendaryAmount"
-			  ]
+            "type": "group",
+            "header": "Settings",
+            "dock": "bottom",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "10, 10",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "Goal"
+                  ],
+                  [
+                    "RequiredRelicFragmentShards",
+                    "ExtraRelicFragmentShards",
+                    "RequiredInstruments",
+                    "ExtraInstruments"
+                  ],
+                  [
+                    "EarlyMissionChecks",
+                    "LateMissionChecks",
+                    "EarlyOutlawChecks",
+                    "LateOutlawChecks"
+                  ],
+                  [
+                    "DojoDungeonsRandomization",
+                    "LegendaryAmount"
+                  ]
+                ]
+              }
             ]
           },
-		  {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "center",
-            "rows": [
-			    ["Complete Beach Cave", "Complete Drenched Bluff", "Complete Mt. Bristle", "Complete Waterfall Cave", "Complete Apple Woods", "Complete Craggy Coast", "Complete Side Path", "Complete Mt. Horn", "Complete Rock Path"],
-				["Complete Foggy Forest", "Complete Forest Path", "Complete Steam Cave", "Complete Amp Plains", "Complete Northern Desert", "Complete Quicksand Cave", "Complete Crystal Cave", "Complete Crystal Crossing", "Complete Chasm Cave"],
-				["Complete Dark Hill", "Complete Sealed Ruin", "Complete Dusk Forest", "Complete Deep Dusk Forest", "Complete Treeshroud Forest", "Complete Brine Cave", "Complete Temporal Tower", "Complete Mystifying Forest", "Complete Blizzard Island"],
-				["Complete Crevice Cave", "Complete Surrounded Sea", "Complete Miracle Sea", "Complete Mt. Travail", "Complete The Nightmare", "Complete Spacial Rift", "Complete Dark Crater", "Complete Concealed Ruins", "Complete Marine Resort"],
-				["Complete Bottomless Sea", "Complete Shimmer Desert", "Complete Mt. Avalanche", "Complete Giant Volcano", "Complete World Abyss", "Complete Sky Stairway", "Complete Mystery Jungle", "Complete Serenity River", "Complete Landslide Cave"],
-				["Complete Lush Prairie", "Complete Tiny Meadow", "Complete Labyrinth Cave", "Complete Oran Forest", "Complete Lake Afar", "Complete Happy Outlook", "Complete Mt. Mistral", "Complete Shimmer Hill", "Complete Lost Wilderness"],
-				["Complete Midnight Forest", "Complete Zero Isle North", "Complete Zero Isle East", "Complete Zero Isle West", "Complete Zero Isle South", "Complete Zero Isle Center", "Complete Destiny Tower", "Complete Oblivion Forest", "Complete Treacherous Waters"],
-				["Complete Southeastern Islands", "Complete Inferno Cave", "Complete Sky Peak", "Complete Star Cave"]
-			  ]
-		  }
+          {
+            "type": "group",
+            "header": "Events",
+            "dock": "bottom",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "10, 10",
+                "h_alignment": "center",
+                "rows": [
+                  [ "Complete Beach Cave", "Complete Drenched Bluff", "Complete Mt. Bristle", "Complete Waterfall Cave", "Complete Apple Woods", "Complete Craggy Coast", "Complete Side Path", "Complete Mt. Horn", "Complete Rock Path" ],
+                  [ "Complete Foggy Forest", "Complete Forest Path", "Complete Steam Cave", "Complete Amp Plains", "Complete Northern Desert", "Complete Quicksand Cave", "Complete Crystal Cave", "Complete Crystal Crossing", "Complete Chasm Cave" ],
+                  [ "Complete Dark Hill", "Complete Sealed Ruin", "Complete Dusk Forest", "Complete Deep Dusk Forest", "Complete Treeshroud Forest", "Complete Brine Cave", "Complete Temporal Tower", "Complete Mystifying Forest", "Complete Blizzard Island" ],
+                  [ "Complete Crevice Cave", "Complete Surrounded Sea", "Complete Miracle Sea", "Complete Mt. Travail", "Complete The Nightmare", "Complete Spacial Rift", "Complete Dark Crater", "Complete Concealed Ruins", "Complete Marine Resort" ],
+                  [ "Complete Bottomless Sea", "Complete Shimmer Desert", "Complete Mt. Avalanche", "Complete Giant Volcano", "Complete World Abyss", "Complete Sky Stairway", "Complete Mystery Jungle", "Complete Serenity River", "Complete Landslide Cave" ],
+                  [ "Complete Lush Prairie", "Complete Tiny Meadow", "Complete Labyrinth Cave", "Complete Oran Forest", "Complete Lake Afar", "Complete Happy Outlook", "Complete Mt. Mistral", "Complete Shimmer Hill", "Complete Lost Wilderness" ],
+                  [ "Complete Midnight Forest", "Complete Zero Isle North", "Complete Zero Isle East", "Complete Zero Isle West", "Complete Zero Isle South", "Complete Zero Isle Center", "Complete Destiny Tower", "Complete Oblivion Forest", "Complete Treacherous Waters" ],
+                  [ "Complete Southeastern Islands", "Complete Inferno Cave", "Complete Sky Peak", "Complete Star Cave" ]
+                ]
+              }
+            ]
+          }
         ]
       }
     ]

@@ -33,13 +33,13 @@
 		"name": "Craggy Coast Complete",
 		"type": "toggle",
 		"codes": "Complete Craggy Coast",
-		"img": "images/overlay/4.png"
+		"img": "images/dungeons/craggycoast.png"
 	},
 	{
 		"name": "Side Path Complete",
 		"type": "toggle",
 		"codes": "Complete Side Path",
-		"img": "images/overlay/5.png"
+		"img": "images/dungeons/sidepath.png"
 	},
 	{
 		"name": "Mt. Horn Complete",
