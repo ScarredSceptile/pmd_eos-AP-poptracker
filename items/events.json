@@ -45,13 +45,13 @@
 		"name": "Mt. Horn Complete",
 		"type": "toggle",
 		"codes": "Complete Mt. Horn",
-		"img": "images/overlay/6.png"
+		"img": "images/dungeons/mthorn.png"
 	},
 	{
 		"name": "Rock Path Complete",
 		"type": "toggle",
 		"codes": "Complete Rock Path",
-		"img": "images/overlay/7.png"
+		"img": "images/dungeons/rockpath.png"
 	},
 	{
 		"name": "Foggy Forest Complete",

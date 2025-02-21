@@ -116,6 +116,15 @@
                         "igglybuff-area"
                       ]
                     }
+                  },
+                  {
+                    "title": "Shaymin Village",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "shaymin-village"
+                      ]
+                    }
                   }
                 ]
               }

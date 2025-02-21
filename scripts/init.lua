@@ -4,6 +4,7 @@ Tracker:AddLocations("locations/dungeons.json")
 Tracker:AddLocations("locations/special.json")
 Tracker:AddLocations("locations/dojo.json")
 Tracker:AddLocations("locations/town.json")
+Tracker:AddLocations("locations/shaymin-village.json")
 Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddItems("items/dungeons.json")

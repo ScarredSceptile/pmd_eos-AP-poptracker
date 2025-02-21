@@ -46,13 +46,13 @@
 	  "name": "Mt. Horn",
 	  "type": "toggle",
 	  "codes": "Mt. Horn",
-	  "img": "images/overlay/6.png"
+	  "img": "images/dungeons/mthorn.png"
   },
   {
 	  "name": "Rock Path",
 	  "type": "toggle",
 	  "codes": "Rock Path",
-	  "img": "images/overlay/7.png"
+	  "img": "images/dungeons/rockpath.png"
   },
   {
 	  "name": "Foggy Forest",
