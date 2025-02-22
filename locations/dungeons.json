@@ -6,7 +6,7 @@
 	  "children":
 	  [
 	    {
-			"name": "Beach Cave",
+			"name": "Beach Cave 4F",
 			"sections":
 			[
 			  {
@@ -47,7 +47,7 @@
 			
 		},
 		{
-			"name": "Drenched Bluff",
+			"name": "Drenched Bluff 6F",
 			"access_rules": ["Drenched Bluff"],
 			"sections":
 			[
@@ -84,7 +84,7 @@
 			
 		},
 		{
-			"name": "Mt. Bristle",
+			"name": "Mt. Bristle 9F",
 			"access_rules": ["Mt. Bristle"],
 			"sections":
 			[
@@ -126,7 +126,7 @@
 			
 		},
 		{
-			"name": "Waterfall Cave",
+			"name": "Waterfall Cave 8F",
 			"access_rules": ["Waterfall Cave"],
 			"sections":
 			[
@@ -163,7 +163,7 @@
 			
 		},
 		{
-			"name": "Apple Woods",
+			"name": "Apple Woods 12F",
 			"access_rules": ["Apple Woods"],
 			"sections":
 			[
@@ -203,7 +203,7 @@
 			
 		},
 		{
-			"name": "Craggy Coast",
+			"name": "Craggy Coast 9F",
 			"access_rules": ["Craggy Coast"],
 			"sections":
 			[
@@ -240,7 +240,7 @@
 			
 		},
 		{
-			"name": "Side Path",
+			"name": "Side Path 5F",
 			"access_rules": ["Side Path"],
 			"sections":
 			[
@@ -277,7 +277,7 @@
 			
 		},
 		{
-			"name": "Mt. Horn",
+			"name": "Mt. Horn 14F",
 			"access_rules": ["Mt. Horn"],
 			"sections":
 			[
@@ -314,7 +314,7 @@
 			
 		},
 		{
-			"name": "Rock Path",
+			"name": "Rock Path 5F",
 			"access_rules": ["Rock Path"],
 			"sections":
 			[
@@ -351,7 +351,7 @@
 			
 		},
 		{
-			"name": "Foggy Forest",
+			"name": "Foggy Forest 11F",
 			"access_rules": ["Foggy Forest"],
 			"sections":
 			[
@@ -388,7 +388,7 @@
 			
 		},
 		{
-			"name": "Forest Path",
+			"name": "Forest Path 5F",
 			"access_rules": ["Forest Path"],
 			"sections":
 			[
@@ -425,7 +425,7 @@
 			
 		},
 		{
-			"name": "Steam Cave",
+			"name": "Steam Cave 8F",
 			"access_rules": ["Steam Cave"],
 			"sections":
 			[
@@ -473,7 +473,7 @@
 			
 		},
 		{
-			"name": "Amp Plains",
+			"name": "Amp Plains 10F",
 			"access_rules": ["Amp Plains"],
 			"sections":
 			[
@@ -512,7 +512,7 @@
 			
 		},
 		{
-			"name": "Northern Desert",
+			"name": "Northern Desert 15F",
 			"access_rules": ["Northern Desert"],
 			"sections":
 			[
@@ -549,7 +549,7 @@
 			
 		},
 		{
-			"name": "Quicksand Cave",
+			"name": "Quicksand Cave 10F",
 			"access_rules": ["Quicksand Cave"],
 			"sections":
 			[
@@ -592,7 +592,7 @@
 			
 		},
 		{
-			"name": "Crystal Cave",
+			"name": "Crystal Cave 11F",
 			"access_rules": ["Crystal Cave"],
 			"sections":
 			[
@@ -629,7 +629,7 @@
 			
 		},
 		{
-			"name": "Crystal Crossing",
+			"name": "Crystal Crossing 13F",
 			"access_rules": ["Crystal Crossing"],
 			"sections":
 			[
@@ -672,7 +672,7 @@
 			
 		},
 		{
-			"name": "Chasm Cave",
+			"name": "Chasm Cave 8F",
 			"access_rules": ["Chasm Cave"],
 			"sections":
 			[
@@ -709,7 +709,7 @@
 			
 		},
 		{
-			"name": "Dark Hill",
+			"name": "Dark Hill 15F",
 			"access_rules": ["Dark Hill"],
 			"sections":
 			[
@@ -746,7 +746,7 @@
 			
 		},
 		{
-			"name": "Sealed Ruin",
+			"name": "Sealed Ruin 8F",
 			"access_rules": ["Sealed Ruin"],
 			"sections":
 			[
@@ -783,7 +783,7 @@
 			
 		},
 		{
-			"name": "Dusk Forest",
+			"name": "Dusk Forest 8F",
 			"access_rules": ["Dusk Forest"],
 			"sections":
 			[
@@ -820,7 +820,7 @@
 			
 		},
 		{
-			"name": "Deep Dusk Forest",
+			"name": "Deep Dusk Forest 12F",
 			"access_rules": ["Deep Dusk Forest"],
 			"sections":
 			[
@@ -859,7 +859,7 @@
 			
 		},
 		{
-			"name": "Treeshroud Forest",
+			"name": "Treeshroud Forest 20F",
 			"access_rules": ["Treeshroud Forest"],
 			"sections":
 			[
@@ -896,7 +896,7 @@
 			
 		},
 		{
-			"name": "Brine Cave",
+			"name": "Brine Cave 9F",
 			"access_rules": ["Brine Cave"],
 			"sections":
 			[
@@ -933,7 +933,7 @@
 			
 		},
 		{
-			"name": "Hidden Land",
+			"name": "Hidden Land 15F",
 			"access_rules": ["$enoughRelicFragments"],
 			"sections":
 			[
@@ -982,7 +982,7 @@
 			
 		},
 		{
-			"name": "Temporal Tower",
+			"name": "Temporal Tower 13F",
 			"access_rules": ["Temporal Tower, Complete Hidden Land"],
 			"sections":
 			[
@@ -1031,7 +1031,7 @@
 			]
 		},
 		{
-			"name": "Mystifying Forest",
+			"name": "Mystifying Forest 13F",
 			"access_rules": ["Mystifying Forest"],
 			"sections":
 			[
@@ -1072,7 +1072,7 @@
 			]
 		},
 		{
-			"name": "Blizzard Island",
+			"name": "Blizzard Island 20F",
 			"access_rules": ["Blizzard Island"],
 			"sections":
 			[
@@ -1108,7 +1108,7 @@
 			]
 		},
 		{
-			"name": "Crevice Cave",
+			"name": "Crevice Cave 10F",
 			"access_rules": ["Crevice Cave"],
 			"sections":
 			[
@@ -1151,7 +1151,7 @@
 			]
 		},
 		{
-			"name": "Surrounded Sea",
+			"name": "Surrounded Sea 19F",
 			"access_rules": ["Surrounded Sea"],
 			"sections":
 			[
@@ -1189,7 +1189,7 @@
 			]
 		},
 		{
-			"name": "Miracle Sea",
+			"name": "Miracle Sea 18F",
 			"access_rules": ["Miracle Sea, Complete Surrounded Sea"],
 			"sections":
 			[
@@ -1272,7 +1272,7 @@
 			]
 		},
 		{
-			"name": "Mt. Travail",
+			"name": "Mt. Travail 19F",
 			"access_rules": ["Mt. Travail"],
 			"sections":
 			[
@@ -1308,7 +1308,7 @@
 			]
 		},
 		{
-			"name": "The Nightmare",
+			"name": "The Nightmare 17F",
 			"access_rules": ["The Nightmare, Complete Mt. Bristle"],
 			"sections":
 			[
@@ -1344,7 +1344,7 @@
 			]
 		},
 		{
-			"name": "Spacial Rift",
+			"name": "Spacial Rift 15F",
 			"access_rules": ["Spacial Rift"],
 			"sections":
 			[
@@ -1406,7 +1406,7 @@
 			]
 		},
 		{
-			"name": "Concealed Ruins",
+			"name": "Concealed Ruins 29F",
 			"access_rules": ["Concealed Ruins"],
 			"sections":
 			[
@@ -1442,7 +1442,7 @@
 			]
 		},
 		{
-			"name": "Marine Resort",
+			"name": "Marine Resort 18F",
 			"access_rules": ["Marine Resort"],
 			"sections":
 			[
@@ -1478,7 +1478,7 @@
 			]
 		},
 		{
-			"name": "Bottomless Sea",
+			"name": "Bottomless Sea 49F",
 			"access_rules": ["Bottomless Sea"],
 			"sections":
 			[
@@ -1526,7 +1526,7 @@
 			]
 		},
 		{
-			"name": "Shimmer Desert",
+			"name": "Shimmer Desert 9F",
 			"access_rules": ["Shimmer Desert"],
 			"sections":
 			[
@@ -1574,7 +1574,7 @@
 			]
 		},
 		{
-			"name": "Mt. Avalanche",
+			"name": "Mt. Avalanche 19F",
 			"access_rules": ["Mt. Avalanche"],
 			"sections":
 			[
@@ -1622,7 +1622,7 @@
 			]
 		},
 		{
-			"name": "Giant Volcano",
+			"name": "Giant Volcano 19F",
 			"access_rules": ["Giant Volcano"],
 			"sections":
 			[
@@ -1670,7 +1670,7 @@
 			]
 		},
 		{
-			"name": "World Abyss",
+			"name": "World Abyss 29F",
 			"access_rules": ["World Abyss"],
 			"sections":
 			[
@@ -1718,7 +1718,7 @@
 			]
 		},
 		{
-			"name": "Sky Stairway",
+			"name": "Sky Stairway 49F",
 			"access_rules": ["Sky Stairway"],
 			"sections":
 			[
@@ -1766,7 +1766,7 @@
 			]
 		},
 		{
-			"name": "Mystery Jungle",
+			"name": "Mystery Jungle 29F",
 			"access_rules": ["Mystery Jungle"],
 			"sections":
 			[
@@ -1814,7 +1814,7 @@
 			]
 		},
 		{
-			"name": "Serenity River",
+			"name": "Serenity River 7F",
 			"access_rules": ["Serenity River"],
 			"sections":
 			[
@@ -1851,7 +1851,7 @@
 			
 		},
 		{
-			"name": "Landslide Cave",
+			"name": "Landslide Cave 12F",
 			"access_rules": ["Landslide Cave"],
 			"sections":
 			[
@@ -1888,7 +1888,7 @@
 			
 		},
 		{
-			"name": "Lush Prairie",
+			"name": "Lush Prairie 5F",
 			"access_rules": ["Lush Prairie"],
 			"sections":
 			[
@@ -1925,7 +1925,7 @@
 			
 		},
 		{
-			"name": "Tiny Meadow",
+			"name": "Tiny Meadow 4F",
 			"access_rules": ["Tiny Meadow"],
 			"sections":
 			[
@@ -1962,7 +1962,7 @@
 			
 		},
 		{
-			"name": "Labyrinth Cave",
+			"name": "Labyrinth Cave 9F",
 			"access_rules": ["Labyrinth Cave"],
 			"sections":
 			[
@@ -1999,7 +1999,7 @@
 			
 		},
 		{
-			"name": "Oran Forest",
+			"name": "Oran Forest 4F",
 			"access_rules": ["Oran Forest"],
 			"sections":
 			[
@@ -2036,7 +2036,7 @@
 			
 		},
 		{
-			"name": "Lake Afar",
+			"name": "Lake Afar 24F",
 			"access_rules": ["Lake Afar"],
 			"sections":
 			[
@@ -2073,7 +2073,7 @@
 			
 		},
 		{
-			"name": "Happy Outlook",
+			"name": "Happy Outlook 19F",
 			"access_rules": ["Happy Outlook"],
 			"sections":
 			[
@@ -2110,7 +2110,7 @@
 			
 		},
 		{
-			"name": "Mt. Mistral",
+			"name": "Mt. Mistral 19F",
 			"access_rules": ["Mt. Mistral"],
 			"sections":
 			[
@@ -2147,7 +2147,7 @@
 			
 		},
 		{
-			"name": "Shimmer Hill",
+			"name": "Shimmer Hill 17F",
 			"access_rules": ["Shimmer Hill"],
 			"sections":
 			[
@@ -2184,7 +2184,7 @@
 			
 		},
 		{
-			"name": "Lost Wilderness",
+			"name": "Lost Wilderness 17F",
 			"access_rules": ["Lost Wilderness"],
 			"sections":
 			[
@@ -2221,7 +2221,7 @@
 			
 		},
 		{
-			"name": "Midnight Forest",
+			"name": "Midnight Forest 24F",
 			"access_rules": ["Midnight Forest"],
 			"sections":
 			[
@@ -2686,7 +2686,7 @@
 			
 		},
 		{
-			"name": "Star Cave",
+			"name": "Star Cave 15F",
 			"access_rules": ["Star Cave"],
 			"sections":
 			[
