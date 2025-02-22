@@ -6,7 +6,7 @@
 	  "children":
 	  [
 	    {
-			"name": "Beach Cave 4F",
+			"name": "Beach Cave (4F)",
 			"sections":
 			[
 			  {
@@ -47,18 +47,18 @@
 			
 		},
 		{
-			"name": "Drenched Bluff 6F",
-			"access_rules": ["Drenched Bluff"],
+			"name": "Drenched BluFF (6F)",
+			"access_rules": ["Drenched BluFF"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Drenched Bluff"
+				  "name": "Complete Drenched BluFF"
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Drenched Bluff"],
+				  "access_rules": ["Complete Drenched BluFF"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -67,7 +67,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Drenched Bluff"],
+				  "access_rules": ["Complete Drenched BluFF"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -84,7 +84,7 @@
 			
 		},
 		{
-			"name": "Mt. Bristle 9F",
+			"name": "Mt. Bristle (9F)",
 			"access_rules": ["Mt. Bristle"],
 			"sections":
 			[
@@ -126,18 +126,18 @@
 			
 		},
 		{
-			"name": "Waterfall Cave 8F",
-			"access_rules": ["Waterfall Cave"],
+			"name": "WaterFall Cave (8F)",
+			"access_rules": ["WaterFall Cave"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Waterfall Cave"
+				  "name": "Complete WaterFall Cave"
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Waterfall Cave"],
+				  "access_rules": ["Complete WaterFall Cave"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$early_missions"]
@@ -146,7 +146,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Waterfall Cave"],
+				  "access_rules": ["Complete WaterFall Cave"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$early_outlaws"]
@@ -163,7 +163,7 @@
 			
 		},
 		{
-			"name": "Apple Woods 12F",
+			"name": "Apple Woods (12F)",
 			"access_rules": ["Apple Woods"],
 			"sections":
 			[
@@ -203,7 +203,7 @@
 			
 		},
 		{
-			"name": "Craggy Coast 9F",
+			"name": "Craggy Coast (9F)",
 			"access_rules": ["Craggy Coast"],
 			"sections":
 			[
@@ -240,7 +240,7 @@
 			
 		},
 		{
-			"name": "Side Path 5F",
+			"name": "Side Path (5F)",
 			"access_rules": ["Side Path"],
 			"sections":
 			[
@@ -277,7 +277,7 @@
 			
 		},
 		{
-			"name": "Mt. Horn 14F",
+			"name": "Mt. Horn (14F)",
 			"access_rules": ["Mt. Horn"],
 			"sections":
 			[
@@ -314,7 +314,7 @@
 			
 		},
 		{
-			"name": "Rock Path 5F",
+			"name": "Rock Path (5F)",
 			"access_rules": ["Rock Path"],
 			"sections":
 			[
@@ -351,7 +351,7 @@
 			
 		},
 		{
-			"name": "Foggy Forest 11F",
+			"name": "Foggy Forest (11F)",
 			"access_rules": ["Foggy Forest"],
 			"sections":
 			[
@@ -388,7 +388,7 @@
 			
 		},
 		{
-			"name": "Forest Path 5F",
+			"name": "Forest Path (5F)",
 			"access_rules": ["Forest Path"],
 			"sections":
 			[
@@ -425,7 +425,7 @@
 			
 		},
 		{
-			"name": "Steam Cave 8F",
+			"name": "Steam Cave (8F)",
 			"access_rules": ["Steam Cave"],
 			"sections":
 			[
@@ -473,7 +473,7 @@
 			
 		},
 		{
-			"name": "Amp Plains 10F",
+			"name": "Amp Plains (10F)",
 			"access_rules": ["Amp Plains"],
 			"sections":
 			[
@@ -512,7 +512,7 @@
 			
 		},
 		{
-			"name": "Northern Desert 15F",
+			"name": "Northern Desert (15F)",
 			"access_rules": ["Northern Desert"],
 			"sections":
 			[
@@ -549,7 +549,7 @@
 			
 		},
 		{
-			"name": "Quicksand Cave 10F",
+			"name": "Quicksand Cave (10F)",
 			"access_rules": ["Quicksand Cave"],
 			"sections":
 			[
@@ -592,7 +592,7 @@
 			
 		},
 		{
-			"name": "Crystal Cave 11F",
+			"name": "Crystal Cave (11F)",
 			"access_rules": ["Crystal Cave"],
 			"sections":
 			[
@@ -629,7 +629,7 @@
 			
 		},
 		{
-			"name": "Crystal Crossing 13F",
+			"name": "Crystal Crossing (13F)",
 			"access_rules": ["Crystal Crossing"],
 			"sections":
 			[
@@ -637,9 +637,9 @@
 				  "name": "Complete Crystal Crossing"
 			  },
 			  {
-				  "name": "Recruit Azelf",
-				  "chest_unopened_img": "images/locations/legendaries/azelf.png",
-				  "chest_opened_img": "images/locations/legendaries/azelf-gray.png",
+				  "name": "Recruit AzelF",
+				  "chest_unopened_img": "images/locations/legendaries/azelF.png",
+				  "chest_opened_img": "images/locations/legendaries/azelF-gray.png",
 				  "access_rules": ["Complete Temporal Tower, Complete Crystal Crossing"]
 			  },
 			  {
@@ -672,7 +672,7 @@
 			
 		},
 		{
-			"name": "Chasm Cave 8F",
+			"name": "Chasm Cave (8F)",
 			"access_rules": ["Chasm Cave"],
 			"sections":
 			[
@@ -701,7 +701,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "future-hidden-land",
+				  "map": "Future-hidden-land",
 				  "x": 108,
 				  "y": 84
 			  }
@@ -709,7 +709,7 @@
 			
 		},
 		{
-			"name": "Dark Hill 15F",
+			"name": "Dark Hill (15F)",
 			"access_rules": ["Dark Hill"],
 			"sections":
 			[
@@ -738,7 +738,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "future-hidden-land",
+				  "map": "Future-hidden-land",
 				  "x": 116,
 				  "y": 108
 			  }
@@ -746,7 +746,7 @@
 			
 		},
 		{
-			"name": "Sealed Ruin 8F",
+			"name": "Sealed Ruin (8F)",
 			"access_rules": ["Sealed Ruin"],
 			"sections":
 			[
@@ -775,7 +775,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "future-hidden-land",
+				  "map": "Future-hidden-land",
 				  "x": 140,
 				  "y": 124
 			  }
@@ -783,7 +783,7 @@
 			
 		},
 		{
-			"name": "Dusk Forest 8F",
+			"name": "Dusk Forest (8F)",
 			"access_rules": ["Dusk Forest"],
 			"sections":
 			[
@@ -812,7 +812,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "future-hidden-land",
+				  "map": "Future-hidden-land",
 				  "x": 164,
 				  "y": 92
 			  }
@@ -820,7 +820,7 @@
 			
 		},
 		{
-			"name": "Deep Dusk Forest 12F",
+			"name": "Deep Dusk Forest (12F)",
 			"access_rules": ["Deep Dusk Forest"],
 			"sections":
 			[
@@ -851,7 +851,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "future-hidden-land",
+				  "map": "Future-hidden-land",
 				  "x": 164,
 				  "y": 68
 			  }
@@ -859,7 +859,7 @@
 			
 		},
 		{
-			"name": "Treeshroud Forest 20F",
+			"name": "Treeshroud Forest (20F)",
 			"access_rules": ["Treeshroud Forest"],
 			"sections":
 			[
@@ -896,7 +896,7 @@
 			
 		},
 		{
-			"name": "Brine Cave 9F",
+			"name": "Brine Cave (9F)",
 			"access_rules": ["Brine Cave"],
 			"sections":
 			[
@@ -933,7 +933,7 @@
 			
 		},
 		{
-			"name": "Hidden Land 15F",
+			"name": "Hidden Land (15F)",
 			"access_rules": ["$enoughRelicFragments"],
 			"sections":
 			[
@@ -982,7 +982,7 @@
 			
 		},
 		{
-			"name": "Temporal Tower 13F",
+			"name": "Temporal Tower (13F)",
 			"access_rules": ["Temporal Tower, Complete Hidden Land"],
 			"sections":
 			[
@@ -1031,14 +1031,14 @@
 			]
 		},
 		{
-			"name": "Mystifying Forest 13F",
-			"access_rules": ["Mystifying Forest"],
+			"name": "MystiFying Forest (13F)",
+			"access_rules": ["MystiFying Forest"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Mystifying Forest",
-				  "chest_unopened_img": "images/locations/wigglytuff.png",
-				  "chest_opened_img": "images/locations/wigglytuff-gray.png"
+				  "name": "Complete MystiFying Forest",
+				  "chest_unopened_img": "images/locations/wigglytuFF.png",
+				  "chest_opened_img": "images/locations/wigglytuFF-gray.png"
 			  },
 			  {
 				  "name": "Progressive Bag loc 5"
@@ -1047,7 +1047,7 @@
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Mystifying Forest"],
+				  "access_rules": ["Complete MystiFying Forest"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1056,7 +1056,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Mystifying Forest"],
+				  "access_rules": ["Complete MystiFying Forest"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1072,7 +1072,7 @@
 			]
 		},
 		{
-			"name": "Blizzard Island 20F",
+			"name": "Blizzard Island (20F)",
 			"access_rules": ["Blizzard Island"],
 			"sections":
 			[
@@ -1108,7 +1108,7 @@
 			]
 		},
 		{
-			"name": "Crevice Cave 10F",
+			"name": "Crevice Cave (10F)",
 			"access_rules": ["Crevice Cave"],
 			"sections":
 			[
@@ -1151,7 +1151,7 @@
 			]
 		},
 		{
-			"name": "Surrounded Sea 19F",
+			"name": "Surrounded Sea (19F)",
 			"access_rules": ["Surrounded Sea"],
 			"sections":
 			[
@@ -1189,7 +1189,7 @@
 			]
 		},
 		{
-			"name": "Miracle Sea 18F",
+			"name": "Miracle Sea (18F)",
 			"access_rules": ["Miracle Sea, Complete Surrounded Sea"],
 			"sections":
 			[
@@ -1272,7 +1272,7 @@
 			]
 		},
 		{
-			"name": "Mt. Travail 19F",
+			"name": "Mt. Travail (19F)",
 			"access_rules": ["Mt. Travail"],
 			"sections":
 			[
@@ -1308,7 +1308,7 @@
 			]
 		},
 		{
-			"name": "The Nightmare 17F",
+			"name": "The Nightmare (17F)",
 			"access_rules": ["The Nightmare, Complete Mt. Bristle"],
 			"sections":
 			[
@@ -1344,24 +1344,24 @@
 			]
 		},
 		{
-			"name": "Spacial Rift 15F",
-			"access_rules": ["Spacial Rift"],
+			"name": "Spacial RiFt (15F)",
+			"access_rules": ["Spacial RiFt"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Spacial Rift"
+				  "name": "Complete Spacial RiFt"
 			  },
 			  {
 				  "name": "Recruit Palkia",
 				  "chest_unopened_img": "images/locations/legendaries/palkia.png",
 				  "chest_opened_img": "images/locations/legendaries/palkia-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Spacial Rift"]
+				  "access_rules": ["Complete Temporal Tower, Complete Spacial RiFt"]
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Spacial Rift"],
+				  "access_rules": ["Complete Spacial RiFt"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -1370,7 +1370,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Spacial Rift"],
+				  "access_rules": ["Complete Spacial RiFt"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -1406,7 +1406,7 @@
 			]
 		},
 		{
-			"name": "Concealed Ruins 29F",
+			"name": "Concealed Ruins (29F)",
 			"access_rules": ["Concealed Ruins"],
 			"sections":
 			[
@@ -1442,7 +1442,7 @@
 			]
 		},
 		{
-			"name": "Marine Resort 18F",
+			"name": "Marine Resort (18F)",
 			"access_rules": ["Marine Resort"],
 			"sections":
 			[
@@ -1478,7 +1478,7 @@
 			]
 		},
 		{
-			"name": "Bottomless Sea 49F",
+			"name": "Bottomless Sea (49F)",
 			"access_rules": ["Bottomless Sea"],
 			"sections":
 			[
@@ -1526,7 +1526,7 @@
 			]
 		},
 		{
-			"name": "Shimmer Desert 9F",
+			"name": "Shimmer Desert (9F)",
 			"access_rules": ["Shimmer Desert"],
 			"sections":
 			[
@@ -1574,7 +1574,7 @@
 			]
 		},
 		{
-			"name": "Mt. Avalanche 19F",
+			"name": "Mt. Avalanche (19F)",
 			"access_rules": ["Mt. Avalanche"],
 			"sections":
 			[
@@ -1622,7 +1622,7 @@
 			]
 		},
 		{
-			"name": "Giant Volcano 19F",
+			"name": "Giant Volcano (19F)",
 			"access_rules": ["Giant Volcano"],
 			"sections":
 			[
@@ -1670,7 +1670,7 @@
 			]
 		},
 		{
-			"name": "World Abyss 29F",
+			"name": "World Abyss (29F)",
 			"access_rules": ["World Abyss"],
 			"sections":
 			[
@@ -1718,7 +1718,7 @@
 			]
 		},
 		{
-			"name": "Sky Stairway 49F",
+			"name": "Sky Stairway (49F)",
 			"access_rules": ["Sky Stairway"],
 			"sections":
 			[
@@ -1766,7 +1766,7 @@
 			]
 		},
 		{
-			"name": "Mystery Jungle 29F",
+			"name": "Mystery Jungle (29F)",
 			"access_rules": ["Mystery Jungle"],
 			"sections":
 			[
@@ -1814,7 +1814,7 @@
 			]
 		},
 		{
-			"name": "Serenity River 7F",
+			"name": "Serenity River (7F)",
 			"access_rules": ["Serenity River"],
 			"sections":
 			[
@@ -1851,7 +1851,7 @@
 			
 		},
 		{
-			"name": "Landslide Cave 12F",
+			"name": "Landslide Cave (12F)",
 			"access_rules": ["Landslide Cave"],
 			"sections":
 			[
@@ -1888,7 +1888,7 @@
 			
 		},
 		{
-			"name": "Lush Prairie 5F",
+			"name": "Lush Prairie (5F)",
 			"access_rules": ["Lush Prairie"],
 			"sections":
 			[
@@ -1925,7 +1925,7 @@
 			
 		},
 		{
-			"name": "Tiny Meadow 4F",
+			"name": "Tiny Meadow (4F)",
 			"access_rules": ["Tiny Meadow"],
 			"sections":
 			[
@@ -1962,7 +1962,7 @@
 			
 		},
 		{
-			"name": "Labyrinth Cave 9F",
+			"name": "Labyrinth Cave (9F)",
 			"access_rules": ["Labyrinth Cave"],
 			"sections":
 			[
@@ -1999,7 +1999,7 @@
 			
 		},
 		{
-			"name": "Oran Forest 4F",
+			"name": "Oran Forest (4F)",
 			"access_rules": ["Oran Forest"],
 			"sections":
 			[
@@ -2036,18 +2036,18 @@
 			
 		},
 		{
-			"name": "Lake Afar 24F",
-			"access_rules": ["Lake Afar"],
+			"name": "Lake AFar (24F)",
+			"access_rules": ["Lake AFar"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Lake Afar"
+				  "name": "Complete Lake AFar"
 			  },
 			  {
 				  "name": "Mission",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Lake Afar"],
+				  "access_rules": ["Complete Lake AFar"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
 				  "visibility_rules": ["$late_missions"]
@@ -2056,7 +2056,7 @@
 				  "name": "Outlaw",
 				  "clear_as_group": false,
 				  "item_count": 50,
-				  "access_rules": ["Complete Lake Afar"],
+				  "access_rules": ["Complete Lake AFar"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
 				  "visibility_rules": ["$late_outlaws"]
@@ -2073,7 +2073,7 @@
 			
 		},
 		{
-			"name": "Happy Outlook 19F",
+			"name": "Happy Outlook (19F)",
 			"access_rules": ["Happy Outlook"],
 			"sections":
 			[
@@ -2110,7 +2110,7 @@
 			
 		},
 		{
-			"name": "Mt. Mistral 19F",
+			"name": "Mt. Mistral (19F)",
 			"access_rules": ["Mt. Mistral"],
 			"sections":
 			[
@@ -2147,7 +2147,7 @@
 			
 		},
 		{
-			"name": "Shimmer Hill 17F",
+			"name": "Shimmer Hill (17F)",
 			"access_rules": ["Shimmer Hill"],
 			"sections":
 			[
@@ -2184,7 +2184,7 @@
 			
 		},
 		{
-			"name": "Lost Wilderness 17F",
+			"name": "Lost Wilderness (17F)",
 			"access_rules": ["Lost Wilderness"],
 			"sections":
 			[
@@ -2221,7 +2221,7 @@
 			
 		},
 		{
-			"name": "Midnight Forest 24F",
+			"name": "Midnight Forest (24F)",
 			"access_rules": ["Midnight Forest"],
 			"sections":
 			[
@@ -2429,12 +2429,12 @@
 			
 		},
 		{
-			"name": "Inferno Cave",
-			"access_rules": ["Inferno Cave"],
+			"name": "InFerno Cave",
+			"access_rules": ["InFerno Cave"],
 			"sections":
 			[
 			  {
-				  "name": "Complete Inferno Cave"
+				  "name": "Complete InFerno Cave"
 			  }
 			],
 			"map_locations":
@@ -2686,7 +2686,7 @@
 			
 		},
 		{
-			"name": "Star Cave 15F",
+			"name": "Star Cave (15F)",
 			"access_rules": ["Star Cave"],
 			"sections":
 			[
