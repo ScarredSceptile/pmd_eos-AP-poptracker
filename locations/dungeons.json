@@ -1814,7 +1814,7 @@
 			]
 		},
 		{
-			"name": "Serenity River (7F)",
+			"name": "Serenity River (8F)",
 			"access_rules": ["Serenity River"],
 			"sections":
 			[
@@ -1851,7 +1851,7 @@
 			
 		},
 		{
-			"name": "Landslide Cave (12F)",
+			"name": "Landslide Cave (13F)",
 			"access_rules": ["Landslide Cave"],
 			"sections":
 			[
@@ -1888,7 +1888,7 @@
 			
 		},
 		{
-			"name": "Lush Prairie (5F)",
+			"name": "Lush Prarie (6F)",
 			"access_rules": ["Lush Prairie"],
 			"sections":
 			[
@@ -1925,7 +1925,7 @@
 			
 		},
 		{
-			"name": "Tiny Meadow (4F)",
+			"name": "Tiny Meadow (5F)",
 			"access_rules": ["Tiny Meadow"],
 			"sections":
 			[
@@ -1962,7 +1962,7 @@
 			
 		},
 		{
-			"name": "Labyrinth Cave (9F)",
+			"name": "Labyrinth Cave (10F)",
 			"access_rules": ["Labyrinth Cave"],
 			"sections":
 			[
@@ -1999,7 +1999,7 @@
 			
 		},
 		{
-			"name": "Oran Forest (4F)",
+			"name": "Oran Forest (5F)",
 			"access_rules": ["Oran Forest"],
 			"sections":
 			[
@@ -2036,7 +2036,7 @@
 			
 		},
 		{
-			"name": "Lake Afar (24F)",
+			"name": "Lake Afar (25F)",
 			"access_rules": ["Lake Afar"],
 			"sections":
 			[
@@ -2073,7 +2073,7 @@
 			
 		},
 		{
-			"name": "Happy Outlook (19F)",
+			"name": "Happy Outlook (20F)",
 			"access_rules": ["Happy Outlook"],
 			"sections":
 			[
@@ -2110,7 +2110,7 @@
 			
 		},
 		{
-			"name": "Mt. Mistral (19F)",
+			"name": "Mt. Mistral (20F)",
 			"access_rules": ["Mt. Mistral"],
 			"sections":
 			[
@@ -2147,7 +2147,7 @@
 			
 		},
 		{
-			"name": "Shimmer Hill (17F)",
+			"name": "Shimmer Hill (18F)",
 			"access_rules": ["Shimmer Hill"],
 			"sections":
 			[
@@ -2184,7 +2184,7 @@
 			
 		},
 		{
-			"name": "Lost Wilderness (17F)",
+			"name": "Lost Wilderness (18F)",
 			"access_rules": ["Lost Wilderness"],
 			"sections":
 			[
@@ -2221,7 +2221,7 @@
 			
 		},
 		{
-			"name": "Midnight Forest (24F)",
+			"name": "Midnight Forest (25F)",
 			"access_rules": ["Midnight Forest"],
 			"sections":
 			[

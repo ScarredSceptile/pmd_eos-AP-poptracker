@@ -25,12 +25,12 @@ EARLY_DUNGEONS = {
 	"Brine Cave (9F)",
 	"Hidden Land (15F)",
 	"Temporal Tower (13F)",
-	"Serenity River (7F)",
-	"Landslide Cave (12F)",
-	"Lush Prairie (5F)",
-	"Tiny Meadow (4F)",
-	"Labyrinth Cave (9F)",
-	"Oran Forest (4F)"	
+	"Serenity River (8F)",
+	"Landslide Cave (13F)",
+	"Lush Prarie (6F)",
+	"Tiny Meadow (5F)",
+	"Labyrinth Cave (10F)",
+	"Oran Forest (5F)"	
 }
 
 LATE_DUNGEONS = {
@@ -51,12 +51,12 @@ LATE_DUNGEONS = {
 	"World Abyss (29F)",
 	"Sky Stairway (49F)",
 	"Mystery Jungle (29F)",
-	"Lake Afar (24F)",
-	"Happy Outlook (19F)",
-	"Mt. Mistral (19F)",
-	"Shimmer Hill (17F)",
-	"Lost Wilderness (17F)",
-	"Midnight Forest (24F)",
+	"Lake Afar (25F)",
+	"Happy Outlook (20F)",
+	"Mt. Mistral (20F)",
+	"Shimmer Hill (18F)",
+	"Lost Wilderness (18F)",
+	"Midnight Forest (25F)",
 	"Star Cave (15F)"
 }
 
