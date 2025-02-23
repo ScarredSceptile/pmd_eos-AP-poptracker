@@ -1,8 +1,8 @@
 EARLY_DUNGEONS = {
 	"Beach Cave (4F)",
-	"Drenched BluFF (6F)",
+	"Drenched Bluff (6F)",
 	"Mt. Bristle (9F)",
-	"WaterFall Cave (8F)",
+	"Waterfall Cave (8F)",
 	"Apple Woods (12F)",
 	"Craggy Coast (9F)",
 	"Side Path (5F)",
@@ -34,14 +34,14 @@ EARLY_DUNGEONS = {
 }
 
 LATE_DUNGEONS = {
-	"MystiFying Forest (13F)",
+	"Mystifying Forest (13F)",
 	"Blizzard Island (20F)",
 	"Crevice Cave (10F)",
 	"Surrounded Sea (19F)",
 	"Miracle Sea (18F)",
 	"Mt. Travail (19F)",
 	"The Nightmare (17F)",
-	"Spacial RiFt (15F)",
+	"Spacial Rift (15F)",
 	"Concealed Ruins (29F)",
 	"Marine Resort (18F)",
 	"Bottomless Sea (49F)",
@@ -51,7 +51,7 @@ LATE_DUNGEONS = {
 	"World Abyss (29F)",
 	"Sky Stairway (49F)",
 	"Mystery Jungle (29F)",
-	"Lake AFar (24F)",
+	"Lake Afar (24F)",
 	"Happy Outlook (19F)",
 	"Mt. Mistral (19F)",
 	"Shimmer Hill (17F)",
