@@ -105,31 +105,31 @@
 		"name": "Chasm Cave Complete",
 		"type": "toggle",
 		"codes": "Complete Chasm Cave",
-		"img": "images/overlay/16.png"
+		"img": "images/dungeons/chasmcave.png"
 	},
 	{
 		"name": "Dark Hill Complete",
 		"type": "toggle",
 		"codes": "Complete Dark Hill",
-		"img": "images/overlay/17.png"
+		"img": "images/dungeons/darkhill.png"
 	},
 	{
 		"name": "Sealed Ruin Complete",
 		"type": "toggle",
 		"codes": "Complete Sealed Ruin",
-		"img": "images/overlay/18.png"
+		"img": "images/dungeons/sealedruin.png"
 	},
 	{
 		"name": "Dusk Forest Complete",
 		"type": "toggle",
 		"codes": "Complete Dusk Forest",
-		"img": "images/overlay/19.png"
+		"img": "images/dungeons/duskforest2.png"
 	},
 	{
 		"name": "Deep Dusk Forest Complete",
 		"type": "toggle",
 		"codes": "Complete Deep Dusk Forest",
-		"img": "images/overlay/20.png"
+		"img": "images/dungeons/deepduskforest2.png"
 	},
 	{
 		"name": "Treeshroud Forest Complete",
