@@ -33,7 +33,7 @@ function canAccessDarkCrater()
 	if darkraiGoal() then
 		local instrumentCount = Tracker:ProviderCountForCode("Instruments")
 		local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
-		return instrumentCount >= instrumentGoal and tower.AvailableChestCount == 0
+		return instrumentCount >= instrumentGoal and Tracker:ProviderCountForCode("Complete Temporal Tower")
 	end
 	return Tracker:ProviderCountForCode("Dark Crater") == 1
 end
