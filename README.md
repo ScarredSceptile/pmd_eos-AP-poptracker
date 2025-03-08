@@ -13,7 +13,6 @@ Current issues:
 ## NOTE
 
 This tracker is not made for manual usage, please be warned that missions and outlaws will not be fun to track manually.
-Events are also currently not checkable in manual mode, and will only be toggled with an Archipelago connection.
 
 # Example image
 
