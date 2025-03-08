@@ -70,61 +70,61 @@
 	  "name": "Dojo Normal/Fly Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Normal&Fly Maze",
-	  "img": "images/overlay/1.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Dark/Fire Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Dark&Fire Maze",
-	  "img": "images/overlay/2.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Rock/Water Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Rock&Water Maze",
-	  "img": "images/overlay/3.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Grass Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Grass Maze",
-	  "img": "images/overlay/4.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Elec/Steel Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Elec&Steel Maze",
-	  "img": "images/overlay/5.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Ice/Ground Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Ice&Ground Maze",
-	  "img": "images/overlay/6.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Fight/Psych Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Fight&Psych Maze",
-	  "img": "images/overlay/7.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Poison/Bug Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Poison&Bug Maze",
-	  "img": "images/overlay/8.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Dragon Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Dragon Maze",
-	  "img": "images/overlay/9.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Dojo Ghost Maze",
 	  "type": "toggle",
 	  "codes": "Dojo Ghost Maze",
-	  "img": "images/overlay/10.png"
+	  "img": "images/items/dojo.png"
   },
   {
 	  "name": "Secret Rank",

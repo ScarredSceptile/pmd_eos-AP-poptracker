@@ -132,7 +132,6 @@
                     "header": "Dungeons",
                     "orientation": "horizontal",
                     "content": [
-
                       {
                         "type": "itemgrid",
                         "item_margin": "10, 10",
@@ -225,30 +224,181 @@
                     "orientation": "horizontal",
                     "content": [
                       {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
-                          [
-                            "Dojo Normal&Fly Maze",
-                            "Dojo Dark&Fire Maze"
-                          ],
-                          [
-                            "Dojo Rock&Water Maze",
-                            "Dojo Grass Maze"
-                          ],
-                          [
-                            "Dojo Elec&Steel Maze",
-                            "Dojo Ice&Ground Maze"
-                          ],
-                          [
-                            "Dojo Fight&Psych Maze",
-                            "Dojo Poison&Bug Maze"
-                          ],
-                          [
-                            "Dojo Dragon Maze",
-                            "Dojo Ghost Maze"
-                          ]
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,24",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Normal&Fly",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dark&Fire",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Rock&Water",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Grass",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Elec&Steel",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "itemgrid",
+                                "item_margin": "10, 10",
+                                "h_alignment": "left",
+                                "rows": [
+                                    [ "Dojo Normal&Fly Maze" ],
+                                    [ "Dojo Dark&Fire Maze" ],
+                                    [ "Dojo Rock&Water Maze" ],
+                                    [ "Dojo Grass Maze" ],
+                                    [ "Dojo Elec&Steel Maze" ]
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,24",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Ice&Ground",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Fight&Psych",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Poison&Bug",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dragon",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Ghost",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "itemgrid",
+                                "item_margin": "10, 10",
+                                "h_alignment": "center",
+                                "rows": [
+                                  [ "Dojo Ice&Ground Maze" ],
+                                  [ "Dojo Fight&Psych Maze" ],
+                                  [ "Dojo Poison&Bug Maze" ],
+                                  [ "Dojo Dragon Maze" ],
+                                  [ "Dojo Ghost Maze" ]
+                                ]
+                              }
+                            ]
+                          }
                         ]
                       }
                     ]
