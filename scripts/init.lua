@@ -20,3 +20,5 @@ Tracker:AddLayouts("layouts/tracker.json")
 
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/autotracking.lua")
+
+updateMissionCounts()

@@ -10,7 +10,8 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete Beach Cave"
+				  "name": "Complete Beach Cave",
+				  "access_rules": ["$updateMissionCounts"]
 			  },
 			  {
 				  "name": "Mission",

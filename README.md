@@ -10,10 +10,6 @@ Dungeons gotten from Spindas Cafe cannot generate missions on the Final floor, m
 Current issues:
 - Bad or missing images
 
-## NOTE
-
-This tracker is not made for manual usage, please be warned that missions and outlaws will not be fun to track manually.
-
 # Example image
 
 ![Example image](/images/example.PNG)

@@ -51,6 +51,13 @@
 	  "codes": "EarlyMissionChecks"
   },
   {
+	  "name": "Early Stored Mission Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 50,
+	  "codes": "EarlyStoredMissionChecks"
+  },
+  {
 	  "name": "Late Mission Checks",
 	  "type": "consumable",
       "max_quantity": 50,
@@ -59,6 +66,13 @@
 	  "img": "images/settings/mission.png",
 	  "disabled_img_mods": "none",
 	  "codes": "LateMissionChecks"
+  },
+  {
+	  "name": "Late Stored Mission Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 50,
+	  "codes": "LateStoredMissionChecks"
   },
   {
 	  "name": "Early Outlaw Checks",
@@ -71,6 +85,13 @@
 	  "codes": "EarlyOutlawChecks"
   },
   {
+	  "name": "Early Stored Outlaw Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 50,
+	  "codes": "EarlyStoredOutlawChecks"
+  },
+  {
 	  "name": "Late Outlaw Checks",
 	  "type": "consumable",
       "max_quantity": 50,
@@ -79,6 +100,13 @@
 	  "img": "images/settings/outlaw.png",
 	  "disabled_img_mods": "none",
 	  "codes": "LateOutlawChecks"
+  },
+  {
+	  "name": "Late Stored Outlaw Checks",
+	  "type": "consumable",
+      "max_quantity": 50,
+	  "initial_quantity": 50,
+	  "codes": "LateStoredOutlawChecks"
   },
   {
 	  "name": "Legendary Amount",

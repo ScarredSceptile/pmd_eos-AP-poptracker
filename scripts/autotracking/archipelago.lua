@@ -77,8 +77,72 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
+function updateMissionCounts()
+	local earlyMissionCount = Tracker:ProviderCountForCode("EarlyMissionChecks")
+	local earlyStoredMissionCount = Tracker:ProviderCountForCode("EarlyStoredMissionChecks")
+	local lateMissionCount = Tracker:ProviderCountForCode("LateMissionChecks")
+	local lateStoredMissionCount = Tracker:ProviderCountForCode("LateStoredMissionChecks")
+	local earlyOutlawCount = Tracker:ProviderCountForCode("EarlyOutlawChecks")
+	local earlyStoredOutlawCount = Tracker:ProviderCountForCode("EarlyStoredOutlawChecks")
+	local lateOutlawCount = Tracker:ProviderCountForCode("LateOutlawChecks")
+	local lateStoredOutlawCount = Tracker:ProviderCountForCode("LateStoredOutlawChecks")
+	
+	local earlyMissionDiff = earlyStoredMissionCount - earlyMissionCount
+	local lateMissionDiff = lateStoredMissionCount - lateMissionCount
+	local earlyOutlawDiff = earlyStoredOutlawCount - earlyOutlawCount
+	local lateOutlawDiff = lateStoredOutlawCount - lateOutlawCount
+	
+	if earlyMissionDiff ~= 0 then
+		print("Test")
+		Tracker:FindObjectForCode("EarlyStoredMissionChecks").AcquiredCount = earlyMissionCount
+		updateEarlyCount("Mission", -earlyMissionDiff, true)
+	end
+	if lateMissionDiff ~= 0 then
+		print("Test")
+		Tracker:FindObjectForCode("LateStoredMissionChecks").AcquiredCount = lateMissionCount
+		updateLateCount("Mission", -lateMissionDiff, true)
+	end
+	if earlyOutlawDiff ~= 0 then
+		print("Test")
+		Tracker:FindObjectForCode("EarlyStoredOutlawChecks").AcquiredCount = earlyOutlawCount
+		updateEarlyCount("Outlaw", -earlyOutlawDiff, true)
+	end
+	if lateOutlawDiff ~= 0 then
+		print("Test")
+		Tracker:FindObjectForCode("LateStoredOutlawChecks").AcquiredCount = lateOutlawCount
+		updateLateCount("Outlaw", -lateOutlawDiff, true)
+	end
+	
+	return true
+end
+
+function updateEarlyCount(type, count)
+	print("Called from updateEarlyCount"..type..count)
+	for i,dungeon in ipairs(EARLY_DUNGEONS) do
+		local obj = Tracker:FindObjectForCode("@Dungeons/"..dungeon.."/"..type)
+		obj.AvailableChestCount = obj.AvailableChestCount + count
+	end
+end
+
+function updateLateCount(type, count)
+	print("Called from updateLateCount"..type..count)
+	for i,dungeon in ipairs(LATE_DUNGEONS) do
+		local obj = Tracker:FindObjectForCode("@Dungeons/"..dungeon.."/"..type)
+		obj.AvailableChestCount = obj.AvailableChestCount + count
+	end
+	for i,place in ipairs(SKY_PEAK_DUNGEONS) do
+		local obj = Tracker:FindObjectForCode("@Dungeons/Sky Peak/"..place..type)
+		obj.AvailableChestCount = obj.AvailableChestCount + count
+	end
+end
+
 function updateEarly(type, count)
 	print("Called from updateEarly"..type..count)
+	if type == "Mission" then
+		Tracker:FindObjectForCode("EarlyStoredMissionChecks").AcquiredCount = count
+	elseif type == "Outlaw" then
+		Tracker:FindObjectForCode("EarlyStoredOutlawChecks").AcquiredCount = count
+	end
 	for i,dungeon in ipairs(EARLY_DUNGEONS) do
 		Tracker:FindObjectForCode("@Dungeons/"..dungeon.."/"..type).AvailableChestCount = count
 	end
@@ -86,6 +150,11 @@ end
 
 function updateLate(type, count)
 	print("Called from updateLate"..type..count)
+	if type == "Mission" then
+		Tracker:FindObjectForCode("LateStoredMissionChecks").AcquiredCount = count
+	elseif type == "Outlaw" then
+		Tracker:FindObjectForCode("LateStoredOutlawChecks").AcquiredCount = count
+	end
 	for i,dungeon in ipairs(LATE_DUNGEONS) do
 		Tracker:FindObjectForCode("@Dungeons/"..dungeon.."/"..type).AvailableChestCount = count
 	end
