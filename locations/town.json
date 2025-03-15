@@ -169,6 +169,7 @@
 			  {
 				  "name": "Manaphy Join Team",
 				  "access_rules": ["Complete Surrounded Sea, Complete Miracle Sea,Complete Temporal Tower"],
+				  "visibility_rules": ["$darkraiGoal"],
 				  "chest_unopened_img": "images/locations/legendaries/manaphy.png",
 				  "chest_opened_img": "images/locations/legendaries/manaphy-gray.png",
 			  },
@@ -191,6 +192,7 @@
 		{
 			"name": "Sharpedo Bluff Cresselia",
 			"access_rules": ["Complete Temporal Tower"],
+			"visibility_rules": ["$darkraiGoal"],
 			"sections":
 			[
 			  {

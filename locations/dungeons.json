@@ -442,7 +442,8 @@
 				  "name": "Recruit Uxie",
 				  "chest_unopened_img": "images/locations/legendaries/uxie.png",
 				  "chest_opened_img": "images/locations/legendaries/uxie-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Steam Cave"]
+				  "access_rules": ["Complete Temporal Tower, Complete Steam Cave"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -561,7 +562,8 @@
 				  "name": "Recruit Mesprit",
 				  "chest_unopened_img": "images/locations/legendaries/mesprit.png",
 				  "chest_opened_img": "images/locations/legendaries/mesprit-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Quicksand Cave"]
+				  "access_rules": ["Complete Temporal Tower, Complete Quicksand Cave"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -641,7 +643,8 @@
 				  "name": "Recruit Azelf",
 				  "chest_unopened_img": "images/locations/legendaries/azelf.png",
 				  "chest_opened_img": "images/locations/legendaries/azelf-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Crystal Crossing"]
+				  "access_rules": ["Complete Temporal Tower, Complete Crystal Crossing"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -955,7 +958,7 @@
 				  "access_rules": ["Complete Hidden Land"],
 				  "chest_unopened_img": "images/locations/mission.png",
 				  "chest_opened_img": "images/locations/mission_done.png",
-				  "visibility_rules": ["$early_missions"]
+				  "visibility_rules": ["$late_missions,$darkraiGoal"]
 			  },
 			  {
 				  "name": "Outlaw",
@@ -964,7 +967,7 @@
 				  "access_rules": ["Complete Hidden Land"],
 				  "chest_unopened_img": "images/locations/outlaw.png",
 				  "chest_opened_img": "images/locations/outlaw-gray.png",
-				  "visibility_rules": ["$early_outlaws"]
+				  "visibility_rules": ["$late_outlaws,$darkraiGoal"]
 			  }
 			],
 			"map_locations":
@@ -996,7 +999,8 @@
 				  "name": "Recruit Dialga",
 				  "chest_unopened_img": "images/locations/legendaries/dialga.png",
 				  "chest_opened_img": "images/locations/legendaries/dialga-gray.png",
-				  "access_rules": ["Complete Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1203,7 +1207,8 @@
 				  "name": "Recruit Phione",
 				  "chest_unopened_img": "images/locations/legendaries/phione.png",
 				  "chest_opened_img": "images/locations/legendaries/phione-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Miracle Sea"]
+				  "access_rules": ["Complete Temporal Tower, Complete Miracle Sea"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1356,7 +1361,8 @@
 				  "name": "Recruit Palkia",
 				  "chest_unopened_img": "images/locations/legendaries/palkia.png",
 				  "chest_opened_img": "images/locations/legendaries/palkia-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Complete Spacial Rift"]
+				  "access_rules": ["Complete Temporal Tower, Complete Spacial Rift"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1490,13 +1496,15 @@
 				  "name": "Get Aqua-Monica",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Bottomless Sea"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Kyogre",
 				  "chest_unopened_img": "images/locations/legendaries/kyogre.png",
 				  "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Bottomless Sea"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Bottomless Sea"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1538,13 +1546,15 @@
 				  "name": "Get Terra Cymbal",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Shimmer Desert"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Groudon",
 				  "chest_unopened_img": "images/locations/legendaries/groudon.png",
 				  "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Shimmer Desert"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Shimmer Desert"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1586,13 +1596,15 @@
 				  "name": "Get Icy Flute",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mt. Avalanche"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Articuno",
 				  "chest_unopened_img": "images/locations/legendaries/articuno.png",
 				  "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mt. Avalanche"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mt. Avalanche"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1634,13 +1646,15 @@
 				  "name": "Get Fiery Drum",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Giant Volcano"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Heatran",
 				  "chest_unopened_img": "images/locations/legendaries/heatran.png",
 				  "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Giant Volcano"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Giant Volcano"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1682,13 +1696,15 @@
 				  "name": "Get Rock Horn",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete World Abyss"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Giratina",
 				  "chest_unopened_img": "images/locations/legendaries/giratina.png",
 				  "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete World Abyss"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete World Abyss"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1730,13 +1746,15 @@
 				  "name": "Get Sky Melodica",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Sky Stairway"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Rayquaza",
 				  "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
 				  "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Sky Stairway"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Sky Stairway"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -1778,13 +1796,15 @@
 				  "name": "Get Grass Cornet",
 				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mystery Jungle"],
 				  "chest_unopened_img": "images/locations/instrument.png",
-				  "chest_opened_img": "images/locations/instrument-gray.png"
+				  "chest_opened_img": "images/locations/instrument-gray.png",
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Recruit Mew",
 				  "chest_unopened_img": "images/locations/legendaries/mew.png",
 				  "chest_opened_img": "images/locations/legendaries/mew-gray.png",
-				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mystery Jungle"]
+				  "access_rules": ["Complete Temporal Tower, Secret Rank, Complete Mystery Jungle"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Mission",
@@ -2457,7 +2477,8 @@
 				  "name": "Recruit Shaymin",
 				  "chest_unopened_img": "images/locations/legendaries/shaymin.png",
 				  "chest_opened_img": "images/locations/legendaries/shaymin-gray.png",
-				  "access_rules": ["Complete Temporal Tower"]
+				  "access_rules": ["Complete Temporal Tower"],
+				  "visibility_rules": ["$darkraiGoal"]
 			  },
 			  {
 				  "name": "Complete 1st Station Pass"

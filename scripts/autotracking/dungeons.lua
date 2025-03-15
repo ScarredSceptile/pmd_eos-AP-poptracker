@@ -23,8 +23,6 @@ EARLY_DUNGEONS = {
 	"Deep Dusk Forest (12F)",
 	"Treeshroud Forest (20F)",
 	"Brine Cave (9F)",
-	"Hidden Land (15F)",
-	"Temporal Tower (13F)",
 	"Serenity River (8F)",
 	"Landslide Cave (13F)",
 	"Lush Prarie (6F)",
@@ -34,6 +32,8 @@ EARLY_DUNGEONS = {
 }
 
 LATE_DUNGEONS = {
+	"Hidden Land (15F)",
+	"Temporal Tower (13F)",
 	"Mystifying Forest (13F)",
 	"Blizzard Island (20F)",
 	"Crevice Cave (10F)",
