@@ -1,4 +1,4 @@
-# pme_eos-AP-poptracker
+# pmd_eos-AP-poptracker
 Archipelago tracker for Pokemon Mystery Dungeon: Explorers of Sky
 
 Every dungeon with missions available in it will have the amount of floors for missions generation counted.
