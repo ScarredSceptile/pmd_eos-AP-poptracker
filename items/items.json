@@ -26,31 +26,31 @@
 	  "codes": "Victory",
   },
   {
-	  "name": "Bidoof SE",
+	  "name": "Bidoof's Wish",
 	  "type": "toggle",
 	  "codes": "Bidoof SE",
 	  "img": "images/items/bidoof.png"
   },
   {
-	  "name": "IgglyBuff SE",
+	  "name": "Igglybuff the Prodigy",
 	  "type": "toggle",
 	  "codes": "IgglyBuff SE",
 	  "img": "images/items/igglybuff.png"
   },
   {
-	  "name": "Grovyle + Dusknoir SE",
+	  "name": "In the Future of Darkness",
 	  "type": "toggle",
 	  "codes": "Grovyle + Dusknoir SE",
 	  "img": "images/items/grovyle.png"
   },
   {
-	  "name": "Team Charm SE",
+	  "name": "Here Comes Team Charm!",
 	  "type": "toggle",
 	  "codes": "Team Charm SE",
 	  "img": "images/items/team-charm.png"
   },
   {
-	  "name": "Sunflora SE",
+	  "name": "Today's \"Oh My Gosh\"",
 	  "type": "toggle",
 	  "codes": "Sunflora SE",
 	  "img": "images/items/sunflora.png"
