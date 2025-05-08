@@ -11,11 +11,11 @@
 			[
 			  {
 				  "name": "Progressive Bag loc 1",
-				  "access_rules": ["$dungeonCleared|Beach Cave"],
+				  "access_rules": ["Complete Beach Cave"],
 			  },
 			  {
 				  "name": "Team Name",
-				  "access_rules": ["$dungeonCleared|Beach Cave"],
+				  "access_rules": ["Complete Beach Cave"],
 			  },
 			  {
 				  "name": "Igglybuff SE Location",
@@ -44,9 +44,9 @@
 			"map_locations":
 			[
 			  {
-				  "map": "sunflora-room",
-				  "x": 260,
-				  "y": 194
+				  "map": "bidoof-room",
+				  "x": 215,
+				  "y": 239
 			  }
 			]
 		},{
@@ -62,7 +62,7 @@
 			"map_locations":
 			[
 			  {
-				  "map": "bidoof-room",
+				  "map": "sunflora-room",
 				  "x": 260,
 				  "y": 130
 			  }
@@ -133,7 +133,7 @@
 		},
 		{
 			"name": "Home Base Manaphy",
-			"access_rules": ["$dungeonCleared|Surrounded Sea"],
+			"access_rules": ["Complete Surrounded Sea"],
 			"sections":
 			[
 			  {
@@ -148,7 +148,7 @@
 			  },
 			  {
 				  "name": "Manaphy Healed",
-				  "access_rules": ["$dungeonCleared|Miracle Sea"],
+				  "access_rules": ["Complete Miracle Sea"],
 				  "chest_unopened_img": "images/locations/manaphy.png",
 				  "chest_opened_img": "images/locations/manaphy-gray.png",
 			  },
@@ -168,9 +168,10 @@
 			[
 			  {
 				  "name": "Manaphy Join Team",
-				  "access_rules": ["$dungeonCleared|Surrounded Sea, $dungeonCleared|Miracle Sea"],
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
+				  "access_rules": ["Complete Surrounded Sea, Complete Miracle Sea,Complete Temporal Tower"],
+				  "visibility_rules": ["$darkraiGoal"],
+				  "chest_unopened_img": "images/locations/legendaries/manaphy.png",
+				  "chest_opened_img": "images/locations/legendaries/manaphy-gray.png",
 			  },
 			  {
 				  "name": "Manaphy Leads To Marine Resort",
@@ -190,13 +191,14 @@
 		},
 		{
 			"name": "Sharpedo Bluff Cresselia",
-			"access_rules": ["$dungeonCleared|Temporal Tower"],
+			"access_rules": ["Complete Temporal Tower"],
+			"visibility_rules": ["$darkraiGoal"],
 			"sections":
 			[
 			  {
 				  "name": "Recruit Cresselia",
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
+				  "chest_unopened_img": "images/locations/legendaries/cresselia.png",
+				  "chest_opened_img": "images/locations/legendaries/cresselia-gray.png",
 			  }
 			],
 			"map_locations":

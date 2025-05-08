@@ -5,56 +5,514 @@
     "margin": "0,0",
     "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
+        "type": "tabbed",
+        "tabs": [
           {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-              ["RelicFragmentCount", "BagUpgrades", "Instruments", "Secret Rank"],
-			  ["Mystery Part", "Secret Slab", "Amber Tear", "Friend Bow"]
+            "title": "Items",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "group",
+                    "header": "Items",
+                    "dock": "bottom",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                          [
+                            "RelicFragmentCount",
+                            "BagUpgrades",
+                            "Instruments",
+                            "Secret Rank",
+                            "Manaphy"
+                          ],
+                          [
+                            "Mystery Part",
+                            "Secret Slab",
+                            "Amber Tear",
+                            "Friend Bow",
+                            "Miracle Chest",
+                            "Wonder Chest"
+                          ],
+                          [
+                            "Bidoof SE",
+                            "Igglybuff SE",
+                            "Sunflora SE",
+                            "Team Charm SE",
+                            "Grovyle + Dusknoir SE"
+                          ],
+                          [
+                            "Hot Springs",
+                            "Luminous Spring",
+                            "Recruit Evolution",
+                            "Hero Evolution"
+                          ],
+                          [
+                            "Recruitment",
+                            "Formation Control"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "group",
+                    "header": "Legendaries",
+                    "dock": "bottom",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                          [
+                            "Articuno",
+                            "Mew",
+                            "Celebi",
+                            "Regirock",
+                            "Regice"
+                          ],
+                          [
+                            "Registeel",
+                            "Kyogre",
+                            "Groudon",
+                            "Rayquaza",
+                            "Uxie"
+                          ],
+                          [
+                            "Mesprit",
+                            "Azelf",
+                            "Dialga",
+                            "Primal Dialga",
+                            "Palkia"
+                          ],
+                          [
+                            "Heatran",
+                            "Regigigas",
+                            "Giratina",
+                            "Cresselia",
+                            "Phione"
+                          ],
+                          [
+                            "Manaphy",
+                            "Shaymin"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
-		  {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "center",
-            "rows": [
-			    ["Drenched Bluff", "Mt. Bristle", "Waterfall Cave", "Apple Woods", "Craggy Coast", "Side Path", "Mt. Horn", "Rock Path", "Foggy Forest", "Forest Path", "Steam Cave"],
-				["Amp Plains", "Northern Desert", "Quicksand Cave", "Crystal Cave", "Crystal Crossing", "Chasm Cave", "Dark Hill", "Sealed Ruin", "Dusk Forest", "Deep Dusk Forest", "Brine Cave"],
-				["Temporal Tower", "Mystifying Forest", "Blizzard Island", "Crevice Cave", "Surrounded Sea", "Miracle Sea", "Mt. Travail", "The Nightmare", "Spacial Rift", "Dark Crater", "Concealed Ruins"],
-				["Marine Resort", "Bottomless Sea", "Shimmer Desert", "Mt. Avalanche", "Giant Volcano", "World Abyss", "Sky Stairway", "Mystery Jungle", "Serenity River", "Landslide Cave", "Lush Prairie"],
-				["Tiny Meadow", "Labyrinth Cave", "Oran Forest", "Lake Afar", "Happy Outlook", "Mt. Mistral", "Shimmer Hill", "Lost Wilderness", "Midnight Forest", "Zero Isle North", "Zero Isle East"],
-				["Zero Isle West", "Zero Isle South", "Zero Isle Center", "Destiny Tower", "Oblivion Forest", "Treacherous Waters", "Southeastern Islands", "Inferno Cave", "1st Station Pass", "Star Cave2"]
-			  ]
-		  },
-		  {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "center",
-            "rows": [
-			    ["Articuno", "Mew", "Celebi", "Regirock", "Regice"],
-				["Registeel", "Kyogre", "Groudon", "Rayquaza", "Uxie"],
-				["Mesprit", "Azelf", "Dialga", "Primal Dialga", "Palkia"],
-				["Heatran", "Regigigas", "Giratina", "Cresselia", "Phione"],
-				["Manaphy", "Shaymin"]
-			  ]
-		  },
-		  {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-			    ["Dojo Normal/Fly Maze", "Dojo Dark/Fire Maze"], 
-				["Dojo Rock/Water Maze", "Dojo Grass Maze"], 
-				["Dojo Elec/Steel Maze", "Dojo Ice/Ground Maze"], 
-				["Dojo Fight/Psych Maze", "Dojo Poison/Bug Maze"],
-				["Dojo Dragon Maze", "Dojo Ghost Maze"]
-			  ]
-		  }
+          {
+            "title": "Dungeons",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "group",
+                    "header": "Dungeons",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                          [
+                            "Beach Cave",
+                            "Drenched Bluff",
+                            "Mt. Bristle",
+                            "Waterfall Cave",
+                            "Apple Woods",
+                            "Craggy Coast",
+                            "Side Path",
+                            "Mt. Horn",
+                            "Rock Path",
+                            "Foggy Forest",
+                            "Forest Path",
+                            "Steam Cave",
+                            "Amp Plains",
+                            "Northern Desert"
+                          ],
+                          [
+                            "Quicksand Cave",
+                            "Crystal Cave",
+                            "Crystal Crossing",
+                            "Chasm Cave",
+                            "Dark Hill",
+                            "Sealed Ruin",
+                            "Dusk Forest",
+                            "Deep Dusk Forest",
+                            "Treeshroud Forest",
+                            "Brine Cave",
+                            "Temporal Tower",
+                            "Mystifying Forest",
+                            "Blizzard Island",
+                            "Crevice Cave"
+                          ],
+                          [
+                            "Surrounded Sea",
+                            "Miracle Sea",
+                            "Mt. Travail",
+                            "The Nightmare",
+                            "Spacial Rift",
+                            "Dark Crater",
+                            "Concealed Ruins",
+                            "Marine Resort",
+                            "Bottomless Sea",
+                            "Shimmer Desert",
+                            "Mt. Avalanche",
+                            "Giant Volcano",
+                            "World Abyss",
+                            "Sky Stairway"
+                          ],
+                          [
+                            "Mystery Jungle",
+                            "Serenity River",
+                            "Landslide Cave",
+                            "Lush Prairie",
+                            "Tiny Meadow",
+                            "Labyrinth Cave",
+                            "Oran Forest",
+                            "Lake Afar",
+                            "Happy Outlook",
+                            "Mt. Mistral",
+                            "Shimmer Hill",
+                            "Lost Wilderness",
+                            "Midnight Forest"
+                          ],
+                          [
+                            "Zero Isle North",
+                            "Zero Isle East",
+                            "Zero Isle West",
+                            "Zero Isle South",
+                            "Zero Isle Center",
+                            "Destiny Tower",
+                            "Oblivion Forest",
+                            "Treacherous Waters",
+                            "Southeastern Islands",
+                            "Inferno Cave",
+                            "1st Station Pass",
+                            "Star Cave"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "group",
+                    "header": "Dojos",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,24",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Normal&Fly",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dark&Fire",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Rock&Water",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Grass",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Elec&Steel",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "itemgrid",
+                                "item_margin": "10, 10",
+                                "h_alignment": "left",
+                                "rows": [
+                                    [ "Dojo Normal&Fly Maze" ],
+                                    [ "Dojo Dark&Fire Maze" ],
+                                    [ "Dojo Rock&Water Maze" ],
+                                    [ "Dojo Grass Maze" ],
+                                    [ "Dojo Elec&Steel Maze" ]
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,24",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Ice&Ground",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Fight&Psych",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Poison&Bug",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,17",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dragon",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,22",
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Ghost",
+                                    "h_alignment": "right"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "margin": "0,0",
+                            "content": [
+                              {
+                                "type": "itemgrid",
+                                "item_margin": "10, 10",
+                                "h_alignment": "center",
+                                "rows": [
+                                  [ "Dojo Ice&Ground Maze" ],
+                                  [ "Dojo Fight&Psych Maze" ],
+                                  [ "Dojo Poison&Bug Maze" ],
+                                  [ "Dojo Dragon Maze" ],
+                                  [ "Dojo Ghost Maze" ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Completetions",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "group",
+                    "header": "Dungeons",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                          [
+                            "Complete Beach Cave",
+                            "Complete Drenched Bluff",
+                            "Complete Mt. Bristle",
+                            "Complete Waterfall Cave",
+                            "Complete Apple Woods",
+                            "Complete Craggy Coast",
+                            "Complete Side Path",
+                            "Complete Mt. Horn",
+                            "Complete Rock Path",
+                            "Complete Foggy Forest",
+                            "Complete Forest Path",
+                            "Complete Steam Cave",
+                            "Complete Amp Plains",
+                            "Complete Northern Desert"
+                          ],
+                          [
+                            "Complete Quicksand Cave",
+                            "Complete Crystal Cave",
+                            "Complete Crystal Crossing",
+                            "Complete Chasm Cave",
+                            "Complete Dark Hill",
+                            "Complete Sealed Ruin",
+                            "Complete Dusk Forest",
+                            "Complete Deep Dusk Forest",
+                            "Complete Treeshroud Forest",
+                            "Complete Brine Cave",
+                            "Complete Temporal Tower",
+                            "Complete Mystifying Forest",
+                            "Complete Blizzard Island",
+                            "Complete Crevice Cave"
+                          ],
+                          [
+                            "Complete Surrounded Sea",
+                            "Complete Miracle Sea",
+                            "Complete Mt. Travail",
+                            "Complete The Nightmare",
+                            "Complete Spacial Rift",
+                            "Complete Dark Crater",
+                            "Complete Concealed Ruins",
+                            "Complete Marine Resort",
+                            "Complete Bottomless Sea",
+                            "Complete Shimmer Desert",
+                            "Complete Mt. Avalanche",
+                            "Complete Giant Volcano",
+                            "Complete World Abyss",
+                            "Complete Sky Stairway"
+                          ],
+                          [
+                            "Complete Mystery Jungle",
+                            "Complete Serenity River",
+                            "Complete Landslide Cave",
+                            "Complete Lush Prairie",
+                            "Complete Tiny Meadow",
+                            "Complete Labyrinth Cave",
+                            "Complete Oran Forest",
+                            "Complete Lake Afar",
+                            "Complete Happy Outlook",
+                            "Complete Mt. Mistral",
+                            "Complete Shimmer Hill",
+                            "Complete Lost Wilderness",
+                            "Complete Midnight Forest"
+                          ],
+                          [
+                            "Complete Zero Isle North",
+                            "Complete Zero Isle East",
+                            "Complete Zero Isle West",
+                            "Complete Zero Isle South",
+                            "Complete Zero Isle Center",
+                            "Complete Destiny Tower",
+                            "Complete Oblivion Forest",
+                            "Complete Treacherous Waters",
+                            "Complete Southeastern Islands",
+                            "Complete Inferno Cave",
+                            "Complete Sky Peak",
+                            "Complete Star Cave"
+                          ]
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
     ]

@@ -16,7 +16,6 @@
       },
       {
         "type": "group",
-        "header": "Settings",
         "dock": "bottom",
         "orientation": "horizontal",
         "content": {

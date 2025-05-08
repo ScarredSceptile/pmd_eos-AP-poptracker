@@ -1,0 +1,235 @@
+[
+	{
+		"name": "1st Station Pass (3F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 1st Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/1st Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/1st Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 280,
+				"y": 75
+			}
+		]
+	},
+	{
+		"name": "2nd Station Pass (3F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 2nd Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/2nd Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/2nd Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 300,
+				"y": 75
+			}
+		]
+	},
+	{
+		"name": "3rd Station Pass (3F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 3rd Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/3rd Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/3rd Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 320,
+				"y": 75
+			}
+		]
+	},
+	{
+		"name": "4th Station Pass (3F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 4th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/4th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/4th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 340,
+				"y": 75
+			}
+		]
+	},
+	{
+		"name": "5th Station Pass (4F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 5th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/5th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/5th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 360,
+				"y": 75
+			}
+		]
+	},
+	{
+		"name": "6th Station Pass (4F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 6th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/6th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/6th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 280,
+				"y": 91
+			}
+		]
+	},
+	{
+		"name": "7th Station Pass (4F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 7th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/7th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/7th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 300,
+				"y": 91
+			}
+		]
+	},
+	{
+		"name": "8th Station Pass (4F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 8th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/8th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/8th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 320,
+				"y": 91
+			}
+		]
+	},
+	{
+		"name": "9th Station Pass (5F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete 9th Station Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/9th Station Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/9th Station Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 340,
+				"y": 91
+			}
+		]
+	},
+	{
+		"name": "Sky Peak Summit (5F)",
+		"sections":
+		[
+			{
+				"ref": "Dungeons/Sky Peak/Complete Sky Peak Summit Pass"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/Complete Sky Peak Summit"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/Sky Peak Summit Mission"
+			},
+			{
+				"ref": "Dungeons/Sky Peak/Sky Peak Summit Outlaw"
+			}
+		],
+		"map_locations":
+		[
+			{
+				"map": "shaymin-village",
+				"x": 360,
+				"y": 91
+			}
+		]
+	}
+]

@@ -20,8 +20,8 @@
               [
                 "RequiredRelicFragmentShards",
                 "ExtraRelicFragmentShards",
-				"RequiredInstruments",
-				"ExtraInstruments"
+                "RequiredInstruments",
+                "ExtraInstruments"
               ],
               [
                 "EarlyMissionChecks",
@@ -29,10 +29,10 @@
                 "EarlyOutlawChecks",
                 "LateOutlawChecks"
               ],
-			  [
-				"DojoDungeonsRandomization",
-				"LegendaryAmount"
-			  ]
+              [
+                "DojoDungeonsRandomization",
+                "LegendaryAmount"
+              ]
             ]
           }
         ]

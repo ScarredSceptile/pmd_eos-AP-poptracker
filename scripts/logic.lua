@@ -10,22 +10,17 @@ end
 
 function late_missions()
 	local latemissionCount = Tracker:ProviderCountForCode("LateMissionChecks")
-	return latemissionCount > 0
+	return latemissionCount > 0 and darkraiGoal()
 end
 
 function late_outlaws()
 	local lateoutlawCount = Tracker:ProviderCountForCode("LateOutlawChecks")
-	return lateoutlawCount > 0
+	return lateoutlawCount > 0 and darkraiGoal()
 end
 
 function darkraiGoal()
 	local count = Tracker:ProviderCountForCode("goal_darkrai")
 	return count > 0
-end
-
-function canClearTemporalTower()
-	local tower = Tracker:ProviderCountForCode("Temporal Tower")
-	return enoughRelicFragments() and tower == 1
 end
 
 function enoughRelicFragments()
@@ -34,15 +29,11 @@ function enoughRelicFragments()
 	return relicCount >= relicGoal
 end
 
-function dungeonCleared(dungeonName)
-	local dungeon = Tracker:FindObjectForCode("@Dungeons/"..dungeonName.."/Complete "..dungeonName)
-	return dungeon.AvailableChestCount == 0
-end
-
-function has(item)
-    return Tracker:ProviderCountForCode(item) == 1
-end
-
-function completed(location)
-	return Tracker:FindObjectForCode('@Dungeons\\' + location + '\\Complete ' + location).ChestCount == 1
+function canAccessDarkCrater()
+	if darkraiGoal() then
+		local instrumentCount = Tracker:ProviderCountForCode("Instruments")
+		local instrumentGoal = Tracker:ProviderCountForCode("RequiredInstruments")
+		return instrumentCount >= instrumentGoal and Tracker:ProviderCountForCode("Complete Temporal Tower")
+	end
+	return Tracker:ProviderCountForCode("Dark Crater") == 1
 end

@@ -116,6 +116,15 @@
                         "igglybuff-area"
                       ]
                     }
+                  },
+                  {
+                    "title": "Shaymin Village",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "shaymin-village"
+                      ]
+                    }
                   }
                 ]
               }
@@ -158,6 +167,15 @@
                       "type": "map",
                       "maps": [
                         "town-right"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dojo",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dojo"
                       ]
                     }
                   },
