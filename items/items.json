@@ -209,5 +209,36 @@
 	  "type": "toggle",
 	  "codes": "Wonder Chest",
 	  "img": "images/items/wonder_chest.png"
+  },
+  {
+	  "name": "Ice Seal",
+	  "type": "toggle",
+	  "codes": "Ice Seal",
+	  "img": "images/items/iceseal.png"
+  },
+  {
+	  "name": "Steel Seal",
+	  "type": "toggle",
+	  "codes": "Steel Seal",
+	  "img": "images/items/steelseal.png"
+  },
+  {
+	  "name": "Rock Seal",
+	  "type": "toggle",
+	  "codes": "Rock Seal",
+	  "img": "images/items/rockseal.png"
+  },
+  {
+	  "name": "Progressive Seal",
+	  "type": "consumable",
+	  "codes": "Progressive Seal",
+      "max_quantity": 3,
+	  "img": "images/items/progressiveseal.png"
+  },
+  {
+	  "name": "Main Game",
+	  "type": "toggle",
+	  "codes": "Main Game Unlock",
+	  "img": "images/items/maingame.png"
   }
 ]

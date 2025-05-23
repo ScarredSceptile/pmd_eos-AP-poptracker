@@ -57,37 +57,37 @@
 		"name": "Foggy Forest Complete",
 		"type": "toggle",
 		"codes": "Complete Foggy Forest",
-		"img": "images/overlay/8.png"
+		"img": "images/dungeons/foggyforest.png"
 	},
 	{
 		"name": "Forest Path Complete",
 		"type": "toggle",
 		"codes": "Complete Forest Path",
-		"img": "images/overlay/9.png"
+		"img": "images/dungeons/forestpath.png"
 	},
 	{
 		"name": "Steam Cave Complete",
 		"type": "toggle",
 		"codes": "Complete Steam Cave",
-		"img": "images/overlay/10.png"
+		"img": "images/dungeons/steamcave.png"
 	},
 	{
 		"name": "Amp Plains Complete",
 		"type": "toggle",
 		"codes": "Complete Amp Plains",
-		"img": "images/overlay/11.png"
+		"img": "images/dungeons/ampplains.png"
 	},
 	{
 		"name": "Northern Desert Complete",
 		"type": "toggle",
 		"codes": "Complete Northern Desert",
-		"img": "images/overlay/12.png"
+		"img": "images/dungeons/northerndesert.png"
 	},
 	{
 		"name": "Quicksand Cave Complete",
 		"type": "toggle",
 		"codes": "Complete Quicksand Cave",
-		"img": "images/overlay/13.png"
+		"img": "images/dungeons/quicksandcave.png"
 	},
 	{
 		"name": "Crystal Cave Complete",
@@ -395,12 +395,66 @@
 		"codes": "Complete Inferno Cave",
 		"img": "images/overlay/63.png"
 	},
-	{
-		"name": "Sky Peak Complete",
-		"type": "toggle",
-		"codes": "Complete Sky Peak",
-		"img": "images/overlay/64.png"
-	},
+  {
+	  "name": "1st Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "1st Station Pass Complete",
+	  "img": "images/overlay/1.png"
+  },
+  {
+	  "name": "2nd Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "2nd Station Pass Complete",
+	  "img": "images/overlay/2.png"
+  },
+  {
+	  "name": "3rd Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "3rd Station Pass Complete",
+	  "img": "images/overlay/3.png"
+  },
+  {
+	  "name": "4th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "4th Station Pass Complete",
+	  "img": "images/overlay/4.png"
+  },
+  {
+	  "name": "5th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "5th Station Pass Complete",
+	  "img": "images/overlay/5.png"
+  },
+  {
+	  "name": "6th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "6th Station Pass Complete",
+	  "img": "images/overlay/6.png"
+  },
+  {
+	  "name": "7th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "7th Station Pass Complete",
+	  "img": "images/overlay/7.png"
+  },
+  {
+	  "name": "8th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "8th Station Pass Complete",
+	  "img": "images/overlay/8.png"
+  },
+  {
+	  "name": "9th Station Pass Complete",
+	  "type": "toggle",
+	  "codes": "9th Station Pass Complete",
+	  "img": "images/overlay/9.png"
+  },
+  {
+	  "name": "Sky Peak Summit Pass Complete",
+	  "type": "toggle",
+	  "codes": "Sky Peak Summit Pass Complete",
+	  "img": "images/overlay/10.png"
+  },
 	{
 		"name": "Star Cave Complete",
 		"type": "toggle",

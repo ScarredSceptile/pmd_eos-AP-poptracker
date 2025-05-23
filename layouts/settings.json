@@ -31,8 +31,19 @@
               ],
               [
                 "DojoDungeonsRandomization",
-                "LegendaryAmount"
-              ]
+                "LegendaryAmount",
+				"SkyPeakMode"
+              ],
+			  [
+				"DrinkEvents",
+				"SpindaDrinks"
+			  ]
+			  [
+				"ExcludeSpecial",
+				"SpecialEpisodeSanity",
+				"CursedAegisCave",
+				"LongLocations"
+			  ]
             ]
           }
         ]

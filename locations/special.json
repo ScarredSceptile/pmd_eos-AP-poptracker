@@ -3,6 +3,7 @@
 	  "name": "SpecialDungeons",
 	  "chest_unopened_img": "images/locations/available.png",
 	  "chest_opened_img": "images/locations/collected.png",
+	  "visibility_rules": ["SpecialEpisodeSanity"],
 	  "children":
 	  [
 	    {

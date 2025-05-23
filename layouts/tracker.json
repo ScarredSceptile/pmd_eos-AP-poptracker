@@ -189,11 +189,29 @@
                     }
                   },
                   {
+                    "title": "Spinda's Cafe",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "spindas"
+                      ]
+                    }
+                  },
+                  {
                     "title": "Beach",
                     "content": {
                       "type": "map",
                       "maps": [
                         "beach"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Guild B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "guild-b1"
                       ]
                     }
                   },

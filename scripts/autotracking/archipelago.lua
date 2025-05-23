@@ -243,6 +243,25 @@ function apply_slot_data(slot_data)
 	else
 		Tracker:FindObjectForCode("DojoDungeonsRandomization").AcquiredCount = 0
 	end
+	if slot_data["SkyPeakType"] then
+		Tracker:FindObjectForCode("SkyPeakMode").CurrentStage = tonumber(slot_data["SkyPeakType"])
+	end
+	if slot_data["DrinkEvents"] then
+		Tracker:FindObjectForCode("DrinkEvents").AcquiredCount = tonumber(slot_data["DrinkEvents"])
+	else
+		Tracker:FindObjectForCode("DrinkEvents").AcquiredCount = 0
+	end
+	if slot_data["SpindaDrinks"] then
+		Tracker:FindObjectForCode("SpindaDrinks").AcquiredCount = tonumber(slot_data["SpindaDrinks"])
+	else
+		Tracker:FindObjectForCode("SpindaDrinks").AcquiredCount = 0
+	end
+	if slot_data["ExcludeSpecial"] then
+		Tracker:FindObjectForCode("ExcludeSpecial").Active = tonumber(slot_data["ExcludeSpecial"]) == 1
+	end
+	if slot_data["SpecialEpisodeSanity"] then
+		Tracker:FindObjectForCode("SpecialEpisodeSanity").Active = tonumber(slot_data["SpecialEpisodeSanity"]) == 1
+	end
 end
 
 -- called right after an AP slot is connected

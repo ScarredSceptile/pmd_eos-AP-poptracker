@@ -14,11 +14,25 @@
 	  "img": "images/maps/guildmaster-room.png"
   },
   {
+	  "name": "guild-b1",
+	  "location_size": 10,
+	  "location_border_thickness": 1,
+	  "location_shape": "rect",
+	  "img": "images/maps/guild-b1.png"
+  },
+  {
 	  "name": "guild-b2",
 	  "location_size": 10,
 	  "location_border_thickness": 1,
 	  "location_shape": "rect",
 	  "img": "images/maps/guild-b2.png"
+  },
+  {
+	  "name": "spindas",
+	  "location_size": 10,
+	  "location_border_thickness": 1,
+	  "location_shape": "rect",
+	  "img": "images/maps/spindas.png"
   },
   {
 	  "name": "town-left",

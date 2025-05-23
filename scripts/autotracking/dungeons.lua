@@ -25,7 +25,7 @@ EARLY_DUNGEONS = {
 	"Brine Cave (9F)",
 	"Serenity River (8F)",
 	"Landslide Cave (13F)",
-	"Lush Prarie (6F)",
+	"Lush Prairie (6F)",
 	"Tiny Meadow (5F)",
 	"Labyrinth Cave (10F)",
 	"Oran Forest (5F)"	

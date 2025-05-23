@@ -58,37 +58,37 @@
 	  "name": "Foggy Forest",
 	  "type": "toggle",
 	  "codes": "Foggy Forest",
-	  "img": "images/overlay/8.png"
+	  "img": "images/dungeons/foggyforest.png"
   },
   {
 	  "name": "Forest Path",
 	  "type": "toggle",
 	  "codes": "Forest Path",
-	  "img": "images/overlay/9.png"
+	  "img": "images/dungeons/forestpath.png"
   },
   {
 	  "name": "Steam Cave",
 	  "type": "toggle",
 	  "codes": "Steam Cave",
-	  "img": "images/overlay/10.png"
+	  "img": "images/dungeons/steamcave.png"
   },
   {
 	  "name": "Amp Plains",
 	  "type": "toggle",
 	  "codes": "Amp Plains",
-	  "img": "images/overlay/11.png"
+	  "img": "images/dungeons/ampplains.png"
   },
   {
 	  "name": "Northern Desert",
 	  "type": "toggle",
 	  "codes": "Northern Desert",
-	  "img": "images/overlay/12.png"
+	  "img": "images/dungeons/northerndesert.png"
   },
   {
 	  "name": "Quicksand Cave",
 	  "type": "toggle",
 	  "codes": "Quicksand Cave",
-	  "img": "images/overlay/13.png"
+	  "img": "images/dungeons/quicksandcave.png"
   },
   {
 	  "name": "Crystal Cave",
@@ -178,6 +178,12 @@
 	  "name": "Miracle Sea",
 	  "type": "toggle",
 	  "codes": "Miracle Sea",
+	  "img": "images/overlay/28.png"
+  },
+  {
+	  "name": "Aegis Cave",
+	  "type": "toggle",
+	  "codes": "Aegis Cave",
 	  "img": "images/overlay/28.png"
   },
   {
@@ -394,6 +400,73 @@
 	  "name": "1st Station Pass",
 	  "type": "toggle",
 	  "codes": "1st Station Pass",
+	  "img": "images/overlay/1.png"
+  },
+  {
+	  "name": "2nd Station Pass",
+	  "type": "toggle",
+	  "codes": "2nd Station Pass",
+	  "img": "images/overlay/2.png"
+  },
+  {
+	  "name": "3rd Station Pass",
+	  "type": "toggle",
+	  "codes": "3rd Station Pass",
+	  "img": "images/overlay/3.png"
+  },
+  {
+	  "name": "4th Station Pass",
+	  "type": "toggle",
+	  "codes": "4th Station Pass",
+	  "img": "images/overlay/4.png"
+  },
+  {
+	  "name": "5th Station Pass",
+	  "type": "toggle",
+	  "codes": "5th Station Pass",
+	  "img": "images/overlay/5.png"
+  },
+  {
+	  "name": "6th Station Pass",
+	  "type": "toggle",
+	  "codes": "6th Station Pass",
+	  "img": "images/overlay/6.png"
+  },
+  {
+	  "name": "7th Station Pass",
+	  "type": "toggle",
+	  "codes": "7th Station Pass",
+	  "img": "images/overlay/7.png"
+  },
+  {
+	  "name": "8th Station Pass",
+	  "type": "toggle",
+	  "codes": "8th Station Pass",
+	  "img": "images/overlay/8.png"
+  },
+  {
+	  "name": "9th Station Pass",
+	  "type": "toggle",
+	  "codes": "9th Station Pass",
+	  "img": "images/overlay/9.png"
+  },
+  {
+	  "name": "Sky Peak Summit Pass",
+	  "type": "toggle",
+	  "codes": "Sky Peak Summit Pass",
+	  "img": "images/overlay/10.png"
+  },
+  {
+	  "name": "Sky Peak",
+	  "type": "toggle",
+	  "codes": "Sky Peak",
+	  "img": "images/overlay/64.png"
+  },
+  {
+	  "name": "Progressive Sky Peak",
+	  "type": "consumable",
+	  "codes": "Progressive Sky Peak",
+      "max_quantity": 10,
 	  "img": "images/overlay/64.png"
   },
   {
