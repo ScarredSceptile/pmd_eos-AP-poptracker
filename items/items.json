@@ -239,6 +239,7 @@
 	  "name": "Main Game",
 	  "type": "toggle",
 	  "codes": "Main Game Unlock",
-	  "img": "images/items/maingame.png"
+	  "img": "images/items/maingame.png",
+	  "initial_active_state": true
   }
 ]

@@ -40,10 +40,10 @@ end
 
 function canAccessSkyPeak(passNum)
 	local pass = tonumber(passNum)
-	if Tracker:ProviderCountForCode("SkyPeakMode") == 0 then
-		return Tracker:ProviderCountForCode("Progressive Sky Peak") >= pass
+	if Tracker:ProviderCountForCode("UnlockAllSkyPeakMode") == 1 then
+		return Tracker:ProviderCountForCode("Sky Peak")
 	end
-	if Tracker:ProviderCountForCode("SkyPeakMode") == 1 then
+	if Tracker:ProviderCountForCode("AllRandomSkyPeakMode") == 1 then
 		if pass == 1 then
 			return Tracker:ProviderCountForCode("1st Station Pass")
 		end
@@ -75,13 +75,17 @@ function canAccessSkyPeak(passNum)
 			return Tracker:ProviderCountForCode("Sky Peak Summit Pass")
 		end
 	end
-	return Tracker:ProviderCountForCode("Sky Peak")
+	return Tracker:ProviderCountForCode("Progressive Sky Peak") >= pass
 end
 
 function aegisAccess(sealNum)
 	local seal = tonumber(sealNum)
-	if Tracker:ProviderCoundForCode("CursedAegisCave") == 1 then
+	if Tracker:ProviderCountForCode("CursedAegisCave") == 1 then
 		return Tracker:ProviderCountForCode("Progressive Seal") >= seal
 	end
 	return true
+end
+
+function specialEpisodeAccess()
+	return Tracker:ProviderCountForCode("ExcludeSpecial") == 0
 end

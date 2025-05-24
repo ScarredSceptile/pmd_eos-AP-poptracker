@@ -1,0 +1,63 @@
+{
+  "dungeons_complete": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "group",
+        "header": "Dungeons",
+        "orientation": "horizontal",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "10, 10",
+          "h_alignment": "center",
+          "rows": [
+            [
+              "Complete Beach Cave",
+              "Complete Drenched Bluff",
+              "Complete Mt. Bristle",
+              "Complete Waterfall Cave",
+              "Complete Apple Woods",
+              "Complete Craggy Coast",
+              "Complete Side Path"
+            ],
+            [
+              "Complete Mt. Horn",
+              "Complete Rock Path",
+              "Complete Foggy Forest",
+              "Complete Forest Path",
+              "Complete Steam Cave",
+              "Complete Amp Plains"
+            ],
+            [
+              "Complete Northern Desert",
+              "Complete Quicksand Cave",
+              "Complete Crystal Cave",
+              "Complete Crystal Crossing",
+              "Complete Chasm Cave",
+              "Complete Dark Hill"
+            ],
+            [
+              "Complete Sealed Ruin",
+              "Complete Dusk Forest",
+              "Complete Deep Dusk Forest",
+              "Complete Treeshroud Forest",
+              "Complete Brine Cave",
+              "Complete Temporal Tower"
+            ],
+            [
+              "Complete Serenity River",
+              "Complete Landslide Cave",
+              "Complete Lush Prairie",
+              "Complete Tiny Meadow",
+              "Complete Labyrinth Cave",
+              "Complete Oran Forest"
+            ]
+          ]
+        }
+      }
+    ]
+
+  }
+}

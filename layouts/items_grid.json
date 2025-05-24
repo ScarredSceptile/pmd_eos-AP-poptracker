@@ -1,0 +1,45 @@
+{
+  "item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Items",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": {
+              "type": "layout",
+              "key": "items"
+            }
+          },
+          {
+
+            "title": "Dungeons",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": {
+              "type": "layout",
+              "key": "dungeons"
+            }
+          },
+          {
+            "title": "Completetions",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": {
+              "type": "layout",
+              "key": "dungeons_complete"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

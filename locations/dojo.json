@@ -1,69 +1,118 @@
 [
   {
-	  "name": "DojoDungeons",
-	  "chest_unopened_img": "images/locations/available.png",
-	  "chest_opened_img": "images/locations/collected.png",
-	  "children":
-	  [
-	    {
-			"name": "Dojo",
-			"sections":
-			[
-			  {
-				  "name": "Complete Normal&Fly Maze",
-				  "access_rules": ["Dojo Normal&Fly Maze"],
-			  },
-			  {
-				  "name": "Complete Dark&Fire Maze",
-				  "access_rules": ["Dojo Dark&Fire Maze"],
-			  },
-			  {
-				  "name": "Complete Rock&Water Maze",
-				  "access_rules": ["Dojo Rock&Water Maze"],
-			  },
-			  {
-				  "name": "Complete Grass Maze",
-				  "access_rules": ["Dojo Grass Maze"],
-			  },
-			  {
-				  "name": "Complete Elec&Steel Maze",
-				  "access_rules": ["Dojo Elec&Steel Maze"],
-			  },
-			  {
-				  "name": "Complete Ice&Ground Maze",
-				  "access_rules": ["Dojo Ice&Ground Maze"],
-			  },
-			  {
-				  "name": "Complete Fight&Psych Maze",
-				  "access_rules": ["Dojo Fight&Psych Maze"],
-			  },
-			  {
-				  "name": "Complete Poison&Bug Maze",
-				  "access_rules": ["Dojo Poison&Bug Maze"],
-			  },
-			  {
-				  "name": "Complete Dragon Maze",
-				  "access_rules": ["Dojo Dragon Maze"],
-			  },
-			  {
-				  "name": "Complete Ghost Maze",
-				  "access_rules": ["Dojo Ghost Maze"],
-			  },
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "town-right",
-				  "x": 496,
-				  "y": 335
-			  },
-			  {
-				  "map": "dojo",
-				  "x": 300,
-				  "y": 130
-			  }
-			]
-		}
-	  ]
+    "name": "DojoDungeons",
+    "chest_unopened_img": "images/locations/available.png",
+    "chest_opened_img": "images/locations/collected.png",
+    "children": [
+      {
+        "name": "Dojo",
+        "sections": [
+          {
+            "name": "Complete Normal&Fly Maze",
+            "access_rules": [ "Dojo Normal&Fly Maze" ]
+          },
+          {
+            "name": "Complete Dark&Fire Maze",
+            "access_rules": [ "Dojo Dark&Fire Maze" ]
+          },
+          {
+            "name": "Complete Rock&Water Maze",
+            "access_rules": [ "Dojo Rock&Water Maze" ]
+          },
+          {
+            "name": "Complete Grass Maze",
+            "access_rules": [ "Dojo Grass Maze" ]
+          },
+          {
+            "name": "Complete Elec&Steel Maze",
+            "access_rules": [ "Dojo Elec&Steel Maze" ]
+          },
+          {
+            "name": "Complete Ice&Ground Maze",
+            "access_rules": [ "Dojo Ice&Ground Maze" ]
+          },
+          {
+            "name": "Complete Fight&Psych Maze",
+            "access_rules": [ "Dojo Fight&Psych Maze" ]
+          },
+          {
+            "name": "Complete Poison&Bug Maze",
+            "access_rules": [ "Dojo Poison&Bug Maze" ]
+          },
+          {
+            "name": "Complete Dragon Maze",
+            "access_rules": [ "Dojo Dragon Maze" ]
+          },
+          {
+            "name": "Complete Ghost Maze",
+            "access_rules": [ "Dojo Ghost Maze" ]
+          },
+        ],
+        "map_locations": [
+          {
+            "map": "town-right",
+            "x": 500,
+            "y": 335
+          },
+          {
+            "map": "dojo",
+            "x": 300,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "Marowak",
+
+        "sections": [
+          {
+            "name": "Clear All Marowak Mazes",
+            "access_rules": [ "Dojo Normal&Fly Maze, Dojo Dark&Fire Maze, Dojo Rock&Water Maze, Dojo Grass Maze, Dojo Elec&Steel Maze, Dojo Ice&Ground Maze, Dojo Fight&Psych Maze, Dojo Poison&Bug Maze, Dojo Dragon Maze, Dojo Ghost Maze" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "chest_unopened_img": "images/locations/marowak.png",
+            "chest_opened_img": "images/locations/marowak-gray.png"
+          },
+          {
+            "name": "Bidoof's Wish: Marowak Dojo's Revival",
+            "access_rules": [ "Bidoof SE" ],
+            "visibility_rules": [ "$specialEpisodeAccess" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town-right",
+            "x": 495,
+            "y": 348
+          },
+          {
+            "map": "dojo",
+            "x": 250,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Final Maze",
+        "access_rules": [ "Dojo Normal&Fly Maze, Dojo Dark&Fire Maze, Dojo Rock&Water Maze, Dojo Grass Maze, Dojo Elec&Steel Maze, Dojo Ice&Ground Maze, Dojo Fight&Psych Maze, Dojo Poison&Bug Maze, Dojo Dragon Maze, Dojo Ghost Maze" ],
+        "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+        "sections": [
+          {
+            "name": "Grandpa's Treasure"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town-right",
+            "x": 490,
+            "y": 335
+          },
+          {
+            "map": "dojo",
+            "x": 205,
+            "y": 130
+          }
+        ]
+      }
+    ]
   }
 ]

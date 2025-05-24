@@ -1,0 +1,273 @@
+{
+  "dungeons": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "group",
+        "header": "Dungeons",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "Beach Cave",
+                "Drenched Bluff",
+                "Mt. Bristle",
+                "Waterfall Cave",
+                "Apple Woods",
+                "Craggy Coast",
+                "Side Path",
+                "Mt. Horn",
+                "Rock Path",
+                "Foggy Forest",
+                "Forest Path",
+                "Steam Cave",
+                "Amp Plains",
+                "Northern Desert"
+              ],
+              [
+                "Quicksand Cave",
+                "Crystal Cave",
+                "Crystal Crossing",
+                "Chasm Cave",
+                "Dark Hill",
+                "Sealed Ruin",
+                "Dusk Forest",
+                "Deep Dusk Forest",
+                "Treeshroud Forest",
+                "Brine Cave",
+                "Temporal Tower",
+                "Mystifying Forest",
+                "Blizzard Island",
+                "Crevice Cave"
+              ],
+              [
+                "Surrounded Sea",
+                "Miracle Sea",
+                "Mt. Travail",
+                "The Nightmare",
+                "Spacial Rift",
+                "Dark Crater",
+                "Concealed Ruins",
+                "Marine Resort",
+                "Bottomless Sea",
+                "Shimmer Desert",
+                "Mt. Avalanche",
+                "Giant Volcano",
+                "World Abyss",
+                "Sky Stairway"
+              ],
+              [
+                "Mystery Jungle",
+                "Serenity River",
+                "Landslide Cave",
+                "Lush Prairie",
+                "Tiny Meadow",
+                "Labyrinth Cave",
+                "Oran Forest",
+                "Lake Afar",
+                "Happy Outlook",
+                "Mt. Mistral",
+                "Shimmer Hill",
+                "Lost Wilderness",
+                "Midnight Forest",
+                "Progressive Sky Peak",
+                "Star Cave"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Dojos",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,24",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Normal&Fly",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,17",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Dark&Fire",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,22",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Rock&Water",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,17",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Grass",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,22",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Elec&Steel",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "item_margin": "10, 10",
+                    "h_alignment": "left",
+                    "rows": [
+                      [ "Dojo Normal&Fly Maze" ],
+                      [ "Dojo Dark&Fire Maze" ],
+                      [ "Dojo Rock&Water Maze" ],
+                      [ "Dojo Grass Maze" ],
+                      [ "Dojo Elec&Steel Maze" ]
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,24",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Ice&Ground",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,17",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Fight&Psych",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,22",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Poison&Bug",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,17",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Dragon",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,22",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Ghost",
+                        "h_alignment": "right"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "item_margin": "10, 10",
+                    "h_alignment": "center",
+                    "rows": [
+                      [ "Dojo Ice&Ground Maze" ],
+                      [ "Dojo Fight&Psych Maze" ],
+                      [ "Dojo Poison&Bug Maze" ],
+                      [ "Dojo Dragon Maze" ],
+                      [ "Dojo Ghost Maze" ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

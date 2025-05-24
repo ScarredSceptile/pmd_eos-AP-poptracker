@@ -1,325 +1,507 @@
 [
   {
-	  "name": "Town",
-	  "chest_unopened_img": "images/locations/available.png",
-	  "chest_opened_img": "images/locations/collected.png",
-	  "children":
-	  [
-	    {
-			"name": "Guildmasters Chamber",
-			"sections":
-			[
-			  {
-				  "name": "Progressive Bag loc 1",
-				  "access_rules": ["Complete Beach Cave"],
-			  },
-			  {
-				  "name": "Team Name",
-				  "access_rules": ["Complete Beach Cave"],
-			  },
-			  {
-				  "name": "Igglybuff SE Location",
-				  "chest_unopened_img": "images/locations/igglybuff.png",
-				  "chest_opened_img": "images/locations/igglybuff-gray.png",
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "guildmaster_chambers",
-				  "x": 204,
-				  "y": 190
-			  }
-			]
-		},{
-			"name": "Bidoofs Room",
-			"sections":
-			[
-			  {
-				  "name": "Bidoof SE Location",
-				  "chest_unopened_img": "images/locations/bidoof.png",
-				  "chest_opened_img": "images/locations/bidoof-gray.png",
-			  },
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "bidoof-room",
-				  "x": 215,
-				  "y": 239
-			  }
-			]
-		},{
-			"name": "Sunfloras Room",
-			"sections":
-			[
-			  {
-				  "name": "Sunflora SE Location",
-				  "chest_unopened_img": "images/locations/sunflora.png",
-				  "chest_opened_img": "images/locations/sunflora-gray.png",
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "sunflora-room",
-				  "x": 260,
-				  "y": 130
-			  }
-			]
-		},
-		{
-			"name": "Guild B2",
-			"sections":
-			[
-			  {
-				  "name": "Team Charm SE Location",
-				  "chest_unopened_img": "images/locations/team-charm.png",
-				  "chest_opened_img": "images/locations/team-charm-gray.png",
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "guild-b2",
-				  "x": 470,
-				  "y": 210
-			  }
-			]
-		},
-		{
-			"name": "Shop",
-			"sections":
-			[
-			  {
-				  "name": "Shop Item 1"
-			  },
-			  {
-				  "name": "Shop Item 2"
-			  },
-			  {
-				  "name": "Shop Item 3"
-			  },
-			  {
-				  "name": "Shop Item 4"
-			  },
-			  {
-				  "name": "Shop Item 5"
-			  },
-			  {
-				  "name": "Shop Item 6"
-			  },
-			  {
-				  "name": "Shop Item 7"
-			  },
-			  {
-				  "name": "Shop Item 8"
-			  },
-			  {
-				  "name": "Shop Item 9"
-			  },
-			  {
-				  "name": "Shop Item 10"
-			  },
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "town-left",
-				  "x": 335,
-				  "y": 160
-			  }
-			]
-		},
-		{
-			"name": "Home Base Manaphy",
-			"access_rules": ["Complete Surrounded Sea"],
-			"sections":
-			[
-			  {
-				  "name": "Manaphy Egg Hatch",
-				  "chest_unopened_img": "images/locations/manaphy_egg.png",
-				  "chest_opened_img": "images/locations/manaphy_egg-gray.png",
-			  },
-			  {
-				  "name": "Manaphy Fed",
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
-			  },
-			  {
-				  "name": "Manaphy Healed",
-				  "access_rules": ["Complete Miracle Sea"],
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
-			  },
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "team-base",
-				  "x": 310,
-				  "y": 180
-			  }
-			]
-		},
-		{
-			"name": "Sharpedo Bluff Manaphy",
-			"sections":
-			[
-			  {
-				  "name": "Manaphy Join Team",
-				  "access_rules": ["Complete Surrounded Sea, Complete Miracle Sea,Complete Temporal Tower"],
-				  "visibility_rules": ["$darkraiGoal"],
-				  "chest_unopened_img": "images/locations/legendaries/manaphy.png",
-				  "chest_opened_img": "images/locations/legendaries/manaphy-gray.png",
-			  },
-			  {
-				  "name": "Manaphy Leads To Marine Resort",
-				  "access_rules": ["Manaphy"],
-				  "chest_unopened_img": "images/locations/manaphy.png",
-				  "chest_opened_img": "images/locations/manaphy-gray.png",
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "sharpedo-bluff",
-				  "x": 350,
-				  "y": 190
-			  }
-			]
-		},
-		{
-			"name": "Sharpedo Bluff Cresselia",
-			"access_rules": ["Complete Temporal Tower"],
-			"visibility_rules": ["$darkraiGoal"],
-			"sections":
-			[
-			  {
-				  "name": "Recruit Cresselia",
-				  "chest_unopened_img": "images/locations/legendaries/cresselia.png",
-				  "chest_opened_img": "images/locations/legendaries/cresselia-gray.png",
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "sharpedo-bluff",
-				  "x": 175,
-				  "y": 130
-			  }
-			]
-		},
-	    {
-			"name": "Town",
-			"sections":
-			[
-			  {
-				  "ref": "Town/Guildmasters Chamber/Progressive Bag loc 1"
-			  },
-			  {
-				  "ref": "Town/Guildmasters Chamber/Team Name"
-			  },
-			  {
-				  "ref": "Town/Guildmasters Chamber/Igglybuff SE Location"
-			  },
-			  {
-				  "ref": "Town/Guild B2/Team Charm SE Location"
-			  },
-			  {
-				  "ref": "Town/Bidoofs Room/Bidoof SE Location"
-			  },
-			  {
-				  "ref": "Town/Sunfloras Room/Sunflora SE Location"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 1"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 2"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 3"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 4"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 5"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 6"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 7"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 8"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 9"
-			  },
-			  {
-				  "ref": "Town/Shop/Shop Item 10"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Normal&Fly Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Dark&Fire Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Rock&Water Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Grass Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Elec&Steel Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Ice&Ground Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Fight&Psych Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Poison&Bug Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Dragon Maze"
-			  },
-			  {
-                  "ref": "DojoDungeons/Dojo/Complete Ghost Maze"
-			  },
-			  {
-				  "ref": "Town/Home Base Manaphy/Manaphy Egg Hatch"
-			  },
-			  {
-				  "ref": "Town/Home Base Manaphy/Manaphy Fed"
-			  },
-			  {
-				  "ref": "Town/Home Base Manaphy/Manaphy Healed"
-			  },
-			  {
-				  "ref": "Town/Sharpedo Bluff Manaphy/Manaphy Join Team"
-			  },
-			  {
-				  "ref": "Town/Sharpedo Bluff Manaphy/Manaphy Leads To Marine Resort"
-			  },
-			  {
-				  "ref": "Town/Sharpedo Bluff Cresselia/Recruit Cresselia"
-			  }
-			],
-			"map_locations":
-			[
-			  {
-				  "map": "overworld",
-				  "x": 200,
-				  "y": 176
-			  }
-			]
-		}
-	  ]
+    "name": "Town",
+    "chest_unopened_img": "images/locations/available.png",
+    "chest_opened_img": "images/locations/collected.png",
+    "children": [
+      {
+        "name": "Guildmasters Chamber",
+        "sections": [
+          {
+            "name": "Progressive Bag loc 1",
+            "access_rules": [ "Complete Beach Cave" ]
+          },
+          {
+            "name": "Team Name",
+            "access_rules": [ "Complete Beach Cave" ]
+          },
+          {
+            "name": "Igglybuff SE Location",
+            "chest_unopened_img": "images/locations/igglybuff.png",
+            "chest_opened_img": "images/locations/igglybuff-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "guildmaster_chambers",
+            "x": 204,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Bidoofs Room",
+        "sections": [
+          {
+            "name": "Bidoof SE Location",
+            "chest_unopened_img": "images/locations/bidoof.png",
+            "chest_opened_img": "images/locations/bidoof-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bidoof-room",
+            "x": 215,
+            "y": 239
+          }
+        ]
+      },
+      {
+        "name": "Sunfloras Room",
+        "sections": [
+          {
+            "name": "Sunflora SE Location",
+            "chest_unopened_img": "images/locations/sunflora.png",
+            "chest_opened_img": "images/locations/sunflora-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sunflora-room",
+            "x": 260,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "Guild B1",
+        "sections": [
+          {
+            "name": "Bronze Rank",
+            "chest_unopened_img": "images/locations/ranks/bronze.png",
+            "chest_opened_img": "images/locations/ranks/bronze-gray.png"
+          },
+          {
+            "name": "Silver Rank",
+            "chest_unopened_img": "images/locations/ranks/silver.png",
+            "chest_opened_img": "images/locations/ranks/silver-gray.png"
+          },
+          {
+            "name": "Gold Rank",
+            "chest_unopened_img": "images/locations/ranks/gold.png",
+            "chest_opened_img": "images/locations/ranks/gold-gray.png"
+          },
+          {
+            "name": "Diamond Rank",
+            "chest_unopened_img": "images/locations/ranks/diamond.png",
+            "chest_opened_img": "images/locations/ranks/diamond-gray.png"
+          },
+          {
+            "name": "Super Rank",
+            "chest_unopened_img": "images/locations/ranks/super.png",
+            "chest_opened_img": "images/locations/ranks/super-gray.png"
+          },
+          {
+            "name": "Ultra Rank",
+            "chest_unopened_img": "images/locations/ranks/ultra.png",
+            "chest_opened_img": "images/locations/ranks/ultra-gray.png"
+          },
+          {
+            "name": "Hyper Rank",
+            "chest_unopened_img": "images/locations/ranks/hyper.png",
+            "chest_opened_img": "images/locations/ranks/hyper-gray.png"
+          },
+          {
+            "name": "Master Rank",
+            "chest_unopened_img": "images/locations/ranks/master.png",
+            "chest_opened_img": "images/locations/ranks/master-gray.png"
+          },
+          {
+            "name": "Master ★ Rank",
+            "access_rules": [ "Secret Rank" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "chest_unopened_img": "images/locations/ranks/master★.png",
+            "chest_opened_img": "images/locations/ranks/master★-gray.png"
+          },
+          {
+            "name": "Master ★★ Rank",
+            "access_rules": [ "Secret Rank" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "chest_unopened_img": "images/locations/ranks/master★★.png",
+            "chest_opened_img": "images/locations/ranks/master★★-gray.png"
+          },
+          {
+            "name": "Master ★★★ Rank",
+            "access_rules": [ "Secret Rank" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "chest_unopened_img": "images/locations/ranks/master★★★.png",
+            "chest_opened_img": "images/locations/ranks/master★★★-gray.png"
+          },
+          {
+            "name": "Guildmaster Rank",
+            "access_rules": [ "Secret Rank" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "chest_unopened_img": "images/locations/ranks/guildmaster.png",
+            "chest_opened_img": "images/locations/ranks/guildmaster-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "guild-b1",
+            "x": 445,
+            "y": 170
+          },
+          {
+            "map": "guild-b1",
+            "x": 252,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Guild B2",
+        "sections": [
+          {
+            "name": "Team Charm SE Location",
+            "chest_unopened_img": "images/locations/team-charm.png",
+            "chest_opened_img": "images/locations/team-charm-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "guild-b2",
+            "x": 470,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Shop",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          },
+          {
+            "name": "Shop Item 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town-left",
+            "x": 335,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Bank",
+        "sections": [
+          {
+            "name": "Duskull 100G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 5000G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 10000G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 20000G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 50000G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 100000G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          },
+          {
+            "name": "Duskull 9999999G Reward",
+            "chest_unopened_img": "images/locations/duskull.png",
+            "chest_opened_img": "images/locations/duskull-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town-right",
+            "x": 517,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Home Base Manaphy",
+        "access_rules": [ "Complete Surrounded Sea" ],
+        "visibility_rules": [ "$darkraiGoal" ],
+        "sections": [
+          {
+            "name": "Manaphy Egg Hatch",
+            "chest_unopened_img": "images/locations/manaphy_egg.png",
+            "chest_opened_img": "images/locations/manaphy_egg-gray.png"
+          },
+          {
+            "name": "Manaphy Fed",
+            "chest_unopened_img": "images/locations/manaphy.png",
+            "chest_opened_img": "images/locations/manaphy-gray.png"
+          },
+          {
+            "name": "Manaphy Healed",
+            "access_rules": [ "Complete Miracle Sea" ],
+            "chest_unopened_img": "images/locations/manaphy.png",
+            "chest_opened_img": "images/locations/manaphy-gray.png"
+          },
+        ],
+        "map_locations": [
+          {
+            "map": "team-base",
+            "x": 310,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Sharpedo Bluff Manaphy",
+        "visibility_rules": [ "$darkraiGoal" ],
+        "sections": [
+          {
+            "name": "Manaphy Join Team",
+            "access_rules": [ "Complete Surrounded Sea, Complete Miracle Sea,Complete Temporal Tower" ],
+            "chest_unopened_img": "images/locations/legendaries/manaphy.png",
+            "chest_opened_img": "images/locations/legendaries/manaphy-gray.png"
+          },
+          {
+            "name": "Manaphy Leads To Marine Resort",
+            "access_rules": [ "Manaphy" ],
+            "chest_unopened_img": "images/locations/manaphy.png",
+            "chest_opened_img": "images/locations/manaphy-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sharpedo-bluff",
+            "x": 350,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Sharpedo Bluff Cresselia",
+        "access_rules": [ "Complete Temporal Tower" ],
+        "visibility_rules": [ "$darkraiGoal" ],
+        "sections": [
+          {
+            "name": "Recruit Cresselia",
+            "chest_unopened_img": "images/locations/legendaries/cresselia.png",
+            "chest_opened_img": "images/locations/legendaries/cresselia-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sharpedo-bluff",
+            "x": 175,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "Town",
+        "sections": [
+          {
+            "ref": "Town/Guildmasters Chamber/Progressive Bag loc 1"
+          },
+          {
+            "ref": "Town/Guildmasters Chamber/Team Name"
+          },
+          {
+            "ref": "Town/Guildmasters Chamber/Igglybuff SE Location"
+          },
+          {
+            "ref": "Town/Guild B2/Team Charm SE Location"
+          },
+          {
+            "ref": "Town/Bidoofs Room/Bidoof SE Location"
+          },
+          {
+            "ref": "Town/Sunfloras Room/Sunflora SE Location"
+          },
+          {
+            "ref": "Town/Guild B1/Bronze Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Silver Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Gold Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Diamond Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Super Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Ultra Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Hyper Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Master Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Master ★ Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Master ★★ Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Master ★★★ Rank"
+          },
+          {
+            "ref": "Town/Guild B1/Guildmaster Rank"
+          },
+          {
+            "ref": "Town/Bank/Duskull 100G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 5000G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 10000G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 20000G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 50000G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 100000G Reward"
+          },
+          {
+            "ref": "Town/Bank/Duskull 9999999G Reward"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 1"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 2"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 3"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 4"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 5"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 6"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 7"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 8"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 9"
+          },
+          {
+            "ref": "Town/Shop/Shop Item 10"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Normal&Fly Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Dark&Fire Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Rock&Water Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Grass Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Elec&Steel Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Ice&Ground Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Fight&Psych Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Poison&Bug Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Dragon Maze"
+          },
+          {
+            "ref": "DojoDungeons/Dojo/Complete Ghost Maze"
+          },
+          {
+            "ref": "DojoDungeons/Marowak/Clear All Marowak Mazes"
+          },
+          {
+            "ref": "DojoDungeons/Marowak/Bidoof's Wish: Marowak Dojo's Revival"
+          },
+          {
+            "ref": "DojoDungeons/Final Maze/Grandpa's Treasure"
+          },
+          {
+            "ref": "Town/Home Base Manaphy/Manaphy Egg Hatch"
+          },
+          {
+            "ref": "Town/Home Base Manaphy/Manaphy Fed"
+          },
+          {
+            "ref": "Town/Home Base Manaphy/Manaphy Healed"
+          },
+          {
+            "ref": "Town/Sharpedo Bluff Manaphy/Manaphy Join Team"
+          },
+          {
+            "ref": "Town/Sharpedo Bluff Manaphy/Manaphy Leads To Marine Resort"
+          },
+          {
+            "ref": "Town/Sharpedo Bluff Cresselia/Recruit Cresselia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 200,
+            "y": 176
+          }
+        ]
+      }
+    ]
   }
 ]
