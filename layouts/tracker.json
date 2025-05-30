@@ -17,14 +17,8 @@
           ]
         },
         {
-          "type": "dock",
-          "dock": "top",
-          "content": [
-            {
               "type": "layout",
               "key": "maps_grid"
-            }
-          ]
         }
       ]
     }

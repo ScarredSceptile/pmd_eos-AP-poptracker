@@ -93,6 +93,7 @@ ITEM_MAPPING = {
 	[187] = {{"Dojo Poison&Bug Maze"}, {"toggle"}},
 	[188] = {{"Dojo Dragon Maze"}, {"toggle"}},
 	[189] = {{"Dojo Ghost Maze"}, {"toggle"}},
+	[191] = {{"Dojo Final Maze"}, {"toggle"}},
 	[200] = {{"RelicFragmentCount"}, {"consumable"}},
 	[201] = {{"Progressive Sky Peak"}, {"consumable"}},
 	[203] = {{"Ice Seal"}, {"toggle"}},
