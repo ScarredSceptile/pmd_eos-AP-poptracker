@@ -216,5 +216,80 @@
 	  "type": "toggle",
 	  "codes": "LongLocations",
 	  "img": "images/settings/longlocations.png"
+  },
+  {
+	  "name": "Max Rank",
+	  "type": "progressive",
+	  "loop": true,
+	  "allow_disabled": false,
+	  "initial_stage_idx": 0,
+	  "codes": "MaxRank",
+	  "stages": [
+		{
+		  "img": "images/settings/bronze-gray.png",
+		  "codes": "MaxRank,NoRanks",
+		  "name": "Max Rank - Disabled"
+		},
+		{
+		  "img": "images/settings/bronze.png",
+		  "codes": "MaxRank,BronzeRank",
+		  "name": "Max Rank - Bronze"
+		},
+		{
+		  "img": "images/settings/silver.png",
+		  "codes": "MaxRank,SilverRank",
+		  "name": "Max Rank - Silver"
+		},
+		{
+		  "img": "images/settings/gold.png",
+		  "codes": "MaxRank,GoldRank",
+		  "name": "Max Rank - Gold"
+		},
+		{
+		  "img": "images/settings/diamond.png",
+		  "codes": "MaxRank,DiamondRank",
+		  "name": "Max Rank - Diamond"
+		},
+		{
+		  "img": "images/settings/super.png",
+		  "codes": "MaxRank,SuperRank",
+		  "name": "Max Rank - Super"
+		},
+		{
+		  "img": "images/settings/ultra.png",
+		  "codes": "MaxRank,UltraRank",
+		  "name": "Max Rank - Ultra"
+		},
+		{
+		  "img": "images/settings/hyper.png",
+		  "codes": "MaxRank,HyperRank",
+		  "name": "Max Rank - Hyper"
+		},
+		{
+		  "img": "images/settings/master.png",
+		  "codes": "MaxRank,MasterRank",
+		  "name": "Max Rank - Master"
+		},
+		{
+		  "img": "images/settings/master★.png",
+		  "codes": "MaxRank,Master★Rank",
+		  "name": "Max Rank - Master★"
+		},
+		{
+		  "img": "images/settings/master★★.png",
+		  "codes": "MaxRank,Master★★Rank",
+		  "name": "Max Rank - Master★★"
+		},
+		{
+		  "img": "images/settings/master★★★.png",
+		  "codes": "MaxRank,Master★★★Rank",
+		  "name": "Max Rank - Master★★★"
+		},
+		{
+		  "img": "images/settings/guildmaster.png",
+		  "codes": "MaxRank,GuildmasterRank",
+		  "name": "Max Rank - Guildmaster"
+		}
+	  ]
   }
 ]

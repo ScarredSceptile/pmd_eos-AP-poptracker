@@ -262,6 +262,9 @@ function apply_slot_data(slot_data)
 	if slot_data["SpecialEpisodeSanity"] then
 		Tracker:FindObjectForCode("SpecialEpisodeSanity").Active = tonumber(slot_data["SpecialEpisodeSanity"]) == 1
 	end
+	if slot_data["MaxRank"]
+		Tracker:FindObjectForCode("MaxRank").CurrentStage = tonumber(slot_data["MaxRank"])
+	end
 end
 
 -- called right after an AP slot is connected

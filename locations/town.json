@@ -68,69 +68,77 @@
         "sections": [
           {
             "name": "Bronze Rank",
+            "visibility_rules": [ "BronzeRank" ],
             "chest_unopened_img": "images/locations/ranks/bronze.png",
             "chest_opened_img": "images/locations/ranks/bronze-gray.png"
           },
           {
             "name": "Silver Rank",
+            "visibility_rules": [ "SilverRank" ],
             "chest_unopened_img": "images/locations/ranks/silver.png",
             "chest_opened_img": "images/locations/ranks/silver-gray.png"
           },
           {
             "name": "Gold Rank",
+            "visibility_rules": [ "GoldRank" ],
             "chest_unopened_img": "images/locations/ranks/gold.png",
             "chest_opened_img": "images/locations/ranks/gold-gray.png"
           },
           {
             "name": "Diamond Rank",
+            "visibility_rules": [ "DiamondRank" ],
             "chest_unopened_img": "images/locations/ranks/diamond.png",
             "chest_opened_img": "images/locations/ranks/diamond-gray.png"
           },
           {
             "name": "Super Rank",
+            "visibility_rules": [ "SuperRank" ],
             "chest_unopened_img": "images/locations/ranks/super.png",
             "chest_opened_img": "images/locations/ranks/super-gray.png"
           },
           {
             "name": "Ultra Rank",
+            "visibility_rules": [ "UltraRank" ],
             "chest_unopened_img": "images/locations/ranks/ultra.png",
             "chest_opened_img": "images/locations/ranks/ultra-gray.png"
           },
           {
             "name": "Hyper Rank",
+            "visibility_rules": [ "HyperRank" ],
             "chest_unopened_img": "images/locations/ranks/hyper.png",
             "chest_opened_img": "images/locations/ranks/hyper-gray.png"
           },
           {
             "name": "Master Rank",
+            "visibility_rules": [ "MasterRank" ],
             "chest_unopened_img": "images/locations/ranks/master.png",
             "chest_opened_img": "images/locations/ranks/master-gray.png"
           },
           {
             "name": "Master ★ Rank",
             "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★.png",
             "chest_opened_img": "images/locations/ranks/master★-gray.png"
           },
           {
             "name": "Master ★★ Rank",
             "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★★.png",
             "chest_opened_img": "images/locations/ranks/master★★-gray.png"
           },
           {
             "name": "Master ★★★ Rank",
             "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★★★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★★★.png",
             "chest_opened_img": "images/locations/ranks/master★★★-gray.png"
           },
           {
             "name": "Guildmaster Rank",
             "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
+            "visibility_rules": [ "$darkraiGoal, LongLocations, GuildmasterRank" ],
             "chest_unopened_img": "images/locations/ranks/guildmaster.png",
             "chest_opened_img": "images/locations/ranks/guildmaster-gray.png"
           }
@@ -233,17 +241,20 @@
           {
             "name": "Duskull 50000G Reward",
             "chest_unopened_img": "images/locations/duskull.png",
-            "chest_opened_img": "images/locations/duskull-gray.png"
+            "chest_opened_img": "images/locations/duskull-gray.png",
+			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 100000G Reward",
             "chest_unopened_img": "images/locations/duskull.png",
-            "chest_opened_img": "images/locations/duskull-gray.png"
+            "chest_opened_img": "images/locations/duskull-gray.png",
+			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 9999999G Reward",
             "chest_unopened_img": "images/locations/duskull.png",
-            "chest_opened_img": "images/locations/duskull-gray.png"
+            "chest_opened_img": "images/locations/duskull-gray.png",
+			"visibility_rules": [ "LongLocations" ]
           }
         ],
         "map_locations": [

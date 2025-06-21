@@ -68,7 +68,6 @@
           {
             "name": "Clear All Marowak Mazes",
             "access_rules": [ "Dojo Normal&Fly Maze, Dojo Dark&Fire Maze, Dojo Rock&Water Maze, Dojo Grass Maze, Dojo Elec&Steel Maze, Dojo Ice&Ground Maze, Dojo Fight&Psych Maze, Dojo Poison&Bug Maze, Dojo Dragon Maze, Dojo Ghost Maze" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations" ],
             "chest_unopened_img": "images/locations/marowak.png",
             "chest_opened_img": "images/locations/marowak-gray.png"
           },
@@ -93,7 +92,7 @@
       },
       {
         "name": "Final Maze",
-        "access_rules": [ "Dojo Normal&Fly Maze, Dojo Dark&Fire Maze, Dojo Rock&Water Maze, Dojo Grass Maze, Dojo Elec&Steel Maze, Dojo Ice&Ground Maze, Dojo Fight&Psych Maze, Dojo Poison&Bug Maze, Dojo Dragon Maze, Dojo Ghost Maze" ],
+        "access_rules": [ "Dojo Normal&Fly Maze, Dojo Dark&Fire Maze, Dojo Rock&Water Maze, Dojo Grass Maze, Dojo Elec&Steel Maze, Dojo Ice&Ground Maze, Dojo Fight&Psych Maze, Dojo Poison&Bug Maze, Dojo Dragon Maze, Dojo Ghost Maze, Dojo Final Maze" ],
         "visibility_rules": [ "$darkraiGoal, LongLocations" ],
         "sections": [
           {

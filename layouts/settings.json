@@ -32,7 +32,8 @@
               [
                 "DojoDungeonsRandomization",
                 "LegendaryAmount",
-                "SkyPeakMode"
+                "SkyPeakMode",
+				"MaxRank"
               ],
               [
                 "DrinkEvents",
