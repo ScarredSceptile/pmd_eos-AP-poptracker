@@ -6,6 +6,7 @@
     "children": [
       {
         "name": "Guildmasters Chamber",
+		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Progressive Bag loc 1",
@@ -31,6 +32,7 @@
       },
       {
         "name": "Bidoofs Room",
+		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Bidoof SE Location",
@@ -48,6 +50,7 @@
       },
       {
         "name": "Sunfloras Room",
+		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Sunflora SE Location",
@@ -65,6 +68,7 @@
       },
       {
         "name": "Guild B1",
+		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Bronze Rank",
@@ -158,6 +162,7 @@
       },
       {
         "name": "Guild B2",
+		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Team Charm SE Location",
@@ -175,6 +180,7 @@
       },
       {
         "name": "Shop",
+		"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
         "sections": [
           {
             "name": "Shop Item 1"
@@ -217,6 +223,7 @@
       },
       {
         "name": "Bank",
+		"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
         "sections": [
           {
             "name": "Duskull 100G Reward",
@@ -307,7 +314,7 @@
           },
           {
             "name": "Manaphy Leads To Marine Resort",
-            "access_rules": [ "Manaphy" ],
+            "access_rules": [ "Manaphy, Main Game Unlock" ],
             "chest_unopened_img": "images/locations/manaphy.png",
             "chest_opened_img": "images/locations/manaphy-gray.png"
           }
@@ -503,7 +510,55 @@
           },
           {
             "ref": "Town/Sharpedo Bluff Cresselia/Recruit Cresselia"
-          }
+          },
+		  {
+			"ref": "Spinda's Cafe/Spinda/Drink"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Spinda/Drink Event"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Treasure Found"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Dungeon #1"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Dungeon #2"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Dungeon #3"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Dungeon #4"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Recycle Shop Dungeon #5"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Wynaut/Ludicolo Dance"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Aqua-Monica Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Terra Cymbal Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Icy Flute Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Fiery Drum Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Rock Horn Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Sky Melodica Mission"
+		  },
+		  {
+			"ref": "Spinda's Cafe/Missions/Grass Cornet Mission"
+		  }
         ],
         "map_locations": [
           {

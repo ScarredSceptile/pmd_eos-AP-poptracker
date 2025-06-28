@@ -3,6 +3,7 @@
 	"name": "Spinda's Cafe",
 	  "chest_unopened_img": "images/locations/available.png",
 	  "chest_opened_img": "images/locations/collected.png",
+	  "access_rules": ["Main Game Unlock"],
 	  "children":
 	[
 		{
@@ -33,6 +34,7 @@
 		},
 		{
 			"name": "Wynaut",
+			"access_rules": ["Main Game Unlock"],
 			"sections":[
 				{
 					"name": "Recycle Shop Treasure Found",
@@ -84,7 +86,7 @@
 		},
 		{
 			"name": "Missions",
-			"access_rules": ["Secret Rank"],
+			"access_rules": ["Secret Rank, Main Game Unlock"],
 			"visibility_rules": ["$darkraiGoal"],
 			"sections":[
 				{
