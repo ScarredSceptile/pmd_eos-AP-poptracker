@@ -1,0 +1,812 @@
+[
+  {
+    "name": "Treecko",
+    "type": "toggle",
+    "codes": "Treecko",
+    "img": "images/pokemon/Gen3/Treecko.png"
+  },
+  {
+    "name": "Grovyle",
+    "type": "toggle",
+    "codes": "Grovyle",
+    "img": "images/pokemon/Gen3/Grovyle.png"
+  },
+  {
+    "name": "Sceptile",
+    "type": "toggle",
+    "codes": "Sceptile",
+    "img": "images/pokemon/Gen3/Sceptile.png"
+  },
+  {
+    "name": "Torchic",
+    "type": "toggle",
+    "codes": "Torchic",
+    "img": "images/pokemon/Gen3/Torchic.png"
+  },
+  {
+    "name": "Combusken",
+    "type": "toggle",
+    "codes": "Combusken",
+    "img": "images/pokemon/Gen3/Combusken.png"
+  },
+  {
+    "name": "Blaziken",
+    "type": "toggle",
+    "codes": "Blaziken",
+    "img": "images/pokemon/Gen3/Blaziken.png"
+  },
+  {
+    "name": "Mudkip",
+    "type": "toggle",
+    "codes": "Mudkip",
+    "img": "images/pokemon/Gen3/Mudkip.png"
+  },
+  {
+    "name": "Marshtomp",
+    "type": "toggle",
+    "codes": "Marshtomp",
+    "img": "images/pokemon/Gen3/Marshtomp.png"
+  },
+  {
+    "name": "Swampert",
+    "type": "toggle",
+    "codes": "Swampert",
+    "img": "images/pokemon/Gen3/Swampert.png"
+  },
+  {
+    "name": "Poochyena",
+    "type": "toggle",
+    "codes": "Poochyena",
+    "img": "images/pokemon/Gen3/Poochyena.png"
+  },
+  {
+    "name": "Mightyena",
+    "type": "toggle",
+    "codes": "Mightyena",
+    "img": "images/pokemon/Gen3/Mightyena.png"
+  },
+  {
+    "name": "Zigzagoon",
+    "type": "toggle",
+    "codes": "Zigzagoon",
+    "img": "images/pokemon/Gen3/Zigzagoon.png"
+  },
+  {
+    "name": "Linoone",
+    "type": "toggle",
+    "codes": "Linoone",
+    "img": "images/pokemon/Gen3/Linoone.png"
+  },
+  {
+    "name": "Wurmple",
+    "type": "toggle",
+    "codes": "Wurmple",
+    "img": "images/pokemon/Gen3/Wurmple.png"
+  },
+  {
+    "name": "Silcoon",
+    "type": "toggle",
+    "codes": "Silcoon",
+    "img": "images/pokemon/Gen3/Silcoon.png"
+  },
+  {
+    "name": "Beautifly",
+    "type": "toggle",
+    "codes": "Beautifly",
+    "img": "images/pokemon/Gen3/Beautifly.png"
+  },
+  {
+    "name": "Cascoon",
+    "type": "toggle",
+    "codes": "Cascoon",
+    "img": "images/pokemon/Gen3/Cascoon.png"
+  },
+  {
+    "name": "Dustox",
+    "type": "toggle",
+    "codes": "Dustox",
+    "img": "images/pokemon/Gen3/Dustox.png"
+  },
+  {
+    "name": "Lotad",
+    "type": "toggle",
+    "codes": "Lotad",
+    "img": "images/pokemon/Gen3/Lotad.png"
+  },
+  {
+    "name": "Lombre",
+    "type": "toggle",
+    "codes": "Lombre",
+    "img": "images/pokemon/Gen3/Lombre.png"
+  },
+  {
+    "name": "Ludicolo",
+    "type": "toggle",
+    "codes": "Ludicolo",
+    "img": "images/pokemon/Gen3/Ludicolo.png"
+  },
+  {
+    "name": "Seedot",
+    "type": "toggle",
+    "codes": "Seedot",
+    "img": "images/pokemon/Gen3/Seedot.png"
+  },
+  {
+    "name": "Nuzleaf",
+    "type": "toggle",
+    "codes": "Nuzleaf",
+    "img": "images/pokemon/Gen3/Nuzleaf.png"
+  },
+  {
+    "name": "Shiftry",
+    "type": "toggle",
+    "codes": "Shiftry",
+    "img": "images/pokemon/Gen3/Shiftry.png"
+  },
+  {
+    "name": "Taillow",
+    "type": "toggle",
+    "codes": "Taillow",
+    "img": "images/pokemon/Gen3/Taillow.png"
+  },
+  {
+    "name": "Swellow",
+    "type": "toggle",
+    "codes": "Swellow",
+    "img": "images/pokemon/Gen3/Swellow.png"
+  },
+  {
+    "name": "Wingull",
+    "type": "toggle",
+    "codes": "Wingull",
+    "img": "images/pokemon/Gen3/Wingull.png"
+  },
+  {
+    "name": "Pelipper",
+    "type": "toggle",
+    "codes": "Pelipper",
+    "img": "images/pokemon/Gen3/Pelipper.png"
+  },
+  {
+    "name": "Ralts",
+    "type": "toggle",
+    "codes": "Ralts",
+    "img": "images/pokemon/Gen3/Ralts.png"
+  },
+  {
+    "name": "Kirlia",
+    "type": "toggle",
+    "codes": "Kirlia",
+    "img": "images/pokemon/Gen3/Kirlia.png"
+  },
+  {
+    "name": "Gardevoir",
+    "type": "toggle",
+    "codes": "Gardevoir",
+    "img": "images/pokemon/Gen3/Gardevoir.png"
+  },
+  {
+    "name": "Surskit",
+    "type": "toggle",
+    "codes": "Surskit",
+    "img": "images/pokemon/Gen3/Surskit.png"
+  },
+  {
+    "name": "Masquerain",
+    "type": "toggle",
+    "codes": "Masquerain",
+    "img": "images/pokemon/Gen3/Masquerain.png"
+  },
+  {
+    "name": "Shroomish",
+    "type": "toggle",
+    "codes": "Shroomish",
+    "img": "images/pokemon/Gen3/Shroomish.png"
+  },
+  {
+    "name": "Breloom",
+    "type": "toggle",
+    "codes": "Breloom",
+    "img": "images/pokemon/Gen3/Breloom.png"
+  },
+  {
+    "name": "Slakoth",
+    "type": "toggle",
+    "codes": "Slakoth",
+    "img": "images/pokemon/Gen3/Slakoth.png"
+  },
+  {
+    "name": "Vigoroth",
+    "type": "toggle",
+    "codes": "Vigoroth",
+    "img": "images/pokemon/Gen3/Vigoroth.png"
+  },
+  {
+    "name": "Slaking",
+    "type": "toggle",
+    "codes": "Slaking",
+    "img": "images/pokemon/Gen3/Slaking.png"
+  },
+  {
+    "name": "Nincada",
+    "type": "toggle",
+    "codes": "Nincada",
+    "img": "images/pokemon/Gen3/Nincada.png"
+  },
+  {
+    "name": "Ninjask",
+    "type": "toggle",
+    "codes": "Ninjask",
+    "img": "images/pokemon/Gen3/Ninjask.png"
+  },
+  {
+    "name": "Shedinja",
+    "type": "toggle",
+    "codes": "Shedinja",
+    "img": "images/pokemon/Gen3/Shedinja.png"
+  },
+  {
+    "name": "Whismur",
+    "type": "toggle",
+    "codes": "Whismur",
+    "img": "images/pokemon/Gen3/Whismur.png"
+  },
+  {
+    "name": "Loudred",
+    "type": "toggle",
+    "codes": "Loudred",
+    "img": "images/pokemon/Gen3/Loudred.png"
+  },
+  {
+    "name": "Exploud",
+    "type": "toggle",
+    "codes": "Exploud",
+    "img": "images/pokemon/Gen3/Exploud.png"
+  },
+  {
+    "name": "Makuhita",
+    "type": "toggle",
+    "codes": "Makuhita",
+    "img": "images/pokemon/Gen3/Makuhita.png"
+  },
+  {
+    "name": "Hariyama",
+    "type": "toggle",
+    "codes": "Hariyama",
+    "img": "images/pokemon/Gen3/Hariyama.png"
+  },
+  {
+    "name": "Azurill",
+    "type": "toggle",
+    "codes": "Azurill",
+    "img": "images/pokemon/Gen3/Azurill.png"
+  },
+  {
+    "name": "Nosepass",
+    "type": "toggle",
+    "codes": "Nosepass",
+    "img": "images/pokemon/Gen3/Nosepass.png"
+  },
+  {
+    "name": "Skitty",
+    "type": "toggle",
+    "codes": "Skitty",
+    "img": "images/pokemon/Gen3/Skitty.png"
+  },
+  {
+    "name": "Delcatty",
+    "type": "toggle",
+    "codes": "Delcatty",
+    "img": "images/pokemon/Gen3/Delcatty.png"
+  },
+  {
+    "name": "Sableye",
+    "type": "toggle",
+    "codes": "Sableye",
+    "img": "images/pokemon/Gen3/Sableye.png"
+  },
+  {
+    "name": "Mawile",
+    "type": "toggle",
+    "codes": "Mawile",
+    "img": "images/pokemon/Gen3/Mawile.png"
+  },
+  {
+    "name": "Aron",
+    "type": "toggle",
+    "codes": "Aron",
+    "img": "images/pokemon/Gen3/Aron.png"
+  },
+  {
+    "name": "Lairon",
+    "type": "toggle",
+    "codes": "Lairon",
+    "img": "images/pokemon/Gen3/Lairon.png"
+  },
+  {
+    "name": "Aggron",
+    "type": "toggle",
+    "codes": "Aggron",
+    "img": "images/pokemon/Gen3/Aggron.png"
+  },
+  {
+    "name": "Meditite",
+    "type": "toggle",
+    "codes": "Meditite",
+    "img": "images/pokemon/Gen3/Meditite.png"
+  },
+  {
+    "name": "Medicham",
+    "type": "toggle",
+    "codes": "Medicham",
+    "img": "images/pokemon/Gen3/Medicham.png"
+  },
+  {
+    "name": "Electrike",
+    "type": "toggle",
+    "codes": "Electrike",
+    "img": "images/pokemon/Gen3/Electrike.png"
+  },
+  {
+    "name": "Manetric",
+    "type": "toggle",
+    "codes": "Manetric",
+    "img": "images/pokemon/Gen3/Manetric.png"
+  },
+  {
+    "name": "Plusle",
+    "type": "toggle",
+    "codes": "Plusle",
+    "img": "images/pokemon/Gen3/Plusle.png"
+  },
+  {
+    "name": "Minun",
+    "type": "toggle",
+    "codes": "Minun",
+    "img": "images/pokemon/Gen3/Minun.png"
+  },
+  {
+    "name": "Volbeat",
+    "type": "toggle",
+    "codes": "Volbeat",
+    "img": "images/pokemon/Gen3/Volbeat.png"
+  },
+  {
+    "name": "Illumise",
+    "type": "toggle",
+    "codes": "Illumise",
+    "img": "images/pokemon/Gen3/Illumise.png"
+  },
+  {
+    "name": "Roselia",
+    "type": "toggle",
+    "codes": "Roselia",
+    "img": "images/pokemon/Gen3/Roselia.png"
+  },
+  {
+    "name": "Gulpin",
+    "type": "toggle",
+    "codes": "Gulpin",
+    "img": "images/pokemon/Gen3/Gulpin.png"
+  },
+  {
+    "name": "Swalot",
+    "type": "toggle",
+    "codes": "Swalot",
+    "img": "images/pokemon/Gen3/Swalot.png"
+  },
+  {
+    "name": "Carvanha",
+    "type": "toggle",
+    "codes": "Carvanha",
+    "img": "images/pokemon/Gen3/Carvanha.png"
+  },
+  {
+    "name": "Sharpedo",
+    "type": "toggle",
+    "codes": "Sharpedo",
+    "img": "images/pokemon/Gen3/Sharpedo.png"
+  },
+  {
+    "name": "Wailmer",
+    "type": "toggle",
+    "codes": "Wailmer",
+    "img": "images/pokemon/Gen3/Wailmer.png"
+  },
+  {
+    "name": "Wailord",
+    "type": "toggle",
+    "codes": "Wailord",
+    "img": "images/pokemon/Gen3/Wailord.png"
+  },
+  {
+    "name": "Numel",
+    "type": "toggle",
+    "codes": "Numel",
+    "img": "images/pokemon/Gen3/Numel.png"
+  },
+  {
+    "name": "Camerupt",
+    "type": "toggle",
+    "codes": "Camerupt",
+    "img": "images/pokemon/Gen3/Camerupt.png"
+  },
+  {
+    "name": "Torkoal",
+    "type": "toggle",
+    "codes": "Torkoal",
+    "img": "images/pokemon/Gen3/Torkoal.png"
+  },
+  {
+    "name": "Spoink",
+    "type": "toggle",
+    "codes": "Spoink",
+    "img": "images/pokemon/Gen3/Spoink.png"
+  },
+  {
+    "name": "Grumpig",
+    "type": "toggle",
+    "codes": "Grumpig",
+    "img": "images/pokemon/Gen3/Grumpig.png"
+  },
+  {
+    "name": "Spinda",
+    "type": "toggle",
+    "codes": "Spinda",
+    "img": "images/pokemon/Gen3/Spinda.png"
+  },
+  {
+    "name": "Trapinch",
+    "type": "toggle",
+    "codes": "Trapinch",
+    "img": "images/pokemon/Gen3/Trapinch.png"
+  },
+  {
+    "name": "Vibrava",
+    "type": "toggle",
+    "codes": "Vibrava",
+    "img": "images/pokemon/Gen3/Vibrava.png"
+  },
+  {
+    "name": "Flygon",
+    "type": "toggle",
+    "codes": "Flygon",
+    "img": "images/pokemon/Gen3/Flygon.png"
+  },
+  {
+    "name": "Cacnea",
+    "type": "toggle",
+    "codes": "Cacnea",
+    "img": "images/pokemon/Gen3/Cacnea.png"
+  },
+  {
+    "name": "Cacturne",
+    "type": "toggle",
+    "codes": "Cacturne",
+    "img": "images/pokemon/Gen3/Cacturne.png"
+  },
+  {
+    "name": "Swablu",
+    "type": "toggle",
+    "codes": "Swablu",
+    "img": "images/pokemon/Gen3/Swablu.png"
+  },
+  {
+    "name": "Altaria",
+    "type": "toggle",
+    "codes": "Altaria",
+    "img": "images/pokemon/Gen3/Altaria.png"
+  },
+  {
+    "name": "Zangoose",
+    "type": "toggle",
+    "codes": "Zangoose",
+    "img": "images/pokemon/Gen3/Zangoose.png"
+  },
+  {
+    "name": "Seviper",
+    "type": "toggle",
+    "codes": "Seviper",
+    "img": "images/pokemon/Gen3/Seviper.png"
+  },
+  {
+    "name": "Lunatone",
+    "type": "toggle",
+    "codes": "Lunatone",
+    "img": "images/pokemon/Gen3/Lunatone.png"
+  },
+  {
+    "name": "Solrock",
+    "type": "toggle",
+    "codes": "Solrock",
+    "img": "images/pokemon/Gen3/Solrock.png"
+  },
+  {
+    "name": "Barboach",
+    "type": "toggle",
+    "codes": "Barboach",
+    "img": "images/pokemon/Gen3/Barboach.png"
+  },
+  {
+    "name": "Whiscash",
+    "type": "toggle",
+    "codes": "Whiscash",
+    "img": "images/pokemon/Gen3/Whiscash.png"
+  },
+  {
+    "name": "Corphish",
+    "type": "toggle",
+    "codes": "Corphish",
+    "img": "images/pokemon/Gen3/Corphish.png"
+  },
+  {
+    "name": "Crawdaunt",
+    "type": "toggle",
+    "codes": "Crawdaunt",
+    "img": "images/pokemon/Gen3/Crawdaunt.png"
+  },
+  {
+    "name": "Baltoy",
+    "type": "toggle",
+    "codes": "Baltoy",
+    "img": "images/pokemon/Gen3/Baltoy.png"
+  },
+  {
+    "name": "Claydol",
+    "type": "toggle",
+    "codes": "Claydol",
+    "img": "images/pokemon/Gen3/Claydol.png"
+  },
+  {
+    "name": "Lileep",
+    "type": "toggle",
+    "codes": "Lileep",
+    "img": "images/pokemon/Gen3/Lileep.png"
+  },
+  {
+    "name": "Cradily",
+    "type": "toggle",
+    "codes": "Cradily",
+    "img": "images/pokemon/Gen3/Cradily.png"
+  },
+  {
+    "name": "Anorith",
+    "type": "toggle",
+    "codes": "Anorith",
+    "img": "images/pokemon/Gen3/Anorith.png"
+  },
+  {
+    "name": "Armaldo",
+    "type": "toggle",
+    "codes": "Armaldo",
+    "img": "images/pokemon/Gen3/Armaldo.png"
+  },
+  {
+    "name": "Feebas",
+    "type": "toggle",
+    "codes": "Feebas",
+    "img": "images/pokemon/Gen3/Feebas.png"
+  },
+  {
+    "name": "Milotic",
+    "type": "toggle",
+    "codes": "Milotic",
+    "img": "images/pokemon/Gen3/Milotic.png"
+  },
+  {
+    "name": "Castform",
+    "type": "toggle",
+    "codes": "Castform",
+    "img": "images/pokemon/Gen3/Castform.png"
+  },
+  {
+    "name": "Kecleon",
+    "type": "toggle",
+    "codes": "Kecleon",
+    "img": "images/pokemon/Gen3/Kecleon.png"
+  },
+  {
+    "name": "Shuppet",
+    "type": "toggle",
+    "codes": "Shuppet",
+    "img": "images/pokemon/Gen3/Shuppet.png"
+  },
+  {
+    "name": "Banette",
+    "type": "toggle",
+    "codes": "Banette",
+    "img": "images/pokemon/Gen3/Banette.png"
+  },
+  {
+    "name": "Duskull",
+    "type": "toggle",
+    "codes": "Duskull",
+    "img": "images/pokemon/Gen3/Duskull.png"
+  },
+  {
+    "name": "Dusclops",
+    "type": "toggle",
+    "codes": "Dusclops",
+    "img": "images/pokemon/Gen3/Dusclops.png"
+  },
+  {
+    "name": "Tropius",
+    "type": "toggle",
+    "codes": "Tropius",
+    "img": "images/pokemon/Gen3/Tropius.png"
+  },
+  {
+    "name": "Chimecho",
+    "type": "toggle",
+    "codes": "Chimecho",
+    "img": "images/pokemon/Gen3/Chimecho.png"
+  },
+  {
+    "name": "Absol",
+    "type": "toggle",
+    "codes": "Absol",
+    "img": "images/pokemon/Gen3/Absol.png"
+  },
+  {
+    "name": "Wynaut",
+    "type": "toggle",
+    "codes": "Wynaut",
+    "img": "images/pokemon/Gen3/Wynaut.png"
+  },
+  {
+    "name": "Snorunt",
+    "type": "toggle",
+    "codes": "Snorunt",
+    "img": "images/pokemon/Gen3/Snorunt.png"
+  },
+  {
+    "name": "Glalie",
+    "type": "toggle",
+    "codes": "Glalie",
+    "img": "images/pokemon/Gen3/Glalie.png"
+  },
+  {
+    "name": "Spheal",
+    "type": "toggle",
+    "codes": "Spheal",
+    "img": "images/pokemon/Gen3/Spheal.png"
+  },
+  {
+    "name": "Sealeo",
+    "type": "toggle",
+    "codes": "Sealeo",
+    "img": "images/pokemon/Gen3/Sealeo.png"
+  },
+  {
+    "name": "Walrein",
+    "type": "toggle",
+    "codes": "Walrein",
+    "img": "images/pokemon/Gen3/Walrein.png"
+  },
+  {
+    "name": "Clamperl",
+    "type": "toggle",
+    "codes": "Clamperl",
+    "img": "images/pokemon/Gen3/Clamperl.png"
+  },
+  {
+    "name": "Huntail",
+    "type": "toggle",
+    "codes": "Huntail",
+    "img": "images/pokemon/Gen3/Huntail.png"
+  },
+  {
+    "name": "Gorebyss",
+    "type": "toggle",
+    "codes": "Gorebyss",
+    "img": "images/pokemon/Gen3/Gorebyss.png"
+  },
+  {
+    "name": "Relicanth",
+    "type": "toggle",
+    "codes": "Relicanth",
+    "img": "images/pokemon/Gen3/Relicanth.png"
+  },
+  {
+    "name": "Luvdisc",
+    "type": "toggle",
+    "codes": "Luvdisc",
+    "img": "images/pokemon/Gen3/Luvdisc.png"
+  },
+  {
+    "name": "Bagon",
+    "type": "toggle",
+    "codes": "Bagon",
+    "img": "images/pokemon/Gen3/Bagon.png"
+  },
+  {
+    "name": "Shelgon",
+    "type": "toggle",
+    "codes": "Shelgon",
+    "img": "images/pokemon/Gen3/Shelgon.png"
+  },
+  {
+    "name": "Salamence",
+    "type": "toggle",
+    "codes": "Salamence",
+    "img": "images/pokemon/Gen3/Salamence.png"
+  },
+  {
+    "name": "Beldum",
+    "type": "toggle",
+    "codes": "Beldum",
+    "img": "images/pokemon/Gen3/Beldum.png"
+  },
+  {
+    "name": "Metang",
+    "type": "toggle",
+    "codes": "Metang",
+    "img": "images/pokemon/Gen3/Metang.png"
+  },
+  {
+    "name": "Metagross",
+    "type": "toggle",
+    "codes": "Metagross",
+    "img": "images/pokemon/Gen3/Metagross.png"
+  },
+  {
+    "name": "Regirock",
+    "type": "toggle",
+    "codes": "Regirock",
+    "img": "images/pokemon/Gen3/Regirock.png"
+  },
+  {
+    "name": "Regice",
+    "type": "toggle",
+    "codes": "Regice",
+    "img": "images/pokemon/Gen3/Regice.png"
+  },
+  {
+    "name": "Registeel",
+    "type": "toggle",
+    "codes": "Registeel",
+    "img": "images/pokemon/Gen3/Registeel.png"
+  },
+  {
+    "name": "Latias",
+    "type": "toggle",
+    "codes": "Latias",
+    "img": "images/pokemon/Gen3/Latias.png"
+  },
+  {
+    "name": "Latios",
+    "type": "toggle",
+    "codes": "Latios",
+    "img": "images/pokemon/Gen3/Latios.png"
+  },
+  {
+    "name": "Kyogre",
+    "type": "toggle",
+    "codes": "Kyogre",
+    "img": "images/pokemon/Gen3/Kyogre.png"
+  },
+  {
+    "name": "Groudon",
+    "type": "toggle",
+    "codes": "Groudon",
+    "img": "images/pokemon/Gen3/Groudon.png"
+  },
+  {
+    "name": "Rayquaza",
+    "type": "toggle",
+    "codes": "Rayquaza",
+    "img": "images/pokemon/Gen3/Rayquaza.png"
+  },
+  {
+    "name": "Jirachi",
+    "type": "toggle",
+    "codes": "Jirachi",
+    "img": "images/pokemon/Gen3/Jirachi.png"
+  },
+  {
+    "name": "Deoxys",
+    "type": "toggle",
+    "codes": "Deoxys",
+    "img": "images/pokemon/Gen3/Deoxys.png"
+  }
+]

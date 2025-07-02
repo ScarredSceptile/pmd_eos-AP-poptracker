@@ -1,0 +1,228 @@
+{
+  "maps_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Maps",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Overworld",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "overworld"
+                    ]
+                  }
+                },
+                {
+                  "title": "Future Hidden Land",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "future-hidden-land"
+                    ]
+                  }
+                },
+                {
+                  "title": "Future Blizzard Island",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "future-frozen"
+                    ]
+                  }
+                },
+                {
+                  "title": "Igglybuff SE",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "igglybuff-area"
+                    ]
+                  }
+                },
+                {
+                  "title": "Shaymin Village",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "shaymin-village"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Town",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Team Base",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "team-base"
+                    ]
+                  }
+                },
+                {
+                  "title": "Sharpedo Bluff",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "sharpedo-bluff"
+                    ]
+                  }
+                },
+                {
+                  "title": "Town Left",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "town-left"
+                    ]
+                  }
+                },
+                {
+                  "title": "Town Right",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "town-right"
+                    ]
+                  }
+                },
+                {
+                  "title": "Dojo",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "dojo"
+                    ]
+                  }
+                },
+                {
+                  "title": "Crossroad",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "crossroad"
+                    ]
+                  }
+                },
+                {
+                  "title": "Spinda's Cafe",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "spindas"
+                    ]
+                  }
+                },
+                {
+                  "title": "Beach",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "beach"
+                    ]
+                  }
+                },
+                {
+                  "title": "Guild B1",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "guild-b1"
+                    ]
+                  }
+                },
+                {
+                  "title": "Guild B2",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "guild-b2"
+                    ]
+                  }
+                },
+                {
+                  "title": "Guildmaster Chambers",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "guildmaster_chambers"
+                    ]
+                  }
+                },
+                {
+                  "title": "Bidoofs Room",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "bidoof-room"
+                    ]
+                  }
+                },
+                {
+                  "title": "Sunfloras Room",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "sunflora-room"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Pokemon",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Gen 1",
+                  "content": {
+                    "type": "layout",
+                    "key": "gen1"
+                  }
+                },
+                {
+                  "title": "Gen 2",
+                  "content": {
+                    "type": "layout",
+                    "key": "gen2"
+                  }
+                },
+                {
+                  "title": "Gen 3",
+                  "content": {
+                    "type": "layout",
+                    "key": "gen3"
+                  }
+                },
+                {
+                  "title": "Gen 4",
+                  "content": {
+                    "type": "layout",
+                    "key": "gen4"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "gen2": {
+
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "dock": "bottom",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Chikorita",
+                "Bayleef",
+                "Meganium",
+                "Cyndaquil",
+                "Quilava",
+                "Typhlosion",
+                "Totodile",
+                "Croconaw",
+                "Feraligatr",
+                "Sentret",
+                "Furret",
+                "Hoothoot",
+                "Noctowl",
+                "Ledyba"
+              ],
+              [
+                "Ledian",
+                "Spinarak",
+                "Ariados",
+                "Crobat",
+                "Chinchou",
+                "Lanturn",
+                "Pichu",
+                "Cleffa",
+                "Igglybuff",
+                "Togepi",
+                "Togetic",
+                "Natu",
+                "Xatu",
+                "Mareep"
+              ],
+              [
+                "Flaaffy",
+                "Ampharos",
+                "Bellossom",
+                "Marill",
+                "Azumarill",
+                "Sudowoodo",
+                "Politoed",
+                "Hoppip",
+                "Skiploom",
+                "Jumpluff",
+                "Aipom",
+                "Sunkern",
+                "Sunflora",
+                "Yanma"
+              ],
+              [
+                "Wooper",
+                "Quagsire",
+                "Espeon",
+                "Umbreon",
+                "Murkrow",
+                "Slowking",
+                "Misdreavus",
+                "Unown",
+                "Unown_!",
+                "Unown_A",
+                "Unown_B",
+                "Unown_C",
+                "Unown_D",
+                "Unown_E"
+              ],
+              [
+                "Unown_F",
+                "Unown_G",
+                "Unown_H",
+                "Unown_I",
+                "Unown_J",
+                "Unown_K",
+                "Unown_L",
+                "Unown_M",
+                "Unown_N",
+                "Unown_O",
+                "Unown_P",
+                "Unown_Q",
+                "Unown_R",
+                "Unown_S"
+              ],
+              [
+                "Unown_T",
+                "Unown_U",
+                "Unown_V",
+                "Unown_W",
+                "Unown_X",
+                "Unown_Y",
+                "Unown_Z",
+                "Wobbuffet",
+                "Girafarig",
+                "Pineco",
+                "Forretress",
+                "Dunsparce",
+                "Gligar",
+                "Steelix"
+              ],
+              [
+                "Snubbull",
+                "Granbull",
+                "Qwilfish",
+                "Scizor",
+                "Shuckle",
+                "Heracross",
+                "Sneasel",
+                "Teddiursa",
+                "Ursaring",
+                "Slugma",
+                "Magcargo",
+                "Swinub",
+                "Piloswine",
+                "Corsola"
+              ],
+              [
+                "Remoraid",
+                "Octillery",
+                "Delibird",
+                "Mantine",
+                "Skarmory",
+                "Houndour",
+                "Houndoom",
+                "Kingdra",
+                "Phanpy",
+                "Donphan",
+                "Porygon2",
+                "Stantler",
+                "Smeargle",
+                "Tyrogue"
+              ],
+              [
+                "Hitmontop",
+                "Smoochum",
+                "Elekid",
+                "Magby",
+                "Miltank",
+                "Blissey",
+                "Raikou",
+                "Entei",
+                "Suicune",
+                "Larvitar",
+                "Pupitar",
+                "Tyranitar",
+                "Lugia",
+                "Ho-Oh"
+              ],
+              [
+                "Celebi",
+                "Celebi_S"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

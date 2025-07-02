@@ -3,6 +3,7 @@
     "name": "DojoDungeons",
     "chest_unopened_img": "images/locations/available.png",
     "chest_opened_img": "images/locations/collected.png",
+	"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"]
     "children": [
       {
         "name": "Dojo",

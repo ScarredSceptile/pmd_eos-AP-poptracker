@@ -1,0 +1,908 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "toggle",
+    "codes": "Bulbasaur",
+    "img": "images/pokemon/Gen1/Bulbasaur.png"
+  },
+  {
+    "name": "Ivysaur",
+    "type": "toggle",
+    "codes": "Ivysaur",
+    "img": "images/pokemon/Gen1/Ivysaur.png"
+  },
+  {
+    "name": "Venusaur",
+    "type": "toggle",
+    "codes": "Venusaur",
+    "img": "images/pokemon/Gen1/Venusaur.png"
+  },
+  {
+    "name": "Charmander",
+    "type": "toggle",
+    "codes": "Charmander",
+    "img": "images/pokemon/Gen1/Charmander.png"
+  },
+  {
+    "name": "Charmeleon",
+    "type": "toggle",
+    "codes": "Charmeleon",
+    "img": "images/pokemon/Gen1/Charmeleon.png"
+  },
+  {
+    "name": "Charizard",
+    "type": "toggle",
+    "codes": "Charizard",
+    "img": "images/pokemon/Gen1/Charizard.png"
+  },
+  {
+    "name": "Squirtle",
+    "type": "toggle",
+    "codes": "Squirtle",
+    "img": "images/pokemon/Gen1/Squirtle.png"
+  },
+  {
+    "name": "Wartortle",
+    "type": "toggle",
+    "codes": "Wartortle",
+    "img": "images/pokemon/Gen1/Wartortle.png"
+  },
+  {
+    "name": "Blastoise",
+    "type": "toggle",
+    "codes": "Blastoise",
+    "img": "images/pokemon/Gen1/Blastoise.png"
+  },
+  {
+    "name": "Caterpie",
+    "type": "toggle",
+    "codes": "Caterpie",
+    "img": "images/pokemon/Gen1/Caterpie.png"
+  },
+  {
+    "name": "Metapod",
+    "type": "toggle",
+    "codes": "Metapod",
+    "img": "images/pokemon/Gen1/Metapod.png"
+  },
+  {
+    "name": "Butterfree",
+    "type": "toggle",
+    "codes": "Butterfree",
+    "img": "images/pokemon/Gen1/Butterfree.png"
+  },
+  {
+    "name": "Weedle",
+    "type": "toggle",
+    "codes": "Weedle",
+    "img": "images/pokemon/Gen1/Weedle.png"
+  },
+  {
+    "name": "Kakuna",
+    "type": "toggle",
+    "codes": "Kakuna",
+    "img": "images/pokemon/Gen1/Kakuna.png"
+  },
+  {
+    "name": "Beedrill",
+    "type": "toggle",
+    "codes": "Beedrill",
+    "img": "images/pokemon/Gen1/Beedrill.png"
+  },
+  {
+    "name": "Pidgey",
+    "type": "toggle",
+    "codes": "Pidgey",
+    "img": "images/pokemon/Gen1/Pidgey.png"
+  },
+  {
+    "name": "Pidgeotto",
+    "type": "toggle",
+    "codes": "Pidgeotto",
+    "img": "images/pokemon/Gen1/Pidgeotto.png"
+  },
+  {
+    "name": "Pidgeot",
+    "type": "toggle",
+    "codes": "Pidgeot",
+    "img": "images/pokemon/Gen1/Pidgeot.png"
+  },
+  {
+    "name": "Rattata",
+    "type": "toggle",
+    "codes": "Rattata",
+    "img": "images/pokemon/Gen1/Rattata.png"
+  },
+  {
+    "name": "Raticate",
+    "type": "toggle",
+    "codes": "Raticate",
+    "img": "images/pokemon/Gen1/Raticate.png"
+  },
+  {
+    "name": "Spearow",
+    "type": "toggle",
+    "codes": "Spearow",
+    "img": "images/pokemon/Gen1/Spearow.png"
+  },
+  {
+    "name": "Fearow",
+    "type": "toggle",
+    "codes": "Fearow",
+    "img": "images/pokemon/Gen1/Fearow.png"
+  },
+  {
+    "name": "Ekans",
+    "type": "toggle",
+    "codes": "Ekans",
+    "img": "images/pokemon/Gen1/Ekans.png"
+  },
+  {
+    "name": "Arbok",
+    "type": "toggle",
+    "codes": "Arbok",
+    "img": "images/pokemon/Gen1/Arbok.png"
+  },
+  {
+    "name": "Pikachu",
+    "type": "toggle",
+    "codes": "Pikachu",
+    "img": "images/pokemon/Gen1/Pikachu.png"
+  },
+  {
+    "name": "Raichu",
+    "type": "toggle",
+    "codes": "Raichu",
+    "img": "images/pokemon/Gen1/Raichu.png"
+  },
+  {
+    "name": "Sandshrew",
+    "type": "toggle",
+    "codes": "Sandshrew",
+    "img": "images/pokemon/Gen1/Sandshrew.png"
+  },
+  {
+    "name": "Sandslash",
+    "type": "toggle",
+    "codes": "Sandslash",
+    "img": "images/pokemon/Gen1/Sandslash.png"
+  },
+  {
+    "name": "NidoranF",
+    "type": "toggle",
+    "codes": "NidoranF",
+    "img": "images/pokemon/Gen1/NidoranF.png"
+  },
+  {
+    "name": "Nidorina",
+    "type": "toggle",
+    "codes": "Nidorina",
+    "img": "images/pokemon/Gen1/Nidorina.png"
+  },
+  {
+    "name": "Nidoqueen",
+    "type": "toggle",
+    "codes": "Nidoqueen",
+    "img": "images/pokemon/Gen1/Nidoqueen.png"
+  },
+  {
+    "name": "NidoranM",
+    "type": "toggle",
+    "codes": "NidoranM",
+    "img": "images/pokemon/Gen1/NidoranM.png"
+  },
+  {
+    "name": "Nidorino",
+    "type": "toggle",
+    "codes": "Nidorino",
+    "img": "images/pokemon/Gen1/Nidorino.png"
+  },
+  {
+    "name": "Nidoking",
+    "type": "toggle",
+    "codes": "Nidoking",
+    "img": "images/pokemon/Gen1/Nidoking.png"
+  },
+  {
+    "name": "Clefairy",
+    "type": "toggle",
+    "codes": "Clefairy",
+    "img": "images/pokemon/Gen1/Clefairy.png"
+  },
+  {
+    "name": "Clefable",
+    "type": "toggle",
+    "codes": "Clefable",
+    "img": "images/pokemon/Gen1/Clefable.png"
+  },
+  {
+    "name": "Vulpix",
+    "type": "toggle",
+    "codes": "Vulpix",
+    "img": "images/pokemon/Gen1/Vulpix.png"
+  },
+  {
+    "name": "Ninetales",
+    "type": "toggle",
+    "codes": "Ninetales",
+    "img": "images/pokemon/Gen1/Ninetales.png"
+  },
+  {
+    "name": "Jigglypuff",
+    "type": "toggle",
+    "codes": "Jigglypuff",
+    "img": "images/pokemon/Gen1/Jigglypuff.png"
+  },
+  {
+    "name": "Wigglytuff",
+    "type": "toggle",
+    "codes": "Wigglytuff",
+    "img": "images/pokemon/Gen1/Wigglytuff.png"
+  },
+  {
+    "name": "Zubat",
+    "type": "toggle",
+    "codes": "Zubat",
+    "img": "images/pokemon/Gen1/Zubat.png"
+  },
+  {
+    "name": "Golbat",
+    "type": "toggle",
+    "codes": "Golbat",
+    "img": "images/pokemon/Gen1/Golbat.png"
+  },
+  {
+    "name": "Oddish",
+    "type": "toggle",
+    "codes": "Oddish",
+    "img": "images/pokemon/Gen1/Oddish.png"
+  },
+  {
+    "name": "Gloom",
+    "type": "toggle",
+    "codes": "Gloom",
+    "img": "images/pokemon/Gen1/Gloom.png"
+  },
+  {
+    "name": "Vileplume",
+    "type": "toggle",
+    "codes": "Vileplume",
+    "img": "images/pokemon/Gen1/Vileplume.png"
+  },
+  {
+    "name": "Paras",
+    "type": "toggle",
+    "codes": "Paras",
+    "img": "images/pokemon/Gen1/Paras.png"
+  },
+  {
+    "name": "Parasect",
+    "type": "toggle",
+    "codes": "Parasect",
+    "img": "images/pokemon/Gen1/Parasect.png"
+  },
+  {
+    "name": "Venonat",
+    "type": "toggle",
+    "codes": "Venonat",
+    "img": "images/pokemon/Gen1/Venonat.png"
+  },
+  {
+    "name": "Venomoth",
+    "type": "toggle",
+    "codes": "Venomoth",
+    "img": "images/pokemon/Gen1/Venomoth.png"
+  },
+  {
+    "name": "Diglett",
+    "type": "toggle",
+    "codes": "Diglett",
+    "img": "images/pokemon/Gen1/Diglett.png"
+  },
+  {
+    "name": "Dugtrio",
+    "type": "toggle",
+    "codes": "Dugtrio",
+    "img": "images/pokemon/Gen1/Dugtrio.png"
+  },
+  {
+    "name": "Meowth",
+    "type": "toggle",
+    "codes": "Meowth",
+    "img": "images/pokemon/Gen1/Meowth.png"
+  },
+  {
+    "name": "Persian",
+    "type": "toggle",
+    "codes": "Persian",
+    "img": "images/pokemon/Gen1/Persian.png"
+  },
+  {
+    "name": "Psyduck",
+    "type": "toggle",
+    "codes": "Psyduck",
+    "img": "images/pokemon/Gen1/Psyduck.png"
+  },
+  {
+    "name": "Golduck",
+    "type": "toggle",
+    "codes": "Golduck",
+    "img": "images/pokemon/Gen1/Golduck.png"
+  },
+  {
+    "name": "Mankey",
+    "type": "toggle",
+    "codes": "Mankey",
+    "img": "images/pokemon/Gen1/Mankey.png"
+  },
+  {
+    "name": "Primeape",
+    "type": "toggle",
+    "codes": "Primeape",
+    "img": "images/pokemon/Gen1/Primeape.png"
+  },
+  {
+    "name": "Growlithe",
+    "type": "toggle",
+    "codes": "Growlithe",
+    "img": "images/pokemon/Gen1/Growlithe.png"
+  },
+  {
+    "name": "Arcanine",
+    "type": "toggle",
+    "codes": "Arcanine",
+    "img": "images/pokemon/Gen1/Arcanine.png"
+  },
+  {
+    "name": "Poliwag",
+    "type": "toggle",
+    "codes": "Poliwag",
+    "img": "images/pokemon/Gen1/Poliwag.png"
+  },
+  {
+    "name": "Poliwhirl",
+    "type": "toggle",
+    "codes": "Poliwhirl",
+    "img": "images/pokemon/Gen1/Poliwhirl.png"
+  },
+  {
+    "name": "Poliwrath",
+    "type": "toggle",
+    "codes": "Poliwrath",
+    "img": "images/pokemon/Gen1/Poliwrath.png"
+  },
+  {
+    "name": "Abra",
+    "type": "toggle",
+    "codes": "Abra",
+    "img": "images/pokemon/Gen1/Abra.png"
+  },
+  {
+    "name": "Kadabra",
+    "type": "toggle",
+    "codes": "Kadabra",
+    "img": "images/pokemon/Gen1/Kadabra.png"
+  },
+  {
+    "name": "Alakazam",
+    "type": "toggle",
+    "codes": "Alakazam",
+    "img": "images/pokemon/Gen1/Alakazam.png"
+  },
+  {
+    "name": "Machop",
+    "type": "toggle",
+    "codes": "Machop",
+    "img": "images/pokemon/Gen1/Machop.png"
+  },
+  {
+    "name": "Machoke",
+    "type": "toggle",
+    "codes": "Machoke",
+    "img": "images/pokemon/Gen1/Machoke.png"
+  },
+  {
+    "name": "Machamp",
+    "type": "toggle",
+    "codes": "Machamp",
+    "img": "images/pokemon/Gen1/Machamp.png"
+  },
+  {
+    "name": "Bellsprout",
+    "type": "toggle",
+    "codes": "Bellsprout",
+    "img": "images/pokemon/Gen1/Bellsprout.png"
+  },
+  {
+    "name": "Weepinbell",
+    "type": "toggle",
+    "codes": "Weepinbell",
+    "img": "images/pokemon/Gen1/Weepinbell.png"
+  },
+  {
+    "name": "Victreebel",
+    "type": "toggle",
+    "codes": "Victreebel",
+    "img": "images/pokemon/Gen1/Victreebel.png"
+  },
+  {
+    "name": "Tentacool",
+    "type": "toggle",
+    "codes": "Tentacool",
+    "img": "images/pokemon/Gen1/Tentacool.png"
+  },
+  {
+    "name": "Tentacruel",
+    "type": "toggle",
+    "codes": "Tentacruel",
+    "img": "images/pokemon/Gen1/Tentacruel.png"
+  },
+  {
+    "name": "Geodude",
+    "type": "toggle",
+    "codes": "Geodude",
+    "img": "images/pokemon/Gen1/Geodude.png"
+  },
+  {
+    "name": "Graveler",
+    "type": "toggle",
+    "codes": "Graveler",
+    "img": "images/pokemon/Gen1/Graveler.png"
+  },
+  {
+    "name": "Golem",
+    "type": "toggle",
+    "codes": "Golem",
+    "img": "images/pokemon/Gen1/Golem.png"
+  },
+  {
+    "name": "Ponyta",
+    "type": "toggle",
+    "codes": "Ponyta",
+    "img": "images/pokemon/Gen1/Ponyta.png"
+  },
+  {
+    "name": "Rapidash",
+    "type": "toggle",
+    "codes": "Rapidash",
+    "img": "images/pokemon/Gen1/Rapidash.png"
+  },
+  {
+    "name": "Slowpoke",
+    "type": "toggle",
+    "codes": "Slowpoke",
+    "img": "images/pokemon/Gen1/Slowpoke.png"
+  },
+  {
+    "name": "Slowbro",
+    "type": "toggle",
+    "codes": "Slowbro",
+    "img": "images/pokemon/Gen1/Slowbro.png"
+  },
+  {
+    "name": "Magnemite",
+    "type": "toggle",
+    "codes": "Magnemite",
+    "img": "images/pokemon/Gen1/Magnemite.png"
+  },
+  {
+    "name": "Magneton",
+    "type": "toggle",
+    "codes": "Magneton",
+    "img": "images/pokemon/Gen1/Magneton.png"
+  },
+  {
+    "name": "Farfetch'd",
+    "type": "toggle",
+    "codes": "Farfetch'd",
+    "img": "images/pokemon/Gen1/Farfetch'd.png"
+  },
+  {
+    "name": "Doduo",
+    "type": "toggle",
+    "codes": "Doduo",
+    "img": "images/pokemon/Gen1/Doduo.png"
+  },
+  {
+    "name": "Dodrio",
+    "type": "toggle",
+    "codes": "Dodrio",
+    "img": "images/pokemon/Gen1/Dodrio.png"
+  },
+  {
+    "name": "Seel",
+    "type": "toggle",
+    "codes": "Seel",
+    "img": "images/pokemon/Gen1/Seel.png"
+  },
+  {
+    "name": "Dewgong",
+    "type": "toggle",
+    "codes": "Dewgong",
+    "img": "images/pokemon/Gen1/Dewgong.png"
+  },
+  {
+    "name": "Grimer",
+    "type": "toggle",
+    "codes": "Grimer",
+    "img": "images/pokemon/Gen1/Grimer.png"
+  },
+  {
+    "name": "Muk",
+    "type": "toggle",
+    "codes": "Muk",
+    "img": "images/pokemon/Gen1/Muk.png"
+  },
+  {
+    "name": "Shellder",
+    "type": "toggle",
+    "codes": "Shellder",
+    "img": "images/pokemon/Gen1/Shellder.png"
+  },
+  {
+    "name": "Cloyster",
+    "type": "toggle",
+    "codes": "Cloyster",
+    "img": "images/pokemon/Gen1/Cloyster.png"
+  },
+  {
+    "name": "Gastly",
+    "type": "toggle",
+    "codes": "Gastly",
+    "img": "images/pokemon/Gen1/Gastly.png"
+  },
+  {
+    "name": "Haunter",
+    "type": "toggle",
+    "codes": "Haunter",
+    "img": "images/pokemon/Gen1/Haunter.png"
+  },
+  {
+    "name": "Gengar",
+    "type": "toggle",
+    "codes": "Gengar",
+    "img": "images/pokemon/Gen1/Gengar.png"
+  },
+  {
+    "name": "Onix",
+    "type": "toggle",
+    "codes": "Onix",
+    "img": "images/pokemon/Gen1/Onix.png"
+  },
+  {
+    "name": "Drowzee",
+    "type": "toggle",
+    "codes": "Drowzee",
+    "img": "images/pokemon/Gen1/Drowzee.png"
+  },
+  {
+    "name": "Hypno",
+    "type": "toggle",
+    "codes": "Hypno",
+    "img": "images/pokemon/Gen1/Hypno.png"
+  },
+  {
+    "name": "Krabby",
+    "type": "toggle",
+    "codes": "Krabby",
+    "img": "images/pokemon/Gen1/Krabby.png"
+  },
+  {
+    "name": "Kingler",
+    "type": "toggle",
+    "codes": "Kingler",
+    "img": "images/pokemon/Gen1/Kingler.png"
+  },
+  {
+    "name": "Voltorb",
+    "type": "toggle",
+    "codes": "Voltorb",
+    "img": "images/pokemon/Gen1/Voltorb.png"
+  },
+  {
+    "name": "Electrode",
+    "type": "toggle",
+    "codes": "Electrode",
+    "img": "images/pokemon/Gen1/Electrode.png"
+  },
+  {
+    "name": "Exeggcute",
+    "type": "toggle",
+    "codes": "Exeggcute",
+    "img": "images/pokemon/Gen1/Exeggcute.png"
+  },
+  {
+    "name": "Exeggutor",
+    "type": "toggle",
+    "codes": "Exeggutor",
+    "img": "images/pokemon/Gen1/Exeggutor.png"
+  },
+  {
+    "name": "Cubone",
+    "type": "toggle",
+    "codes": "Cubone",
+    "img": "images/pokemon/Gen1/Cubone.png"
+  },
+  {
+    "name": "Marowak",
+    "type": "toggle",
+    "codes": "Marowak",
+    "img": "images/pokemon/Gen1/Marowak.png"
+  },
+  {
+    "name": "Hitmonlee",
+    "type": "toggle",
+    "codes": "Hitmonlee",
+    "img": "images/pokemon/Gen1/Hitmonlee.png"
+  },
+  {
+    "name": "Hitmonchan",
+    "type": "toggle",
+    "codes": "Hitmonchan",
+    "img": "images/pokemon/Gen1/Hitmonchan.png"
+  },
+  {
+    "name": "Lickitung",
+    "type": "toggle",
+    "codes": "Lickitung",
+    "img": "images/pokemon/Gen1/Lickitung.png"
+  },
+  {
+    "name": "Koffing",
+    "type": "toggle",
+    "codes": "Koffing",
+    "img": "images/pokemon/Gen1/Koffing.png"
+  },
+  {
+    "name": "Weezing",
+    "type": "toggle",
+    "codes": "Weezing",
+    "img": "images/pokemon/Gen1/Weezing.png"
+  },
+  {
+    "name": "Rhyhorn",
+    "type": "toggle",
+    "codes": "Rhyhorn",
+    "img": "images/pokemon/Gen1/Rhyhorn.png"
+  },
+  {
+    "name": "Rhydon",
+    "type": "toggle",
+    "codes": "Rhydon",
+    "img": "images/pokemon/Gen1/Rhydon.png"
+  },
+  {
+    "name": "Chansey",
+    "type": "toggle",
+    "codes": "Chansey",
+    "img": "images/pokemon/Gen1/Chansey.png"
+  },
+  {
+    "name": "Tangela",
+    "type": "toggle",
+    "codes": "Tangela",
+    "img": "images/pokemon/Gen1/Tangela.png"
+  },
+  {
+    "name": "Kangaskhan",
+    "type": "toggle",
+    "codes": "Kangaskhan",
+    "img": "images/pokemon/Gen1/Kangaskhan.png"
+  },
+  {
+    "name": "Horsea",
+    "type": "toggle",
+    "codes": "Horsea",
+    "img": "images/pokemon/Gen1/Horsea.png"
+  },
+  {
+    "name": "Seadra",
+    "type": "toggle",
+    "codes": "Seadra",
+    "img": "images/pokemon/Gen1/Seadra.png"
+  },
+  {
+    "name": "Goldeen",
+    "type": "toggle",
+    "codes": "Goldeen",
+    "img": "images/pokemon/Gen1/Goldeen.png"
+  },
+  {
+    "name": "Seaking",
+    "type": "toggle",
+    "codes": "Seaking",
+    "img": "images/pokemon/Gen1/Seaking.png"
+  },
+  {
+    "name": "Staryu",
+    "type": "toggle",
+    "codes": "Staryu",
+    "img": "images/pokemon/Gen1/Staryu.png"
+  },
+  {
+    "name": "Starmie",
+    "type": "toggle",
+    "codes": "Starmie",
+    "img": "images/pokemon/Gen1/Starmie.png"
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "toggle",
+    "codes": "Mr. Mime",
+    "img": "images/pokemon/Gen1/Mr. Mime.png"
+  },
+  {
+    "name": "Scyther",
+    "type": "toggle",
+    "codes": "Scyther",
+    "img": "images/pokemon/Gen1/Scyther.png"
+  },
+  {
+    "name": "Jynx",
+    "type": "toggle",
+    "codes": "Jynx",
+    "img": "images/pokemon/Gen1/Jynx.png"
+  },
+  {
+    "name": "Electabuzz",
+    "type": "toggle",
+    "codes": "Electabuzz",
+    "img": "images/pokemon/Gen1/Electabuzz.png"
+  },
+  {
+    "name": "Magmar",
+    "type": "toggle",
+    "codes": "Magmar",
+    "img": "images/pokemon/Gen1/Magmar.png"
+  },
+  {
+    "name": "Pinsir",
+    "type": "toggle",
+    "codes": "Pinsir",
+    "img": "images/pokemon/Gen1/Pinsir.png"
+  },
+  {
+    "name": "Tauros",
+    "type": "toggle",
+    "codes": "Tauros",
+    "img": "images/pokemon/Gen1/Tauros.png"
+  },
+  {
+    "name": "Magikarp",
+    "type": "toggle",
+    "codes": "Magikarp",
+    "img": "images/pokemon/Gen1/Magikarp.png"
+  },
+  {
+    "name": "Gyarados",
+    "type": "toggle",
+    "codes": "Gyarados",
+    "img": "images/pokemon/Gen1/Gyarados.png"
+  },
+  {
+    "name": "Lapras",
+    "type": "toggle",
+    "codes": "Lapras",
+    "img": "images/pokemon/Gen1/Lapras.png"
+  },
+  {
+    "name": "Ditto",
+    "type": "toggle",
+    "codes": "Ditto",
+    "img": "images/pokemon/Gen1/Ditto.png"
+  },
+  {
+    "name": "Eevee",
+    "type": "toggle",
+    "codes": "Eevee",
+    "img": "images/pokemon/Gen1/Eevee.png"
+  },
+  {
+    "name": "Vaporeon",
+    "type": "toggle",
+    "codes": "Vaporeon",
+    "img": "images/pokemon/Gen1/Vaporeon.png"
+  },
+  {
+    "name": "Jolteon",
+    "type": "toggle",
+    "codes": "Jolteon",
+    "img": "images/pokemon/Gen1/Jolteon.png"
+  },
+  {
+    "name": "Flareon",
+    "type": "toggle",
+    "codes": "Flareon",
+    "img": "images/pokemon/Gen1/Flareon.png"
+  },
+  {
+    "name": "Porygon",
+    "type": "toggle",
+    "codes": "Porygon",
+    "img": "images/pokemon/Gen1/Porygon.png"
+  },
+  {
+    "name": "Omanyte",
+    "type": "toggle",
+    "codes": "Omanyte",
+    "img": "images/pokemon/Gen1/Omanyte.png"
+  },
+  {
+    "name": "Omastar",
+    "type": "toggle",
+    "codes": "Omastar",
+    "img": "images/pokemon/Gen1/Omastar.png"
+  },
+  {
+    "name": "Kabuto",
+    "type": "toggle",
+    "codes": "Kabuto",
+    "img": "images/pokemon/Gen1/Kabuto.png"
+  },
+  {
+    "name": "Kabutops",
+    "type": "toggle",
+    "codes": "Kabutops",
+    "img": "images/pokemon/Gen1/Kabutops.png"
+  },
+  {
+    "name": "Aerodactyl",
+    "type": "toggle",
+    "codes": "Aerodactyl",
+    "img": "images/pokemon/Gen1/Aerodactyl.png"
+  },
+  {
+    "name": "Snorlax",
+    "type": "toggle",
+    "codes": "Snorlax",
+    "img": "images/pokemon/Gen1/Snorlax.png"
+  },
+  {
+    "name": "Articuno",
+    "type": "toggle",
+    "codes": "Articuno",
+    "img": "images/pokemon/Gen1/Articuno.png"
+  },
+  {
+    "name": "Zapdos",
+    "type": "toggle",
+    "codes": "Zapdos",
+    "img": "images/pokemon/Gen1/Zapdos.png"
+  },
+  {
+    "name": "Moltres",
+    "type": "toggle",
+    "codes": "Moltres",
+    "img": "images/pokemon/Gen1/Moltres.png"
+  },
+  {
+    "name": "Dratini",
+    "type": "toggle",
+    "codes": "Dratini",
+    "img": "images/pokemon/Gen1/Dratini.png"
+  },
+  {
+    "name": "Dragonair",
+    "type": "toggle",
+    "codes": "Dragonair",
+    "img": "images/pokemon/Gen1/Dragonair.png"
+  },
+  {
+    "name": "Dragonite",
+    "type": "toggle",
+    "codes": "Dragonite",
+    "img": "images/pokemon/Gen1/Dragonite.png"
+  },
+  {
+    "name": "Mewtwo",
+    "type": "toggle",
+    "codes": "Mewtwo",
+    "img": "images/pokemon/Gen1/Mewtwo.png"
+  },
+  {
+    "name": "Mew",
+    "type": "toggle",
+    "codes": "Mew",
+    "img": "images/pokemon/Gen1/Mew.png"
+  }
+]
