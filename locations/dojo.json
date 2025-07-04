@@ -3,7 +3,7 @@
     "name": "DojoDungeons",
     "chest_unopened_img": "images/locations/available.png",
     "chest_opened_img": "images/locations/collected.png",
-	"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"]
+    "access_rules": [ "Main Game Unlock", "Bidoof SE", "Sunflora SE" ],
     "children": [
       {
         "name": "Dojo",
@@ -47,7 +47,7 @@
           {
             "name": "Complete Ghost Maze",
             "access_rules": [ "Dojo Ghost Maze" ]
-          },
+          }
         ],
         "map_locations": [
           {
@@ -64,7 +64,6 @@
       },
       {
         "name": "Marowak",
-
         "sections": [
           {
             "name": "Clear All Marowak Mazes",
@@ -98,6 +97,146 @@
         "sections": [
           {
             "name": "Grandpa's Treasure"
+          },
+          {
+            "name": "Machop",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen1/machop.png",
+            "chest_opened_img": "images/pokemon/gen1/machop-gray.png"
+          },
+          {
+            "name": "Magnemite",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen1/magnemite.png",
+            "chest_opened_img": "images/pokemon/gen1/magnemite-gray.png"
+          },
+          {
+            "name": "Doduo",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen1/doduo.png",
+            "chest_opened_img": "images/pokemon/gen1/doduo-gray.png"
+          },
+          {
+            "name": "Omanyte",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen1/omanyte.png",
+            "chest_opened_img": "images/pokemon/gen1/omanyte-gray.png"
+          },
+          {
+            "name": "Kabuto",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen1/kabuto.png",
+            "chest_opened_img": "images/pokemon/gen1/kabuto-gray.png"
+          },
+          {
+            "name": "Spinarak",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/spinarak.png",
+            "chest_opened_img": "images/pokemon/gen2/spinarak-gray.png"
+          },
+          {
+            "name": "Mareep",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/mareep.png",
+            "chest_opened_img": "images/pokemon/gen2/mareep-gray.png"
+          },
+          {
+            "name": "Misdreavus",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/misdreavus.png",
+            "chest_opened_img": "images/pokemon/gen2/misdreavus-gray.png"
+          },
+          {
+            "name": "Swinub",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/swinub.png",
+            "chest_opened_img": "images/pokemon/gen2/swinub-gray.png"
+          },
+          {
+            "name": "Houndour",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/houndour.png",
+            "chest_opened_img": "images/pokemon/gen2/houndour-gray.png"
+          },
+          {
+            "name": "Phanpy",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/phanpy.png",
+            "chest_opened_img": "images/pokemon/gen2/phanpy-gray.png"
+          },
+          {
+            "name": "Magby",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen2/magby.png",
+            "chest_opened_img": "images/pokemon/gen2/magby-gray.png"
+          },
+          {
+            "name": "Poochyena",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen3/poochyena.png",
+            "chest_opened_img": "images/pokemon/gen3/poochyena-gray.png"
+          },
+          {
+            "name": "Shroomish",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen3/shroomish.png",
+            "chest_opened_img": "images/pokemon/gen3/shroomish-gray.png"
+          },
+          {
+            "name": "Mawile",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen3/mawile.png",
+            "chest_opened_img": "images/pokemon/gen3/mawile-gray.png"
+          },
+          {
+            "name": "Meditite",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen3/meditite.png",
+            "chest_opened_img": "images/pokemon/gen3/meditite-gray.png"
+          },
+          {
+            "name": "Bagon",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen3/bagon.png",
+            "chest_opened_img": "images/pokemon/gen3/bagon-gray.png"
+          },
+          {
+            "name": "Staravia",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen4/staravia.png",
+            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png"
+          },
+          {
+            "name": "Skorupi",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen4/skorupi.png",
+            "chest_opened_img": "images/pokemon/gen4/skorupi-gray.png"
+          },
+          {
+            "name": "Carnivine",
+            "access_rules": "Recruitment",
+            "visibility_rules": "RecruitAll",
+            "chest_unopened_img": "images/pokemon/gen4/carnivine.png",
+            "chest_opened_img": "images/pokemon/gen4/carnivine-gray.png"
           }
         ],
         "map_locations": [

@@ -291,5 +291,11 @@
 		  "name": "Max Rank - Guildmaster"
 		}
 	  ]
+  },
+  {
+	  "name": "Recruit-em All",
+	  "type": "toggle",
+	  "codes": "RecruitAll",
+	  "img": "images/settings/recruit.png"
   }
 ]

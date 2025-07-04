@@ -14,4 +14,5 @@ function initialize_watch_items()
 	ScriptHost:AddWatchForCode("LongLocationsChange", "LongLocations", updateItemGrid)
 	ScriptHost:AddWatchForCode("UpdateSpindaDrinks", "DrinkEvents", spindaDrinks)
 	ScriptHost:AddWatchForCode("UpdateSpindaDrinksEvents", "SpindaDrinks", spindaDrinksEvent)
+	ScriptHost:AddWatchForCode("Recruit-em All", "RecruitAll", updateMap)
 end

@@ -93,22 +93,18 @@ function updateMissionCounts()
 	local lateOutlawDiff = lateStoredOutlawCount - lateOutlawCount
 	
 	if earlyMissionDiff ~= 0 then
-		print("Test")
 		Tracker:FindObjectForCode("EarlyStoredMissionChecks").AcquiredCount = earlyMissionCount
 		updateEarlyCount("Mission", -earlyMissionDiff, true)
 	end
 	if lateMissionDiff ~= 0 then
-		print("Test")
 		Tracker:FindObjectForCode("LateStoredMissionChecks").AcquiredCount = lateMissionCount
 		updateLateCount("Mission", -lateMissionDiff, true)
 	end
 	if earlyOutlawDiff ~= 0 then
-		print("Test")
 		Tracker:FindObjectForCode("EarlyStoredOutlawChecks").AcquiredCount = earlyOutlawCount
 		updateEarlyCount("Outlaw", -earlyOutlawDiff, true)
 	end
 	if lateOutlawDiff ~= 0 then
-		print("Test")
 		Tracker:FindObjectForCode("LateStoredOutlawChecks").AcquiredCount = lateOutlawCount
 		updateLateCount("Outlaw", -lateOutlawDiff, true)
 	end

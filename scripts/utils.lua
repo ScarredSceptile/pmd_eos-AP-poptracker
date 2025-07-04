@@ -64,3 +64,13 @@ function spindaDrinksEvent(code)
 	local drinks = Tracker:ProviderCountForCode("SpindaDrinksEvent")
 	Tracker:FindObjectForCode("@Spinda's Cafe/Spinda/Drink Event").AvailableChestCount = drinks
 end
+
+function updateMap(code)
+	print("update map test")
+	local recruit = Tracker:ProviderCountForCode("RecruitAll")
+	if recruit == 1 then
+		Tracker:AddLayouts("layouts/maps-recruitment.json")
+	else
+		Tracker:AddLayouts("layouts/maps.json")
+	end
+end

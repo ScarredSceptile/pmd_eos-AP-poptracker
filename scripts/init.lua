@@ -1,9 +1,12 @@
 ENABLE_DEBUG_LOG = true
 
-Tracker:AddLocations("locations/dungeons.json")
+Tracker:AddLocations("locations/dungeons-early.json")
+Tracker:AddLocations("locations/dungeons-late.json")
+Tracker:AddLocations("locations/dungeons-long.json")
 Tracker:AddLocations("locations/special.json")
 Tracker:AddLocations("locations/dojo.json")
 Tracker:AddLocations("locations/town.json")
+Tracker:AddLocations("locations/evolution.json")
 Tracker:AddLocations("locations/spindas-cafe.json")
 Tracker:AddLocations("locations/shaymin-village.json")
 Tracker:AddMaps("maps/maps.json")

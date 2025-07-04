@@ -38,44 +38,55 @@ function canAccessDarkCrater()
 	return Tracker:ProviderCountForCode("Dark Crater") == 1
 end
 
-function canAccessSkyPeak(passNum)
-	local pass = tonumber(passNum)
+function canAccessSkyPeak(...)
+	print(...)
 	if Tracker:ProviderCountForCode("UnlockAllSkyPeakMode") == 1 then
 		return Tracker:ProviderCountForCode("Sky Peak")
 	end
 	if Tracker:ProviderCountForCode("AllRandomSkyPeakMode") == 1 then
-		if pass == 1 then
-			return Tracker:ProviderCountForCode("1st Station Pass")
+		local canAccess = 0
+		for i,passNum in ipairs({...}) do
+			local pass = tonumber(passNum)
+			if pass == 1 then
+				canAccess = Tracker:ProviderCountForCode("1st Station Pass")
+			end
+			if pass == 2 then
+				canAccess = Tracker:ProviderCountForCode("2nd Station Pass")
+			end
+			if pass == 3 then
+				canAccess = Tracker:ProviderCountForCode("3rd Station Pass")
+			end
+			if pass == 4 then
+				canAccess = Tracker:ProviderCountForCode("4th Station Pass")
+			end
+			if pass == 5 then
+				canAccess = Tracker:ProviderCountForCode("5th Station Pass")
+			end
+			if pass == 6 then
+				canAccess = Tracker:ProviderCountForCode("6th Station Pass")
+			end
+			if pass == 7 then
+				canAccess = Tracker:ProviderCountForCode("7th Station Pass")
+			end
+			if pass == 8 then
+				canAccess = Tracker:ProviderCountForCode("8th Station Pass")
+			end
+			if pass == 9 then
+				canAccess = Tracker:ProviderCountForCode("9th Station Pass")
+			end
+			if pass == 10 then
+				canAccess = Tracker:ProviderCountForCode("Sky Peak Summit Pass")
+			end
+			if canAccess == 1 then
+				return 1
+			end
 		end
-		if pass == 2 then
-			return Tracker:ProviderCountForCode("2nd Station Pass")
-		end
-		if pass == 3 then
-			return Tracker:ProviderCountForCode("3rd Station Pass")
-		end
-		if pass == 4 then
-			return Tracker:ProviderCountForCode("4th Station Pass")
-		end
-		if pass == 5 then
-			return Tracker:ProviderCountForCode("5th Station Pass")
-		end
-		if pass == 6 then
-			return Tracker:ProviderCountForCode("6th Station Pass")
-		end
-		if pass == 7 then
-			return Tracker:ProviderCountForCode("7th Station Pass")
-		end
-		if pass == 8 then
-			return Tracker:ProviderCountForCode("8th Station Pass")
-		end
-		if pass == 9 then
-			return Tracker:ProviderCountForCode("9th Station Pass")
-		end
-		if pass == 10 then
-			return Tracker:ProviderCountForCode("Sky Peak Summit Pass")
-		end
+		return 0
 	end
-	return Tracker:ProviderCountForCode("Progressive Sky Peak") >= pass
+	for i,passNum in ipairs({...}) do
+		local pass = tonumber(passNum)
+		return Tracker:ProviderCountForCode("Progressive Sky Peak") >= pass
+	end
 end
 
 function aegisAccess(sealNum)

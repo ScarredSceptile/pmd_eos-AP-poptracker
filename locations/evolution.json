@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Recruitment",
+    "access_rules": "Recruitment",
+    "visibility_rules": "RecruitAll",
+    "children": [
+      {
+        "name": "Luminous Spring",
+        "sections": [
+          {
+            "name": "Dragonite",
+            "access_rules": [ "Craggy Coast", "Brine Cave", "Marine Resort" ],
+            "chest_unopened_img": "images/pokemon/gen1/dragonite.png",
+            "chest_opened_img": "images/pokemon/gen1/dragonite-gray.png"
+          },
+          {
+            "name": "Hitmonlee",
+            "access_rules": [ "Lost Wilderness", "Mt. Travail" ],
+            "chest_unopened_img": "images/pokemon/gen1/hitmonlee.png",
+            "chest_opened_img": "images/pokemon/gen1/hitmonlee-gray.png"
+          },
+          {
+            "name": "Omastar",
+            "access_rules": [ "Brine Cave" ],
+            "chest_unopened_img": "images/pokemon/gen1/omastar.png",
+            "chest_opened_img": "images/pokemon/gen1/omastar-gray.png"
+          },
+          {
+            "name": "Porygon2",
+            "access_rules": [ "Spacial Rift" ],
+            "chest_unopened_img": "images/pokemon/gen2/porygon2.png",
+            "chest_opened_img": "images/pokemon/gen2/porygon2-gray.png"
+          },
+          {
+            "name": "Dusclops",
+            "access_rules": [ "Sky Stairway" ],
+            "chest_unopened_img": "images/pokemon/gen3/dusclops.png",
+            "chest_opened_img": "images/pokemon/gen3/dusclops-gray.png"
+          },
+          {
+            "name": "Gardevoir",
+            "access_rules": [ "Treeshroud Forest" ],
+            "chest_unopened_img": "images/pokemon/gen3/gardevoir.png",
+            "chest_opened_img": "images/pokemon/gen3/gardevoir-gray.png"
+          },
+          {
+            "name": "Grumpig",
+            "access_rules": [ "Marine Resort" ],
+            "chest_unopened_img": "images/pokemon/gen3/grumpig.png",
+            "chest_opened_img": "images/pokemon/gen3/grumpig-gray.png"
+          },
+          {
+            "name": "Manetric",
+            "access_rules": [ "Amp Plains" ],
+            "chest_unopened_img": "images/pokemon/gen3/manetric.png",
+            "chest_opened_img": "images/pokemon/gen3/manetric-gray.png"
+          },
+          {
+            "name": "Metagross",
+            "access_rules": [ "Crystal Cave", "Sky Stairway" ],
+            "chest_unopened_img": "images/pokemon/gen3/metagross.png",
+            "chest_opened_img": "images/pokemon/gen3/metagross-gray.png"
+          },
+          {
+            "name": "Salamence",
+            "access_rules": [ "Crystal Crossing", "Sky Stairway" ],
+            "chest_unopened_img": "images/pokemon/gen3/salamence.png",
+            "chest_opened_img": "images/pokemon/gen3/salamence-gray.png"
+          },
+          {
+            "name": "Abomasnow",
+            "access_rules": [ "Crevice Cave" ],
+            "chest_unopened_img": "images/pokemon/gen4/abomasnow.png",
+            "chest_opened_img": "images/pokemon/gen4/abomasnow-gray.png"
+          },
+          {
+            "name": "Bastiodon",
+            "access_rules": [ "Crystal Cave" ],
+            "chest_unopened_img": "images/pokemon/gen4/bastiodon.png",
+            "chest_opened_img": "images/pokemon/gen4/bastiodon-gray.png"
+          },
+          {
+            "name": "Bronzong",
+            "access_rules": [ "Spacial Rift" ],
+            "chest_unopened_img": "images/pokemon/gen4/bronzong.png",
+            "chest_opened_img": "images/pokemon/gen4/bronzong-gray.png"
+          },
+          {
+            "name": "Porygon-Z",
+            "access_rules": [ "Spacial Rift" ],
+            "chest_unopened_img": "images/pokemon/gen4/porygon-z.png",
+            "chest_opened_img": "images/pokemon/gen4/porygon-z-gray.png"
+          },
+          {
+            "name": "Purugly",
+            "access_rules": [ "Crystal Crossing" ],
+            "chest_unopened_img": "images/pokemon/gen4/purugly.png",
+            "chest_opened_img": "images/pokemon/gen4/purugly-gray.png"
+          },
+          {
+            "name": "Rampardos",
+            "access_rules": [ "Crystal Cave" ],
+            "chest_unopened_img": "images/pokemon/gen4/rampardos.png",
+            "chest_opened_img": "images/pokemon/gen4/rampardos-gray.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 236,
+            "y": 124
+          }
+        ]
+      }
+    ]
+  }
+]
