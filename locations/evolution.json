@@ -1,7 +1,7 @@
 [
   {
     "name": "Recruitment",
-    "access_rules": "Recruitment",
+    "access_rules": ["Recruitment"],
     "visibility_rules": "RecruitAll",
     "children": [
       {

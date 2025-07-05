@@ -1468,7 +1468,7 @@
             "access_rules": "Recruitment",
             "visibility_rules": "RecruitAll",
             "chest_unopened_img": "images/pokemon/gen4/wormadam_s.png",
-            "chest_opened_img": "images/pokemon/gen4/wormada_s-gray.png"
+            "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png"
           },
           {
             "name": "Riolu",
