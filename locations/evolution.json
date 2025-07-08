@@ -1,107 +1,1517 @@
 [
   {
     "name": "Recruitment",
-    "access_rules": ["Recruitment"],
+    "access_rules": [ "Recruitment" ],
     "visibility_rules": "RecruitAll",
     "children": [
       {
         "name": "Luminous Spring",
         "sections": [
           {
-            "name": "Dragonite",
-            "access_rules": [ "Craggy Coast", "Brine Cave", "Marine Resort" ],
-            "chest_unopened_img": "images/pokemon/gen1/dragonite.png",
-            "chest_opened_img": "images/pokemon/gen1/dragonite-gray.png"
+            "name": "Ivysaur",
+            "access_rules": [ "Bulbasaur" ],
+            "chest_unopened_img": "images/pokemon/gen1/ivysaur.png",
+            "chest_opened_img": "images/pokemon/gen1/ivysaur-gray.png"
+          },
+          {
+            "name": "Venusaur",
+            "access_rules": [ "Bulbasaur", "Ivysaur" ],
+            "chest_unopened_img": "images/pokemon/gen1/venusaur.png",
+            "chest_opened_img": "images/pokemon/gen1/venusaur-gray.png"
+          },
+          {
+            "name": "Charmeleon",
+            "access_rules": [ "Charmander" ],
+            "chest_unopened_img": "images/pokemon/gen1/charmeleon.png",
+            "chest_opened_img": "images/pokemon/gen1/charmeleon-gray.png"
+          },
+          {
+            "name": "Charizard",
+            "access_rules": [ "Charmander", "Charmeleon" ],
+            "chest_unopened_img": "images/pokemon/gen1/charizard.png",
+            "chest_opened_img": "images/pokemon/gen1/charizard-gray.png"
+          },
+          {
+            "name": "Wartortle",
+            "access_rules": [ "Squirtle" ],
+            "chest_unopened_img": "images/pokemon/gen1/wartortle.png",
+            "chest_opened_img": "images/pokemon/gen1/wartortle-gray.png"
+          },
+          {
+            "name": "Blastoise",
+            "access_rules": [ "Squirtle", "Wartortle" ],
+            "chest_unopened_img": "images/pokemon/gen1/blastoise.png",
+            "chest_opened_img": "images/pokemon/gen1/blastoise-gray.png"
+          },
+          {
+            "name": "Metapod",
+            "access_rules": [ "Caterpie" ],
+            "chest_unopened_img": "images/pokemon/gen1/metapod.png",
+            "chest_opened_img": "images/pokemon/gen1/metapod-gray.png"
+          },
+          {
+            "name": "Butterfree",
+            "access_rules": [ "Caterpie", "Metapod" ],
+            "chest_unopened_img": "images/pokemon/gen1/butterfree.png",
+            "chest_opened_img": "images/pokemon/gen1/butterfree-gray.png"
+          },
+          {
+            "name": "Kakuna",
+            "access_rules": [ "Weedle" ],
+            "chest_unopened_img": "images/pokemon/gen1/kakuna.png",
+            "chest_opened_img": "images/pokemon/gen1/kakuna-gray.png"
+          },
+          {
+            "name": "Beedrill",
+            "access_rules": [ "Weedle", "Kakuna" ],
+            "chest_unopened_img": "images/pokemon/gen1/beedrill.png",
+            "chest_opened_img": "images/pokemon/gen1/beedrill-gray.png"
+          },
+          {
+            "name": "Pidgeotto",
+            "access_rules": [ "Pidgey" ],
+            "chest_unopened_img": "images/pokemon/gen1/pidgeotto.png",
+            "chest_opened_img": "images/pokemon/gen1/pidgeotto-gray.png"
+          },
+          {
+            "name": "Pidgeot",
+            "access_rules": [ "Pidgey", "Pidgeotto" ],
+            "chest_unopened_img": "images/pokemon/gen1/pidgeot.png",
+            "chest_opened_img": "images/pokemon/gen1/pidgeot-gray.png"
+          },
+          {
+            "name": "Raticate",
+            "access_rules": [ "Rattata" ],
+            "chest_unopened_img": "images/pokemon/gen1/raticate.png",
+            "chest_opened_img": "images/pokemon/gen1/raticate-gray.png"
+          },
+          {
+            "name": "Fearow",
+            "access_rules": [ "Spearow" ],
+            "chest_unopened_img": "images/pokemon/gen1/fearow.png",
+            "chest_opened_img": "images/pokemon/gen1/fearow-gray.png"
+          },
+          {
+            "name": "Arbok",
+            "access_rules": [ "Ekans" ],
+            "chest_unopened_img": "images/pokemon/gen1/arbok.png",
+            "chest_opened_img": "images/pokemon/gen1/arbok-gray.png"
+          },
+          {
+            "name": "Pikachu",
+            "access_rules": [ "Pichu" ],
+            "chest_unopened_img": "images/pokemon/gen1/pikachu.png",
+            "chest_opened_img": "images/pokemon/gen1/pikachu-gray.png"
+          },
+          {
+            "name": "Raichu",
+            "access_rules": [ "Pichu", "Pikachu" ],
+            "chest_unopened_img": "images/pokemon/gen1/raichu.png",
+            "chest_opened_img": "images/pokemon/gen1/raichu-gray.png"
+          },
+          {
+            "name": "Sandslash",
+            "access_rules": [ "Sandshrew" ],
+            "chest_unopened_img": "images/pokemon/gen1/sandslash.png",
+            "chest_opened_img": "images/pokemon/gen1/sandslash-gray.png"
+          },
+          {
+            "name": "Nidorina",
+            "access_rules": [ "NidoranF" ],
+            "chest_unopened_img": "images/pokemon/gen1/nidorina.png",
+            "chest_opened_img": "images/pokemon/gen1/nidorina-gray.png"
+          },
+          {
+            "name": "Nidoqueen",
+            "access_rules": [ "NidoranF", "Nidorina" ],
+            "chest_unopened_img": "images/pokemon/gen1/nidoqueen.png",
+            "chest_opened_img": "images/pokemon/gen1/nidoqueen-gray.png"
+          },
+          {
+            "name": "Nidorino",
+            "access_rules": [ "NidoranM" ],
+            "chest_unopened_img": "images/pokemon/gen1/nidorino.png",
+            "chest_opened_img": "images/pokemon/gen1/nidorino-gray.png"
+          },
+          {
+            "name": "Nidoking",
+            "access_rules": [ "NidoranM", "Nidorino" ],
+            "chest_unopened_img": "images/pokemon/gen1/nidoking.png",
+            "chest_opened_img": "images/pokemon/gen1/nidoking-gray.png"
+          },
+          {
+            "name": "Clefairy",
+            "access_rules": [ "Cleffa" ],
+            "chest_unopened_img": "images/pokemon/gen1/clefairy.png",
+            "chest_opened_img": "images/pokemon/gen1/clefairy-gray.png"
+          },
+          {
+            "name": "Clefable",
+            "access_rules": [ "Cleffa", "Clefairy" ],
+            "chest_unopened_img": "images/pokemon/gen1/clefable.png",
+            "chest_opened_img": "images/pokemon/gen1/clefable-gray.png"
+          },
+          {
+            "name": "Ninetales",
+            "access_rules": [ "Vulpix" ],
+            "chest_unopened_img": "images/pokemon/gen1/ninetales.png",
+            "chest_opened_img": "images/pokemon/gen1/ninetales-gray.png"
+          },
+          {
+            "name": "Jigglypuff",
+            "access_rules": [ "Igglybuff" ],
+            "chest_unopened_img": "images/pokemon/gen1/jigglypuff.png",
+            "chest_opened_img": "images/pokemon/gen1/jigglypuff-gray.png"
+          },
+          {
+            "name": "Wigglytuff",
+            "access_rules": [ "Igglybuff", "Jigglypuff" ],
+            "chest_unopened_img": "images/pokemon/gen1/wigglytuff.png",
+            "chest_opened_img": "images/pokemon/gen1/wigglytuff-gray.png"
+          },
+          {
+            "name": "Golbat",
+            "access_rules": [ "Zubat" ],
+            "chest_unopened_img": "images/pokemon/gen1/golbat.png",
+            "chest_opened_img": "images/pokemon/gen1/golbat-gray.png"
+          },
+          {
+            "name": "Crobat",
+            "access_rules": [ "Zubat", "Golbat" ],
+            "chest_unopened_img": "images/pokemon/gen2/crobat.png",
+            "chest_opened_img": "images/pokemon/gen2/crobat-gray.png"
+          },
+          {
+            "name": "Gloom",
+            "access_rules": [ "Oddish" ],
+            "chest_unopened_img": "images/pokemon/gen1/gloom.png",
+            "chest_opened_img": "images/pokemon/gen1/gloom-gray.png"
+          },
+          {
+            "name": "Vileplume",
+            "access_rules": [ "Oddish", "Gloom" ],
+            "chest_unopened_img": "images/pokemon/gen1/vileplume.png",
+            "chest_opened_img": "images/pokemon/gen1/vileplume-gray.png"
+          },
+          {
+            "name": "Bellossom",
+            "access_rules": [ "Oddish", "Gloom" ],
+            "chest_unopened_img": "images/pokemon/gen2/bellossom.png",
+            "chest_opened_img": "images/pokemon/gen2/bellossom-gray.png"
+          },
+          {
+            "name": "Parasect",
+            "access_rules": [ "Paras" ],
+            "chest_unopened_img": "images/pokemon/gen1/parasect.png",
+            "chest_opened_img": "images/pokemon/gen1/parasect-gray.png"
+          },
+          {
+            "name": "Venomoth",
+            "access_rules": [ "Venonat" ],
+            "chest_unopened_img": "images/pokemon/gen1/venomoth.png",
+            "chest_opened_img": "images/pokemon/gen1/venomoth-gray.png"
+          },
+          {
+            "name": "Dugtrio",
+            "access_rules": [ "Diglett" ],
+            "chest_unopened_img": "images/pokemon/gen1/dugtrio.png",
+            "chest_opened_img": "images/pokemon/gen1/dugtrio-gray.png"
+          },
+          {
+            "name": "Persian",
+            "access_rules": [ "Meowth" ],
+            "chest_unopened_img": "images/pokemon/gen1/persian.png",
+            "chest_opened_img": "images/pokemon/gen1/persian-gray.png"
+          },
+          {
+            "name": "Golduck",
+            "access_rules": [ "Psyduck" ],
+            "chest_unopened_img": "images/pokemon/gen1/golduck.png",
+            "chest_opened_img": "images/pokemon/gen1/golduck-gray.png"
+          },
+          {
+            "name": "Primeape",
+            "access_rules": [ "Mankey" ],
+            "chest_unopened_img": "images/pokemon/gen1/primeape.png",
+            "chest_opened_img": "images/pokemon/gen1/primeape-gray.png"
+          },
+          {
+            "name": "Arcanine",
+            "access_rules": [ "Growlithe" ],
+            "chest_unopened_img": "images/pokemon/gen1/arcanine.png",
+            "chest_opened_img": "images/pokemon/gen1/arcanine-gray.png"
+          },
+          {
+            "name": "Poliwhirl",
+            "access_rules": [ "Poliwag" ],
+            "chest_unopened_img": "images/pokemon/gen1/poliwhirl.png",
+            "chest_opened_img": "images/pokemon/gen1/poliwhirl-gray.png"
+          },
+          {
+            "name": "Poliwrath",
+            "access_rules": [ "Poliwag", "Poliwhirl" ],
+            "chest_unopened_img": "images/pokemon/gen1/poliwrath.png",
+            "chest_opened_img": "images/pokemon/gen1/poliwrath-gray.png"
+          },
+          {
+            "name": "Politoed",
+            "access_rules": [ "Poliwag", "Poliwhirl" ],
+            "chest_unopened_img": "images/pokemon/gen2/politoed.png",
+            "chest_opened_img": "images/pokemon/gen2/politoed-gray.png"
+          },
+          {
+            "name": "Kadabra",
+            "access_rules": [ "Abra" ],
+            "chest_unopened_img": "images/pokemon/gen1/kadabra.png",
+            "chest_opened_img": "images/pokemon/gen1/kadabra-gray.png"
+          },
+          {
+            "name": "Alakazam",
+            "access_rules": [ "Abra", "Kadabra" ],
+            "chest_unopened_img": "images/pokemon/gen1/alakazam.png",
+            "chest_opened_img": "images/pokemon/gen1/alakazam-gray.png"
+          },
+          {
+            "name": "Machoke",
+            "access_rules": [ "Machop" ],
+            "chest_unopened_img": "images/pokemon/gen1/machoke.png",
+            "chest_opened_img": "images/pokemon/gen1/machoke-gray.png"
+          },
+          {
+            "name": "Machamp",
+            "access_rules": [ "Machop", "Machoke" ],
+            "chest_unopened_img": "images/pokemon/gen1/machamp.png",
+            "chest_opened_img": "images/pokemon/gen1/machamp-gray.png"
+          },
+          {
+            "name": "Weepinbell",
+            "access_rules": [ "Bellsprout" ],
+            "chest_unopened_img": "images/pokemon/gen1/weepinbell.png",
+            "chest_opened_img": "images/pokemon/gen1/weepinbell-gray.png"
+          },
+          {
+            "name": "Victreebel",
+            "access_rules": [ "Bellsprout", "Weepinbell" ],
+            "chest_unopened_img": "images/pokemon/gen1/victreebel.png",
+            "chest_opened_img": "images/pokemon/gen1/victreebel-gray.png"
+          },
+          {
+            "name": "Tentacruel",
+            "access_rules": [ "Tentacool" ],
+            "chest_unopened_img": "images/pokemon/gen1/tentacruel.png",
+            "chest_opened_img": "images/pokemon/gen1/tentacruel-gray.png"
+          },
+          {
+            "name": "Graveler",
+            "access_rules": [ "Geodude" ],
+            "chest_unopened_img": "images/pokemon/gen1/graveler.png",
+            "chest_opened_img": "images/pokemon/gen1/graveler-gray.png"
+          },
+          {
+            "name": "Golem",
+            "access_rules": [ "Geodude", "Graveler" ],
+            "chest_unopened_img": "images/pokemon/gen1/golem.png",
+            "chest_opened_img": "images/pokemon/gen1/golem-gray.png"
+          },
+          {
+            "name": "Rapidash",
+            "access_rules": [ "Ponyta" ],
+            "chest_unopened_img": "images/pokemon/gen1/rapidash.png",
+            "chest_opened_img": "images/pokemon/gen1/rapidash-gray.png"
+          },
+          {
+            "name": "Slowbro",
+            "access_rules": [ "Slowpoke" ],
+            "chest_unopened_img": "images/pokemon/gen1/slowbro.png",
+            "chest_opened_img": "images/pokemon/gen1/slowbro-gray.png"
+          },
+          {
+            "name": "Slowking",
+            "access_rules": [ "Slowpoke" ],
+            "chest_unopened_img": "images/pokemon/gen2/slowking.png",
+            "chest_opened_img": "images/pokemon/gen2/slowking-gray.png"
+          },
+          {
+            "name": "Magneton",
+            "access_rules": [ "Magnemite" ],
+            "chest_unopened_img": "images/pokemon/gen1/magneton.png",
+            "chest_opened_img": "images/pokemon/gen1/magneton-gray.png"
+          },
+          {
+            "name": "Magnezone",
+            "access_rules": [ "Magnemite", "Magneton" ],
+            "chest_unopened_img": "images/pokemon/gen4/magnezone.png",
+            "chest_opened_img": "images/pokemon/gen4/magnezone-gray.png"
+          },
+          {
+            "name": "Dodrio",
+            "access_rules": [ "Doduo" ],
+            "chest_unopened_img": "images/pokemon/gen1/dodrio.png",
+            "chest_opened_img": "images/pokemon/gen1/dodrio-gray.png"
+          },
+          {
+            "name": "Dewgong",
+            "access_rules": [ "Seel" ],
+            "chest_unopened_img": "images/pokemon/gen1/dewgong.png",
+            "chest_opened_img": "images/pokemon/gen1/dewgong-gray.png"
+          },
+          {
+            "name": "Muk",
+            "access_rules": [ "Grimer" ],
+            "chest_unopened_img": "images/pokemon/gen1/muk.png",
+            "chest_opened_img": "images/pokemon/gen1/muk-gray.png"
+          },
+          {
+            "name": "Cloyster",
+            "access_rules": [ "Shellder" ],
+            "chest_unopened_img": "images/pokemon/gen1/cloyster.png",
+            "chest_opened_img": "images/pokemon/gen1/cloyster-gray.png"
+          },
+          {
+            "name": "Haunter",
+            "access_rules": [ "Gastly" ],
+            "chest_unopened_img": "images/pokemon/gen1/haunter.png",
+            "chest_opened_img": "images/pokemon/gen1/haunter-gray.png"
+          },
+          {
+            "name": "Gengar",
+            "access_rules": [ "Gastly", "Haunter" ],
+            "chest_unopened_img": "images/pokemon/gen1/gengar.png",
+            "chest_opened_img": "images/pokemon/gen1/gengar-gray.png"
+          },
+          {
+            "name": "Steelix",
+            "access_rules": [ "Onix" ],
+            "chest_unopened_img": "images/pokemon/gen2/steelix.png",
+            "chest_opened_img": "images/pokemon/gen2/steelix-gray.png"
+          },
+          {
+            "name": "Hypno",
+            "access_rules": [ "Drowzee" ],
+            "chest_unopened_img": "images/pokemon/gen1/hypno.png",
+            "chest_opened_img": "images/pokemon/gen1/hypno-gray.png"
+          },
+          {
+            "name": "Kingler",
+            "access_rules": [ "Krabby" ],
+            "chest_unopened_img": "images/pokemon/gen1/kingler.png",
+            "chest_opened_img": "images/pokemon/gen1/kingler-gray.png"
+          },
+          {
+            "name": "Electrode",
+            "access_rules": [ "Voltorb" ],
+            "chest_unopened_img": "images/pokemon/gen1/electrode.png",
+            "chest_opened_img": "images/pokemon/gen1/electrode-gray.png"
+          },
+          {
+            "name": "Exeggutor",
+            "access_rules": [ "Exeggcute" ],
+            "chest_unopened_img": "images/pokemon/gen1/exeggutor.png",
+            "chest_opened_img": "images/pokemon/gen1/exeggutor-gray.png"
+          },
+          {
+            "name": "Marowak",
+            "access_rules": [ "Cubone" ],
+            "chest_unopened_img": "images/pokemon/gen1/marowak.png",
+            "chest_opened_img": "images/pokemon/gen1/marowak-gray.png"
           },
           {
             "name": "Hitmonlee",
-            "access_rules": [ "Lost Wilderness", "Mt. Travail" ],
+            "access_rules": [ "Tyrogue" ],
             "chest_unopened_img": "images/pokemon/gen1/hitmonlee.png",
             "chest_opened_img": "images/pokemon/gen1/hitmonlee-gray.png"
           },
           {
-            "name": "Omastar",
-            "access_rules": [ "Brine Cave" ],
-            "chest_unopened_img": "images/pokemon/gen1/omastar.png",
-            "chest_opened_img": "images/pokemon/gen1/omastar-gray.png"
+            "name": "Hitmonchan",
+            "access_rules": [ "Tyrogue" ],
+            "chest_unopened_img": "images/pokemon/gen1/hitmonchan.png",
+            "chest_opened_img": "images/pokemon/gen1/hitmonchan-gray.png"
+          },
+          {
+            "name": "Hitmontop",
+            "access_rules": [ "Tyrogue" ],
+            "chest_unopened_img": "images/pokemon/gen2/hitmontop.png",
+            "chest_opened_img": "images/pokemon/gen2/hitmontop-gray.png"
+          },
+          {
+            "name": "Lickilicky",
+            "access_rules": [ "Lickitung" ],
+            "chest_unopened_img": "images/pokemon/gen4/lickilicky.png",
+            "chest_opened_img": "images/pokemon/gen4/lickilicky-gray.png"
+          },
+          {
+            "name": "Weezing",
+            "access_rules": [ "Koffing" ],
+            "chest_unopened_img": "images/pokemon/gen1/weezing.png",
+            "chest_opened_img": "images/pokemon/gen1/weezing-gray.png"
+          },
+          {
+            "name": "Rhydon",
+            "access_rules": [ "Rhyhorn" ],
+            "chest_unopened_img": "images/pokemon/gen1/rhydon.png",
+            "chest_opened_img": "images/pokemon/gen1/rhydon-gray.png"
+          },
+          {
+            "name": "Rhyperior",
+            "access_rules": [ "Rhyhorn", "Rhydon" ],
+            "chest_unopened_img": "images/pokemon/gen4/rhyperior.png",
+            "chest_opened_img": "images/pokemon/gen4/rhyperior-gray.png"
+          },
+          {
+            "name": "Chansey",
+            "access_rules": [ "Happiny" ],
+            "chest_unopened_img": "images/pokemon/gen1/chansey.png",
+            "chest_opened_img": "images/pokemon/gen1/chansey-gray.png"
+          },
+          {
+            "name": "Blissey",
+            "access_rules": [ "Happiny", "Chansey" ],
+            "chest_unopened_img": "images/pokemon/gen2/blissey.png",
+            "chest_opened_img": "images/pokemon/gen2/blissey-gray.png"
+          },
+          {
+            "name": "Tangrowth",
+            "access_rules": [ "Tangela" ],
+            "chest_unopened_img": "images/pokemon/gen4/tangrowth.png",
+            "chest_opened_img": "images/pokemon/gen4/tangrowth-gray.png"
+          },
+          {
+            "name": "Seadra",
+            "access_rules": [ "Horsea" ],
+            "chest_unopened_img": "images/pokemon/gen1/seadra.png",
+            "chest_opened_img": "images/pokemon/gen1/seadra-gray.png"
+          },
+          {
+            "name": "Kingdra",
+            "access_rules": [ "Horsea", "Seadra" ],
+            "chest_unopened_img": "images/pokemon/gen2/kingdra.png",
+            "chest_opened_img": "images/pokemon/gen2/kingdra-gray.png"
+          },
+          {
+            "name": "Seaking",
+            "access_rules": [ "Goldeen" ],
+            "chest_unopened_img": "images/pokemon/gen1/seaking.png",
+            "chest_opened_img": "images/pokemon/gen1/seaking-gray.png"
+          },
+          {
+            "name": "Starmie",
+            "access_rules": [ "Staryu" ],
+            "chest_unopened_img": "images/pokemon/gen1/starmie.png",
+            "chest_opened_img": "images/pokemon/gen1/starmie-gray.png"
+          },
+          {
+            "name": "Mr. Mime",
+            "access_rules": [ "Mime Jr." ],
+            "chest_unopened_img": "images/pokemon/gen1/mr. mime.png",
+            "chest_opened_img": "images/pokemon/gen1/mr. mime-gray.png"
+          },
+          {
+            "name": "Scizor",
+            "access_rules": [ "Scyther" ],
+            "chest_unopened_img": "images/pokemon/gen2/scizor.png",
+            "chest_opened_img": "images/pokemon/gen2/scizor-gray.png"
+          },
+          {
+            "name": "Jynx",
+            "access_rules": [ "Smoochum" ],
+            "chest_unopened_img": "images/pokemon/gen1/jynx.png",
+            "chest_opened_img": "images/pokemon/gen1/jynx-gray.png"
+          },
+          {
+            "name": "Electabuzz",
+            "access_rules": [ "Elekid" ],
+            "chest_unopened_img": "images/pokemon/gen1/electabuzz.png",
+            "chest_opened_img": "images/pokemon/gen1/electabuzz-gray.png"
+          },
+          {
+            "name": "Electivire",
+            "access_rules": [ "Elekid", "Electabuzz" ],
+            "chest_unopened_img": "images/pokemon/gen4/electivire.png",
+            "chest_opened_img": "images/pokemon/gen4/electivire-gray.png"
+          },
+          {
+            "name": "Magmar",
+            "access_rules": [ "Magby" ],
+            "chest_unopened_img": "images/pokemon/gen1/magmar.png",
+            "chest_opened_img": "images/pokemon/gen1/magmar-gray.png"
+          },
+          {
+            "name": "Magmortar",
+            "access_rules": [ "Magby", "Magmar" ],
+            "chest_unopened_img": "images/pokemon/gen4/magmortar.png",
+            "chest_opened_img": "images/pokemon/gen4/magmortar-gray.png"
+          },
+          {
+            "name": "Gyarados",
+            "access_rules": [ "Magikarp" ],
+            "chest_unopened_img": "images/pokemon/gen1/gyarados.png",
+            "chest_opened_img": "images/pokemon/gen1/gyarados-gray.png"
+          },
+          {
+            "name": "Vaporeon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen1/vaporeon.png",
+            "chest_opened_img": "images/pokemon/gen1/vaporeon-gray.png"
+          },
+          {
+            "name": "Jolteon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen1/jolteon.png",
+            "chest_opened_img": "images/pokemon/gen1/jolteon-gray.png"
+          },
+          {
+            "name": "Flareon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen1/flareon.png",
+            "chest_opened_img": "images/pokemon/gen1/flareon-gray.png"
+          },
+          {
+            "name": "Espeon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen2/espeon.png",
+            "chest_opened_img": "images/pokemon/gen2/espeon-gray.png"
+          },
+          {
+            "name": "Umbreon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen2/umbreon.png",
+            "chest_opened_img": "images/pokemon/gen2/umbreon-gray.png"
+          },
+          {
+            "name": "Leafeon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen4/leafeon.png",
+            "chest_opened_img": "images/pokemon/gen4/leafeon-gray.png"
+          },
+          {
+            "name": "Glaceon",
+            "access_rules": [ "Eevee" ],
+            "chest_unopened_img": "images/pokemon/gen4/glaceon.png",
+            "chest_opened_img": "images/pokemon/gen4/glaceon-gray.png"
           },
           {
             "name": "Porygon2",
-            "access_rules": [ "Spacial Rift" ],
+            "access_rules": [ "Porygon" ],
             "chest_unopened_img": "images/pokemon/gen2/porygon2.png",
             "chest_opened_img": "images/pokemon/gen2/porygon2-gray.png"
           },
           {
-            "name": "Dusclops",
-            "access_rules": [ "Sky Stairway" ],
-            "chest_unopened_img": "images/pokemon/gen3/dusclops.png",
-            "chest_opened_img": "images/pokemon/gen3/dusclops-gray.png"
-          },
-          {
-            "name": "Gardevoir",
-            "access_rules": [ "Treeshroud Forest" ],
-            "chest_unopened_img": "images/pokemon/gen3/gardevoir.png",
-            "chest_opened_img": "images/pokemon/gen3/gardevoir-gray.png"
-          },
-          {
-            "name": "Grumpig",
-            "access_rules": [ "Marine Resort" ],
-            "chest_unopened_img": "images/pokemon/gen3/grumpig.png",
-            "chest_opened_img": "images/pokemon/gen3/grumpig-gray.png"
-          },
-          {
-            "name": "Manetric",
-            "access_rules": [ "Amp Plains" ],
-            "chest_unopened_img": "images/pokemon/gen3/manetric.png",
-            "chest_opened_img": "images/pokemon/gen3/manetric-gray.png"
-          },
-          {
-            "name": "Metagross",
-            "access_rules": [ "Crystal Cave", "Sky Stairway" ],
-            "chest_unopened_img": "images/pokemon/gen3/metagross.png",
-            "chest_opened_img": "images/pokemon/gen3/metagross-gray.png"
-          },
-          {
-            "name": "Salamence",
-            "access_rules": [ "Crystal Crossing", "Sky Stairway" ],
-            "chest_unopened_img": "images/pokemon/gen3/salamence.png",
-            "chest_opened_img": "images/pokemon/gen3/salamence-gray.png"
-          },
-          {
-            "name": "Abomasnow",
-            "access_rules": [ "Crevice Cave" ],
-            "chest_unopened_img": "images/pokemon/gen4/abomasnow.png",
-            "chest_opened_img": "images/pokemon/gen4/abomasnow-gray.png"
-          },
-          {
-            "name": "Bastiodon",
-            "access_rules": [ "Crystal Cave" ],
-            "chest_unopened_img": "images/pokemon/gen4/bastiodon.png",
-            "chest_opened_img": "images/pokemon/gen4/bastiodon-gray.png"
-          },
-          {
-            "name": "Bronzong",
-            "access_rules": [ "Spacial Rift" ],
-            "chest_unopened_img": "images/pokemon/gen4/bronzong.png",
-            "chest_opened_img": "images/pokemon/gen4/bronzong-gray.png"
-          },
-          {
             "name": "Porygon-Z",
-            "access_rules": [ "Spacial Rift" ],
+            "access_rules": [ "Porygon", "Porygon2" ],
             "chest_unopened_img": "images/pokemon/gen4/porygon-z.png",
             "chest_opened_img": "images/pokemon/gen4/porygon-z-gray.png"
           },
           {
+            "name": "Omastar",
+            "access_rules": [ "Omanyte" ],
+            "chest_unopened_img": "images/pokemon/gen1/omastar.png",
+            "chest_opened_img": "images/pokemon/gen1/omastar-gray.png"
+          },
+          {
+            "name": "Kabutops",
+            "access_rules": [ "Kabuto" ],
+            "chest_unopened_img": "images/pokemon/gen1/kabutops.png",
+            "chest_opened_img": "images/pokemon/gen1/kabutops-gray.png"
+          },
+          {
+            "name": "Snorlax",
+            "access_rules": [ "Munchlax" ],
+            "chest_unopened_img": "images/pokemon/gen1/snorlax.png",
+            "chest_opened_img": "images/pokemon/gen1/snorlax-gray.png"
+          },
+          {
+            "name": "Dragonair",
+            "access_rules": [ "Dratini" ],
+            "chest_unopened_img": "images/pokemon/gen1/dragonair.png",
+            "chest_opened_img": "images/pokemon/gen1/dragonair-gray.png"
+          },
+          {
+            "name": "Dragonite",
+            "access_rules": [ "Dratini", "Dragonair" ],
+            "chest_unopened_img": "images/pokemon/gen1/dragonite.png",
+            "chest_opened_img": "images/pokemon/gen1/dragonite-gray.png"
+          },
+          {
+            "name": "Bayleef",
+            "access_rules": [ "Chikorita" ],
+            "chest_unopened_img": "images/pokemon/gen2/bayleef.png",
+            "chest_opened_img": "images/pokemon/gen2/bayleef-gray.png"
+          },
+          {
+            "name": "Meganium",
+            "access_rules": [ "Chikorita", "Bayleef" ],
+            "chest_unopened_img": "images/pokemon/gen2/meganium.png",
+            "chest_opened_img": "images/pokemon/gen2/meganium-gray.png"
+          },
+          {
+            "name": "Quilava",
+            "access_rules": [ "Cyndaquil" ],
+            "chest_unopened_img": "images/pokemon/gen2/quilava.png",
+            "chest_opened_img": "images/pokemon/gen2/quilava-gray.png"
+          },
+          {
+            "name": "Typhlosion",
+            "access_rules": [ "Cyndaquil", "Quilava" ],
+            "chest_unopened_img": "images/pokemon/gen2/typhlosion.png",
+            "chest_opened_img": "images/pokemon/gen2/typhlosion-gray.png"
+          },
+          {
+            "name": "Croconaw",
+            "access_rules": [ "Totodile" ],
+            "chest_unopened_img": "images/pokemon/gen2/croconaw.png",
+            "chest_opened_img": "images/pokemon/gen2/croconaw-gray.png"
+          },
+          {
+            "name": "Feraligatr",
+            "access_rules": [ "Totodile", "Croconaw" ],
+            "chest_unopened_img": "images/pokemon/gen2/feraligatr.png",
+            "chest_opened_img": "images/pokemon/gen2/feraligatr-gray.png"
+          },
+          {
+            "name": "Furret",
+            "access_rules": [ "Sentret" ],
+            "chest_unopened_img": "images/pokemon/gen2/furret.png",
+            "chest_opened_img": "images/pokemon/gen2/furret-gray.png"
+          },
+          {
+            "name": "Noctowl",
+            "access_rules": [ "Hoothoot" ],
+            "chest_unopened_img": "images/pokemon/gen2/noctowl.png",
+            "chest_opened_img": "images/pokemon/gen2/noctowl-gray.png"
+          },
+          {
+            "name": "Ledian",
+            "access_rules": [ "Ledyba" ],
+            "chest_unopened_img": "images/pokemon/gen2/ledian.png",
+            "chest_opened_img": "images/pokemon/gen2/ledian-gray.png"
+          },
+          {
+            "name": "Ariados",
+            "access_rules": [ "Spinarak" ],
+            "chest_unopened_img": "images/pokemon/gen2/ariados.png",
+            "chest_opened_img": "images/pokemon/gen2/ariados-gray.png"
+          },
+          {
+            "name": "Lanturn",
+            "access_rules": [ "Chinchou" ],
+            "chest_unopened_img": "images/pokemon/gen2/lanturn.png",
+            "chest_opened_img": "images/pokemon/gen2/lanturn-gray.png"
+          },
+          {
+            "name": "Togetic",
+            "access_rules": [ "Togepi" ],
+            "chest_unopened_img": "images/pokemon/gen2/togetic.png",
+            "chest_opened_img": "images/pokemon/gen2/togetic-gray.png"
+          },
+          {
+            "name": "Togekiss",
+            "access_rules": [ "Togepi", "Togetic" ],
+            "chest_unopened_img": "images/pokemon/gen4/togekiss.png",
+            "chest_opened_img": "images/pokemon/gen4/togekiss-gray.png"
+          },
+          {
+            "name": "Xatu",
+            "access_rules": [ "Natu" ],
+            "chest_unopened_img": "images/pokemon/gen2/xatu.png",
+            "chest_opened_img": "images/pokemon/gen2/xatu-gray.png"
+          },
+          {
+            "name": "Flaaffy",
+            "access_rules": [ "Mareep" ],
+            "chest_unopened_img": "images/pokemon/gen2/flaaffy.png",
+            "chest_opened_img": "images/pokemon/gen2/flaaffy-gray.png"
+          },
+          {
+            "name": "Ampharos",
+            "access_rules": [ "Mareep", "Flaaffy" ],
+            "chest_unopened_img": "images/pokemon/gen2/ampharos.png",
+            "chest_opened_img": "images/pokemon/gen2/ampharos-gray.png"
+          },
+          {
+            "name": "Marill",
+            "access_rules": [ "Azurill" ],
+            "chest_unopened_img": "images/pokemon/gen2/marill.png",
+            "chest_opened_img": "images/pokemon/gen2/marill-gray.png"
+          },
+          {
+            "name": "Azumarill",
+            "access_rules": [ "Azurill", "Marill" ],
+            "chest_unopened_img": "images/pokemon/gen2/azumarill.png",
+            "chest_opened_img": "images/pokemon/gen2/azumarill-gray.png"
+          },
+          {
+            "name": "Sudowoodo",
+            "access_rules": [ "Bonsly" ],
+            "chest_unopened_img": "images/pokemon/gen2/sudowoodo.png",
+            "chest_opened_img": "images/pokemon/gen2/sudowoodo-gray.png"
+          },
+          {
+            "name": "Skiploom",
+            "access_rules": [ "Hoppip" ],
+            "chest_unopened_img": "images/pokemon/gen2/skiploom.png",
+            "chest_opened_img": "images/pokemon/gen2/skiploom-gray.png"
+          },
+          {
+            "name": "Jumpluff",
+            "access_rules": [ "Hoppip", "Skiploom" ],
+            "chest_unopened_img": "images/pokemon/gen2/jumpluff.png",
+            "chest_opened_img": "images/pokemon/gen2/jumpluff-gray.png"
+          },
+          {
+            "name": "Ambipom",
+            "access_rules": [ "Aipom" ],
+            "chest_unopened_img": "images/pokemon/gen4/ambipom.png",
+            "chest_opened_img": "images/pokemon/gen4/ambipom-gray.png"
+          },
+          {
+            "name": "Sunflora",
+            "access_rules": [ "Sunkern" ],
+            "chest_unopened_img": "images/pokemon/gen2/sunflora.png",
+            "chest_opened_img": "images/pokemon/gen2/sunflora-gray.png"
+          },
+          {
+            "name": "Yanmega",
+            "access_rules": [ "Yanma" ],
+            "chest_unopened_img": "images/pokemon/gen4/yanmega.png",
+            "chest_opened_img": "images/pokemon/gen4/yanmega-gray.png"
+          },
+          {
+            "name": "Quagsire",
+            "access_rules": [ "Wooper" ],
+            "chest_unopened_img": "images/pokemon/gen2/quagsire.png",
+            "chest_opened_img": "images/pokemon/gen2/quagsire-gray.png"
+          },
+          {
+            "name": "Honchkrow",
+            "access_rules": [ "Murkrow" ],
+            "chest_unopened_img": "images/pokemon/gen4/honchkrow.png",
+            "chest_opened_img": "images/pokemon/gen4/honchkrow-gray.png"
+          },
+          {
+            "name": "Mismagius",
+            "access_rules": [ "Misdreavus" ],
+            "chest_unopened_img": "images/pokemon/gen4/mismagius.png",
+            "chest_opened_img": "images/pokemon/gen4/mismagius-gray.png"
+          },
+          {
+            "name": "Wobbuffet",
+            "access_rules": [ "Wynaut" ],
+            "chest_unopened_img": "images/pokemon/gen2/wobbuffet.png",
+            "chest_opened_img": "images/pokemon/gen2/wobbuffet-gray.png"
+          },
+          {
+            "name": "Forretress",
+            "access_rules": [ "Pineco" ],
+            "chest_unopened_img": "images/pokemon/gen2/forretress.png",
+            "chest_opened_img": "images/pokemon/gen2/forretress-gray.png"
+          },
+          {
+            "name": "Gliscor",
+            "access_rules": [ "Gligar" ],
+            "chest_unopened_img": "images/pokemon/gen4/gliscor.png",
+            "chest_opened_img": "images/pokemon/gen4/gliscor-gray.png"
+          },
+          {
+            "name": "Granbull",
+            "access_rules": [ "Snubbull" ],
+            "chest_unopened_img": "images/pokemon/gen2/granbull.png",
+            "chest_opened_img": "images/pokemon/gen2/granbull-gray.png"
+          },
+          {
+            "name": "Weavile",
+            "access_rules": [ "Sneasel" ],
+            "chest_unopened_img": "images/pokemon/gen4/weavile.png",
+            "chest_opened_img": "images/pokemon/gen4/weavile-gray.png"
+          },
+          {
+            "name": "Ursaring",
+            "access_rules": [ "Teddiursa" ],
+            "chest_unopened_img": "images/pokemon/gen2/ursaring.png",
+            "chest_opened_img": "images/pokemon/gen2/ursaring-gray.png"
+          },
+          {
+            "name": "Magcargo",
+            "access_rules": [ "Slugma" ],
+            "chest_unopened_img": "images/pokemon/gen2/magcargo.png",
+            "chest_opened_img": "images/pokemon/gen2/magcargo-gray.png"
+          },
+          {
+            "name": "Piloswine",
+            "access_rules": [ "Swinub" ],
+            "chest_unopened_img": "images/pokemon/gen2/piloswine.png",
+            "chest_opened_img": "images/pokemon/gen2/piloswine-gray.png"
+          },
+          {
+            "name": "Mamoswine",
+            "access_rules": [ "Swinub", "Piloswine" ],
+            "chest_unopened_img": "images/pokemon/gen4/mamoswine.png",
+            "chest_opened_img": "images/pokemon/gen4/mamoswine-gray.png"
+          },
+          {
+            "name": "Octillery",
+            "access_rules": [ "Remoraid" ],
+            "chest_unopened_img": "images/pokemon/gen2/octillery.png",
+            "chest_opened_img": "images/pokemon/gen2/octillery-gray.png"
+          },
+          {
+            "name": "Mantine",
+            "access_rules": [ "Mantyke" ],
+            "chest_unopened_img": "images/pokemon/gen2/mantine.png",
+            "chest_opened_img": "images/pokemon/gen2/mantine-gray.png"
+          },
+          {
+            "name": "Houndoom",
+            "access_rules": [ "Houndour" ],
+            "chest_unopened_img": "images/pokemon/gen2/houndoom.png",
+            "chest_opened_img": "images/pokemon/gen2/houndoom-gray.png"
+          },
+          {
+            "name": "Donphan",
+            "access_rules": [ "Phanpy" ],
+            "chest_unopened_img": "images/pokemon/gen2/donphan.png",
+            "chest_opened_img": "images/pokemon/gen2/donphan-gray.png"
+          },
+          {
+            "name": "Pupitar",
+            "access_rules": [ "Larvitar" ],
+            "chest_unopened_img": "images/pokemon/gen2/pupitar.png",
+            "chest_opened_img": "images/pokemon/gen2/pupitar-gray.png"
+          },
+          {
+            "name": "Tyranitar",
+            "access_rules": [ "Larvitar", "Pupitar" ],
+            "chest_unopened_img": "images/pokemon/gen2/tyranitar.png",
+            "chest_opened_img": "images/pokemon/gen2/tyranitar-gray.png"
+          },
+          {
+            "name": "Grovyle",
+            "access_rules": [ "Treecko" ],
+            "chest_unopened_img": "images/pokemon/gen3/grovyle.png",
+            "chest_opened_img": "images/pokemon/gen3/grovyle-gray.png"
+          },
+          {
+            "name": "Sceptile",
+            "access_rules": [ "Treecko", "Grovyle" ],
+            "chest_unopened_img": "images/pokemon/gen3/sceptile.png",
+            "chest_opened_img": "images/pokemon/gen3/sceptile-gray.png"
+          },
+          {
+            "name": "Combusken",
+            "access_rules": [ "Torchic" ],
+            "chest_unopened_img": "images/pokemon/gen3/combusken.png",
+            "chest_opened_img": "images/pokemon/gen3/combusken-gray.png"
+          },
+          {
+            "name": "Blaziken",
+            "access_rules": [ "Torchic", "Combusken" ],
+            "chest_unopened_img": "images/pokemon/gen3/blaziken.png",
+            "chest_opened_img": "images/pokemon/gen3/blaziken-gray.png"
+          },
+          {
+            "name": "Marshtomp",
+            "access_rules": [ "Mudkip" ],
+            "chest_unopened_img": "images/pokemon/gen3/marshtomp.png",
+            "chest_opened_img": "images/pokemon/gen3/marshtomp-gray.png"
+          },
+          {
+            "name": "Swampert",
+            "access_rules": [ "Mudkip", "Marshtomp" ],
+            "chest_unopened_img": "images/pokemon/gen3/swampert.png",
+            "chest_opened_img": "images/pokemon/gen3/swampert-gray.png"
+          },
+          {
+            "name": "Mightyena",
+            "access_rules": [ "Poochyena" ],
+            "chest_unopened_img": "images/pokemon/gen3/mightyena.png",
+            "chest_opened_img": "images/pokemon/gen3/mightyena-gray.png"
+          },
+          {
+            "name": "Linoone",
+            "access_rules": [ "Zigzagoon" ],
+            "chest_unopened_img": "images/pokemon/gen3/linoone.png",
+            "chest_opened_img": "images/pokemon/gen3/linoone-gray.png"
+          },
+          {
+            "name": "Silcoon",
+            "access_rules": [ "Wurmple" ],
+            "chest_unopened_img": "images/pokemon/gen3/silcoon.png",
+            "chest_opened_img": "images/pokemon/gen3/silcoon-gray.png"
+          },
+          {
+            "name": "Beautifly",
+            "access_rules": [ "Wurmple", "Silcoon" ],
+            "chest_unopened_img": "images/pokemon/gen3/beautifly.png",
+            "chest_opened_img": "images/pokemon/gen3/beautifly-gray.png"
+          },
+          {
+            "name": "Cascoon",
+            "access_rules": [ "Wurmple" ],
+            "chest_unopened_img": "images/pokemon/gen3/cascoon.png",
+            "chest_opened_img": "images/pokemon/gen3/cascoon-gray.png"
+          },
+          {
+            "name": "Dustox",
+            "access_rules": [ "Wurmple", "Cascoon" ],
+            "chest_unopened_img": "images/pokemon/gen3/dustox.png",
+            "chest_opened_img": "images/pokemon/gen3/dustox-gray.png"
+          },
+          {
+            "name": "Lombre",
+            "access_rules": [ "Lotad" ],
+            "chest_unopened_img": "images/pokemon/gen3/lombre.png",
+            "chest_opened_img": "images/pokemon/gen3/lombre-gray.png"
+          },
+          {
+            "name": "Ludicolo",
+            "access_rules": [ "Lotad", "Lombre" ],
+            "chest_unopened_img": "images/pokemon/gen3/ludicolo.png",
+            "chest_opened_img": "images/pokemon/gen3/ludicolo-gray.png"
+          },
+          {
+            "name": "Nuzleaf",
+            "access_rules": [ "Seedot" ],
+            "chest_unopened_img": "images/pokemon/gen3/nuzleaf.png",
+            "chest_opened_img": "images/pokemon/gen3/nuzleaf-gray.png"
+          },
+          {
+            "name": "Shiftry",
+            "access_rules": [ "Seedot", "Nuzleaf" ],
+            "chest_unopened_img": "images/pokemon/gen3/shiftry.png",
+            "chest_opened_img": "images/pokemon/gen3/shiftry-gray.png"
+          },
+          {
+            "name": "Swellow",
+            "access_rules": [ "Taillow" ],
+            "chest_unopened_img": "images/pokemon/gen3/swellow.png",
+            "chest_opened_img": "images/pokemon/gen3/swellow-gray.png"
+          },
+          {
+            "name": "Pelipper",
+            "access_rules": [ "Wingull" ],
+            "chest_unopened_img": "images/pokemon/gen3/pelipper.png",
+            "chest_opened_img": "images/pokemon/gen3/pelipper-gray.png"
+          },
+          {
+            "name": "Kirlia",
+            "access_rules": [ "Ralts" ],
+            "chest_unopened_img": "images/pokemon/gen3/kirlia.png",
+            "chest_opened_img": "images/pokemon/gen3/kirlia-gray.png"
+          },
+          {
+            "name": "Gardevoir",
+            "access_rules": [ "Ralts", "Kirlia" ],
+            "chest_unopened_img": "images/pokemon/gen3/gardevoir.png",
+            "chest_opened_img": "images/pokemon/gen3/gardevoir-gray.png"
+          },
+          {
+            "name": "Gallade",
+            "access_rules": [ "Ralts", "Kirlia" ],
+            "chest_unopened_img": "images/pokemon/gen4/gallade.png",
+            "chest_opened_img": "images/pokemon/gen4/gallade-gray.png"
+          },
+          {
+            "name": "Masquerain",
+            "access_rules": [ "Surskit" ],
+            "chest_unopened_img": "images/pokemon/gen3/masquerain.png",
+            "chest_opened_img": "images/pokemon/gen3/masquerain-gray.png"
+          },
+          {
+            "name": "Breloom",
+            "access_rules": [ "Shroomish" ],
+            "chest_unopened_img": "images/pokemon/gen3/breloom.png",
+            "chest_opened_img": "images/pokemon/gen3/breloom-gray.png"
+          },
+          {
+            "name": "Vigoroth",
+            "access_rules": [ "Slakoth" ],
+            "chest_unopened_img": "images/pokemon/gen3/vigoroth.png",
+            "chest_opened_img": "images/pokemon/gen3/vigoroth-gray.png"
+          },
+          {
+            "name": "Slaking",
+            "access_rules": [ "Slakoth", "Vigoroth" ],
+            "chest_unopened_img": "images/pokemon/gen3/slaking.png",
+            "chest_opened_img": "images/pokemon/gen3/slaking-gray.png"
+          },
+          {
+            "name": "Ninjask",
+            "access_rules": [ "Nincada" ],
+            "chest_unopened_img": "images/pokemon/gen3/ninjask.png",
+            "chest_opened_img": "images/pokemon/gen3/ninjask-gray.png"
+          },
+          {
+            "name": "Shedinja",
+            "access_rules": [ "Nincada" ],
+            "chest_unopened_img": "images/pokemon/gen3/shedinja.png",
+            "chest_opened_img": "images/pokemon/gen3/shedinja-gray.png"
+          },
+          {
+            "name": "Loudred",
+            "access_rules": [ "Whismur" ],
+            "chest_unopened_img": "images/pokemon/gen3/loudred.png",
+            "chest_opened_img": "images/pokemon/gen3/loudred-gray.png"
+          },
+          {
+            "name": "Exploud",
+            "access_rules": [ "Whismur", "Loudred" ],
+            "chest_unopened_img": "images/pokemon/gen3/exploud.png",
+            "chest_opened_img": "images/pokemon/gen3/exploud-gray.png"
+          },
+          {
+            "name": "Hariyama",
+            "access_rules": [ "Makuhita" ],
+            "chest_unopened_img": "images/pokemon/gen3/hariyama.png",
+            "chest_opened_img": "images/pokemon/gen3/hariyama-gray.png"
+          },
+          {
+            "name": "Probopass",
+            "access_rules": [ "Nosepass" ],
+            "chest_unopened_img": "images/pokemon/gen4/probopass.png",
+            "chest_opened_img": "images/pokemon/gen4/probopass-gray.png"
+          },
+          {
+            "name": "Delcatty",
+            "access_rules": [ "Skitty" ],
+            "chest_unopened_img": "images/pokemon/gen3/delcatty.png",
+            "chest_opened_img": "images/pokemon/gen3/delcatty-gray.png"
+          },
+          {
+            "name": "Lairon",
+            "access_rules": [ "Aron" ],
+            "chest_unopened_img": "images/pokemon/gen3/lairon.png",
+            "chest_opened_img": "images/pokemon/gen3/lairon-gray.png"
+          },
+          {
+            "name": "Aggron",
+            "access_rules": [ "Aron", "Lairon" ],
+            "chest_unopened_img": "images/pokemon/gen3/aggron.png",
+            "chest_opened_img": "images/pokemon/gen3/aggron-gray.png"
+          },
+          {
+            "name": "Medicham",
+            "access_rules": [ "Meditite" ],
+            "chest_unopened_img": "images/pokemon/gen3/medicham.png",
+            "chest_opened_img": "images/pokemon/gen3/medicham-gray.png"
+          },
+          {
+            "name": "Manetric",
+            "access_rules": [ "Electrike" ],
+            "chest_unopened_img": "images/pokemon/gen3/manetric.png",
+            "chest_opened_img": "images/pokemon/gen3/manetric-gray.png"
+          },
+          {
+            "name": "Roselia",
+            "access_rules": [ "Budew" ],
+            "chest_unopened_img": "images/pokemon/gen3/roselia.png",
+            "chest_opened_img": "images/pokemon/gen3/roselia-gray.png"
+          },
+          {
+            "name": "Roserade",
+            "access_rules": [ "Budew", "Roselia" ],
+            "chest_unopened_img": "images/pokemon/gen4/roserade.png",
+            "chest_opened_img": "images/pokemon/gen4/roserade-gray.png"
+          },
+          {
+            "name": "Swalot",
+            "access_rules": [ "Gulpin" ],
+            "chest_unopened_img": "images/pokemon/gen3/swalot.png",
+            "chest_opened_img": "images/pokemon/gen3/swalot-gray.png"
+          },
+          {
+            "name": "Sharpedo",
+            "access_rules": [ "Carvanha" ],
+            "chest_unopened_img": "images/pokemon/gen3/sharpedo.png",
+            "chest_opened_img": "images/pokemon/gen3/sharpedo-gray.png"
+          },
+          {
+            "name": "Wailord",
+            "access_rules": [ "Wailmer" ],
+            "chest_unopened_img": "images/pokemon/gen3/wailord.png",
+            "chest_opened_img": "images/pokemon/gen3/wailord-gray.png"
+          },
+          {
+            "name": "Camerupt",
+            "access_rules": [ "Numel" ],
+            "chest_unopened_img": "images/pokemon/gen3/camerupt.png",
+            "chest_opened_img": "images/pokemon/gen3/camerupt-gray.png"
+          },
+          {
+            "name": "Grumpig",
+            "access_rules": [ "Spoink" ],
+            "chest_unopened_img": "images/pokemon/gen3/grumpig.png",
+            "chest_opened_img": "images/pokemon/gen3/grumpig-gray.png"
+          },
+          {
+            "name": "Vibrava",
+            "access_rules": [ "Trapinch" ],
+            "chest_unopened_img": "images/pokemon/gen3/vibrava.png",
+            "chest_opened_img": "images/pokemon/gen3/vibrava-gray.png"
+          },
+          {
+            "name": "Flygon",
+            "access_rules": [ "Trapinch", "Vibrava" ],
+            "chest_unopened_img": "images/pokemon/gen3/flygon.png",
+            "chest_opened_img": "images/pokemon/gen3/flygon-gray.png"
+          },
+          {
+            "name": "Cacturne",
+            "access_rules": [ "Cacnea" ],
+            "chest_unopened_img": "images/pokemon/gen3/cacturne.png",
+            "chest_opened_img": "images/pokemon/gen3/cacturne-gray.png"
+          },
+          {
+            "name": "Altaria",
+            "access_rules": [ "Swablu" ],
+            "chest_unopened_img": "images/pokemon/gen3/altaria.png",
+            "chest_opened_img": "images/pokemon/gen3/altaria-gray.png"
+          },
+          {
+            "name": "Whiscash",
+            "access_rules": [ "Barboach" ],
+            "chest_unopened_img": "images/pokemon/gen3/whiscash.png",
+            "chest_opened_img": "images/pokemon/gen3/whiscash-gray.png"
+          },
+          {
+            "name": "Crawdaunt",
+            "access_rules": [ "Corphish" ],
+            "chest_unopened_img": "images/pokemon/gen3/crawdaunt.png",
+            "chest_opened_img": "images/pokemon/gen3/crawdaunt-gray.png"
+          },
+          {
+            "name": "Claydol",
+            "access_rules": [ "Baltoy" ],
+            "chest_unopened_img": "images/pokemon/gen3/claydol.png",
+            "chest_opened_img": "images/pokemon/gen3/claydol-gray.png"
+          },
+          {
+            "name": "Cradily",
+            "access_rules": [ "Lileep" ],
+            "chest_unopened_img": "images/pokemon/gen3/cradily.png",
+            "chest_opened_img": "images/pokemon/gen3/cradily-gray.png"
+          },
+          {
+            "name": "Armaldo",
+            "access_rules": [ "Anorith" ],
+            "chest_unopened_img": "images/pokemon/gen3/armaldo.png",
+            "chest_opened_img": "images/pokemon/gen3/armaldo-gray.png"
+          },
+          {
+            "name": "Milotic",
+            "access_rules": [ "Feebas" ],
+            "chest_unopened_img": "images/pokemon/gen3/milotic.png",
+            "chest_opened_img": "images/pokemon/gen3/milotic-gray.png"
+          },
+          {
+            "name": "Banette",
+            "access_rules": [ "Shuppet" ],
+            "chest_unopened_img": "images/pokemon/gen3/banette.png",
+            "chest_opened_img": "images/pokemon/gen3/banette-gray.png"
+          },
+          {
+            "name": "Dusclops",
+            "access_rules": [ "Duskull" ],
+            "chest_unopened_img": "images/pokemon/gen3/dusclops.png",
+            "chest_opened_img": "images/pokemon/gen3/dusclops-gray.png"
+          },
+          {
+            "name": "Dusknoir",
+            "access_rules": [ "Duskull", "Dusclops" ],
+            "chest_unopened_img": "images/pokemon/gen4/dusknoir.png",
+            "chest_opened_img": "images/pokemon/gen4/dusknoir-gray.png"
+          },
+          {
+            "name": "Chimecho",
+            "access_rules": [ "Chingling" ],
+            "chest_unopened_img": "images/pokemon/gen3/chimecho.png",
+            "chest_opened_img": "images/pokemon/gen3/chimecho-gray.png"
+          },
+          {
+            "name": "Glalie",
+            "access_rules": [ "Snorunt" ],
+            "chest_unopened_img": "images/pokemon/gen3/glalie.png",
+            "chest_opened_img": "images/pokemon/gen3/glalie-gray.png"
+          },
+          {
+            "name": "Froslass",
+            "access_rules": [ "Snorunt" ],
+            "chest_unopened_img": "images/pokemon/gen4/froslass.png",
+            "chest_opened_img": "images/pokemon/gen4/froslass-gray.png"
+          },
+          {
+            "name": "Sealeo",
+            "access_rules": [ "Spheal" ],
+            "chest_unopened_img": "images/pokemon/gen3/sealeo.png",
+            "chest_opened_img": "images/pokemon/gen3/sealeo-gray.png"
+          },
+          {
+            "name": "Walrein",
+            "access_rules": [ "Spheal", "Sealeo" ],
+            "chest_unopened_img": "images/pokemon/gen3/walrein.png",
+            "chest_opened_img": "images/pokemon/gen3/walrein-gray.png"
+          },
+          {
+            "name": "Huntail",
+            "access_rules": [ "Clamperl" ],
+            "chest_unopened_img": "images/pokemon/gen3/huntail.png",
+            "chest_opened_img": "images/pokemon/gen3/huntail-gray.png"
+          },
+          {
+            "name": "Gorebyss",
+            "access_rules": [ "Clamperl" ],
+            "chest_unopened_img": "images/pokemon/gen3/gorebyss.png",
+            "chest_opened_img": "images/pokemon/gen3/gorebyss-gray.png"
+          },
+          {
+            "name": "Shelgon",
+            "access_rules": [ "Bagon" ],
+            "chest_unopened_img": "images/pokemon/gen3/shelgon.png",
+            "chest_opened_img": "images/pokemon/gen3/shelgon-gray.png"
+          },
+          {
+            "name": "Salamence",
+            "access_rules": [ "Bagon", "Shelgon" ],
+            "chest_unopened_img": "images/pokemon/gen3/salamence.png",
+            "chest_opened_img": "images/pokemon/gen3/salamence-gray.png"
+          },
+          {
+            "name": "Metang",
+            "access_rules": [ "Beldum" ],
+            "chest_unopened_img": "images/pokemon/gen3/metang.png",
+            "chest_opened_img": "images/pokemon/gen3/metang-gray.png"
+          },
+          {
+            "name": "Metagross",
+            "access_rules": [ "Beldum", "Metang" ],
+            "chest_unopened_img": "images/pokemon/gen3/metagross.png",
+            "chest_opened_img": "images/pokemon/gen3/metagross-gray.png"
+          },
+          {
+            "name": "Grotle",
+            "access_rules": [ "Turtwig" ],
+            "chest_unopened_img": "images/pokemon/gen4/grotle.png",
+            "chest_opened_img": "images/pokemon/gen4/grotle-gray.png"
+          },
+          {
+            "name": "Torterra",
+            "access_rules": [ "Turtwig", "Grotle" ],
+            "chest_unopened_img": "images/pokemon/gen4/torterra.png",
+            "chest_opened_img": "images/pokemon/gen4/torterra-gray.png"
+          },
+          {
+            "name": "Monferno",
+            "access_rules": [ "Chimchar" ],
+            "chest_unopened_img": "images/pokemon/gen4/monferno.png",
+            "chest_opened_img": "images/pokemon/gen4/monferno-gray.png"
+          },
+          {
+            "name": "Infernape",
+            "access_rules": [ "Chimchar", "Monferno" ],
+            "chest_unopened_img": "images/pokemon/gen4/infernape.png",
+            "chest_opened_img": "images/pokemon/gen4/infernape-gray.png"
+          },
+          {
+            "name": "Prinplup",
+            "access_rules": [ "Piplup" ],
+            "chest_unopened_img": "images/pokemon/gen4/prinplup.png",
+            "chest_opened_img": "images/pokemon/gen4/prinplup-gray.png"
+          },
+          {
+            "name": "Empoleon",
+            "access_rules": [ "Piplup", "Prinplup" ],
+            "chest_unopened_img": "images/pokemon/gen4/empoleon.png",
+            "chest_opened_img": "images/pokemon/gen4/empoleon-gray.png"
+          },
+          {
+            "name": "Staravia",
+            "access_rules": [ "Starly" ],
+            "chest_unopened_img": "images/pokemon/gen4/staravia.png",
+            "chest_opened_img": "images/pokemon/gen4/staravia-gray.png"
+          },
+          {
+            "name": "Staraptor",
+            "access_rules": [ "Starly", "Staravia" ],
+            "chest_unopened_img": "images/pokemon/gen4/staraptor.png",
+            "chest_opened_img": "images/pokemon/gen4/staraptor-gray.png"
+          },
+          {
+            "name": "Bibarel",
+            "access_rules": [ "Bidoof" ],
+            "chest_unopened_img": "images/pokemon/gen4/bibarel.png",
+            "chest_opened_img": "images/pokemon/gen4/bibarel-gray.png"
+          },
+          {
+            "name": "Kricketune",
+            "access_rules": [ "Kricketot" ],
+            "chest_unopened_img": "images/pokemon/gen4/kricketune.png",
+            "chest_opened_img": "images/pokemon/gen4/kricketune-gray.png"
+          },
+          {
+            "name": "Luxio",
+            "access_rules": [ "Shinx" ],
+            "chest_unopened_img": "images/pokemon/gen4/luxio.png",
+            "chest_opened_img": "images/pokemon/gen4/luxio-gray.png"
+          },
+          {
+            "name": "Luxray",
+            "access_rules": [ "Shinx", "Luxio" ],
+            "chest_unopened_img": "images/pokemon/gen4/luxray.png",
+            "chest_opened_img": "images/pokemon/gen4/luxray-gray.png"
+          },
+          {
+            "name": "Rampardos",
+            "access_rules": [ "Cranidos" ],
+            "chest_unopened_img": "images/pokemon/gen4/rampardos.png",
+            "chest_opened_img": "images/pokemon/gen4/rampardos-gray.png"
+          },
+          {
+            "name": "Bastiodon",
+            "access_rules": [ "Shieldon" ],
+            "chest_unopened_img": "images/pokemon/gen4/bastiodon.png",
+            "chest_opened_img": "images/pokemon/gen4/bastiodon-gray.png"
+          },
+          {
+            "name": "Wormadam_P",
+            "access_rules": [ "Burmy_P" ],
+            "chest_unopened_img": "images/pokemon/gen4/wormadam_p.png",
+            "chest_opened_img": "images/pokemon/gen4/wormadam_p-gray.png"
+          },
+          {
+            "name": "Wormadam_S",
+            "access_rules": [ "Burmy_S" ],
+            "chest_unopened_img": "images/pokemon/gen4/wormadam_s.png",
+            "chest_opened_img": "images/pokemon/gen4/wormadam_s-gray.png"
+          },
+          {
+            "name": "Wormadam_T",
+            "access_rules": [ "Burmy_T" ],
+            "chest_unopened_img": "images/pokemon/gen4/wormadam_t.png",
+            "chest_opened_img": "images/pokemon/gen4/wormadam_t-gray.png"
+          },
+          {
+            "name": "Burmy_S",
+            "access_rules": [ "Burmy_P" ],
+            "chest_unopened_img": "images/pokemon/gen4/burmy_s.png",
+            "chest_opened_img": "images/pokemon/gen4/burmy_s-gray.png"
+          },
+          {
+            "name": "Burmy_T",
+            "access_rules": [ "Burmy_P", "Burmy_S" ],
+            "chest_unopened_img": "images/pokemon/gen4/burmy_t.png",
+            "chest_opened_img": "images/pokemon/gen4/burmy_t-gray.png"
+          },
+          {
+            "name": "Mothim",
+            "access_rules": [ "Burmy_P", "Burmy_S", "Burmy_T" ],
+            "chest_unopened_img": "images/pokemon/gen4/mothim.png",
+            "chest_opened_img": "images/pokemon/gen4/mothim-gray.png"
+          },
+          {
+            "name": "Vespiquen",
+            "access_rules": [ "Combee" ],
+            "chest_unopened_img": "images/pokemon/gen4/vespiquen.png",
+            "chest_opened_img": "images/pokemon/gen4/vespiquen-gray.png"
+          },
+          {
+            "name": "Floatzel",
+            "access_rules": [ "Buizel" ],
+            "chest_unopened_img": "images/pokemon/gen4/floatzel.png",
+            "chest_opened_img": "images/pokemon/gen4/floatzel-gray.png"
+          },
+          {
+            "name": "Cherrim",
+            "access_rules": [ "Cherubi" ],
+            "chest_unopened_img": "images/pokemon/gen4/cherrim.png",
+            "chest_opened_img": "images/pokemon/gen4/cherrim-gray.png"
+          },
+          {
+            "name": "Gastrodon_E",
+            "access_rules": [ "Shellos_E" ],
+            "chest_unopened_img": "images/pokemon/gen4/gastrodon_e.png",
+            "chest_opened_img": "images/pokemon/gen4/gastrodon_e-gray.png"
+          },
+          {
+            "name": "Gastrodon_W",
+            "access_rules": [ "Shellos_W" ],
+            "chest_unopened_img": "images/pokemon/gen4/gastrodon_w.png",
+            "chest_opened_img": "images/pokemon/gen4/gastrodon_w-gray.png"
+          },
+          {
+            "name": "Drifblim",
+            "access_rules": [ "Drifloon" ],
+            "chest_unopened_img": "images/pokemon/gen4/drifblim.png",
+            "chest_opened_img": "images/pokemon/gen4/drifblim-gray.png"
+          },
+          {
+            "name": "Lopunny",
+            "access_rules": [ "Buneary" ],
+            "chest_unopened_img": "images/pokemon/gen4/lopunny.png",
+            "chest_opened_img": "images/pokemon/gen4/lopunny-gray.png"
+          },
+          {
             "name": "Purugly",
-            "access_rules": [ "Crystal Crossing" ],
+            "access_rules": [ "Glameow" ],
             "chest_unopened_img": "images/pokemon/gen4/purugly.png",
             "chest_opened_img": "images/pokemon/gen4/purugly-gray.png"
           },
           {
-            "name": "Rampardos",
-            "access_rules": [ "Crystal Cave" ],
-            "chest_unopened_img": "images/pokemon/gen4/rampardos.png",
-            "chest_opened_img": "images/pokemon/gen4/rampardos-gray.png"
+            "name": "Skuntank",
+            "access_rules": [ "Stunky" ],
+            "chest_unopened_img": "images/pokemon/gen4/skuntank.png",
+            "chest_opened_img": "images/pokemon/gen4/skuntank-gray.png"
+          },
+          {
+            "name": "Bronzong",
+            "access_rules": [ "Bronzor" ],
+            "chest_unopened_img": "images/pokemon/gen4/bronzong.png",
+            "chest_opened_img": "images/pokemon/gen4/bronzong-gray.png"
+          },
+          {
+            "name": "Gabite",
+            "access_rules": [ "Gible" ],
+            "chest_unopened_img": "images/pokemon/gen4/gabite.png",
+            "chest_opened_img": "images/pokemon/gen4/gabite-gray.png"
+          },
+          {
+            "name": "Garchomp",
+            "access_rules": [ "Gible", "Gabite" ],
+            "chest_unopened_img": "images/pokemon/gen4/garchomp.png",
+            "chest_opened_img": "images/pokemon/gen4/garchomp-gray.png"
+          },
+          {
+            "name": "Lucario",
+            "access_rules": [ "Riolu" ],
+            "chest_unopened_img": "images/pokemon/gen4/lucario.png",
+            "chest_opened_img": "images/pokemon/gen4/lucario-gray.png"
+          },
+          {
+            "name": "Hippowdon",
+            "access_rules": [ "Hippopotas" ],
+            "chest_unopened_img": "images/pokemon/gen4/hippowdon.png",
+            "chest_opened_img": "images/pokemon/gen4/hippowdon-gray.png"
+          },
+          {
+            "name": "Drapion",
+            "access_rules": [ "Skorupi" ],
+            "chest_unopened_img": "images/pokemon/gen4/drapion.png",
+            "chest_opened_img": "images/pokemon/gen4/drapion-gray.png"
+          },
+          {
+            "name": "Toxicroak",
+            "access_rules": [ "Croagunk" ],
+            "chest_unopened_img": "images/pokemon/gen4/toxicroak.png",
+            "chest_opened_img": "images/pokemon/gen4/toxicroak-gray.png"
+          },
+          {
+            "name": "Lumineon",
+            "access_rules": [ "Finneon" ],
+            "chest_unopened_img": "images/pokemon/gen4/lumineon.png",
+            "chest_opened_img": "images/pokemon/gen4/lumineon-gray.png"
+          },
+          {
+            "name": "Abomasnow",
+            "access_rules": [ "Snover" ],
+            "chest_unopened_img": "images/pokemon/gen4/abomasnow.png",
+            "chest_opened_img": "images/pokemon/gen4/abomasnow-gray.png"
           }
         ],
         "map_locations": [
