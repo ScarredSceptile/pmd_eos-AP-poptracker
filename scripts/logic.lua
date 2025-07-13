@@ -91,10 +91,11 @@ end
 
 function aegisAccess(sealNum)
 	local seal = tonumber(sealNum)
-	if Tracker:ProviderCountForCode("CursedAegisCave") == 1 then
+	print(seal.." aegis")
+	if Tracker:ProviderCountForCode("CursedAegisCave") == 0 then
 		return Tracker:ProviderCountForCode("Progressive Seal") >= seal
 	end
-	return true
+	return false
 end
 
 function specialEpisodeAccess()

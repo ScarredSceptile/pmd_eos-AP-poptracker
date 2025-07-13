@@ -49,6 +49,7 @@
               [
                 "Surrounded Sea",
                 "Miracle Sea",
+                "Aegis Cave",
                 "Mt. Travail",
                 "The Nightmare",
                 "Spacial Rift",
@@ -59,10 +60,10 @@
                 "Shimmer Desert",
                 "Mt. Avalanche",
                 "Giant Volcano",
-                "World Abyss",
-                "Sky Stairway"
+                "World Abyss"
               ],
               [
+                "Sky Stairway",
                 "Mystery Jungle",
                 "Serenity River",
                 "Landslide Cave",
@@ -90,7 +91,7 @@
                 "Inferno Cave",
                 "Progressive Sky Peak",
                 "Star Cave",
-				"Final Maze"
+                "Final Maze"
               ]
             ]
           }

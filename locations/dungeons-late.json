@@ -1104,43 +1104,43 @@
           },
           {
             "name": "Regirock Chamber",
-            "access_rules": [ "$aegisAccess|2", "Rock Seal" ]
+            "access_rules": [ "$aegisAccess|2", "Ice Seal, Rock Seal" ]
           },
           {
             "name": "Recruit Regirock",
-            "access_rules": [ "$aegisAccess|2, Complete Temporal Tower", "Rock Seal, Complete Temporal Tower" ],
+            "access_rules": [ "$aegisAccess|2, Complete Temporal Tower", "Ice Seal, Rock Seal, Complete Temporal Tower" ],
             "chest_unopened_img": "images/locations/legendaries/regirock.png",
             "chest_opened_img": "images/locations/legendaries/regirock-gray.png"
           },
           {
             "name": "Steel Aegis Cave",
-            "access_rules": [ "$aegisAccess|2", "Rock Seal" ]
+            "access_rules": [ "$aegisAccess|2", "Ice Seal, Rock Seal" ]
           },
           {
             "name": "Registeel Chamber",
-            "access_rules": [ "$aegisAccess|3", "Steel Seal" ]
+            "access_rules": [ "$aegisAccess|3", "Ice Seal, Rock Seal, Steel Seal" ]
           },
           {
             "name": "Recruit Registeel",
-            "access_rules": [ "$aegisAccess|3, Complete Temporal Tower", "Steel Seal, Complete Temporal Tower" ],
+            "access_rules": [ "$aegisAccess|3, Complete Temporal Tower", "Ice Seal, Rock Seal, Steel Seal, Complete Temporal Tower" ],
             "chest_unopened_img": "images/locations/legendaries/registeel.png",
             "chest_opened_img": "images/locations/legendaries/registeel-gray.png"
           },
           {
             "name": "Aegis Cave Pit",
-            "access_rules": [ "$aegisAccess|3", "Steel Seal" ],
+            "access_rules": [ "$aegisAccess|3", "Ice Seal, Rock Seal, Steel Seal" ],
             "chest_unopened_img": "images/locations/regigigas.png",
             "chest_opened_img": "images/locations/regigigas-gray.png"
           },
           {
             "name": "Regigigas Chamber",
-            "access_rules": [ "$aegisAccess|3", "Steel Seal" ],
+            "access_rules": [ "$aegisAccess|3", "Ice Seal, Rock Seal, Steel Seal" ],
             "chest_unopened_img": "images/locations/regigigas.png",
             "chest_opened_img": "images/locations/regigigas-gray.png"
           },
           {
             "name": "Recruit Regigigas",
-            "access_rules": [ "$aegisAccess|3, Complete Temporal Tower", "Steel Seal, Complete Temporal Tower" ],
+            "access_rules": [ "$aegisAccess|3, Complete Temporal Tower", "Ice Seal, Rock Seal, Steel Seal, Complete Temporal Tower" ],
             "chest_unopened_img": "images/locations/legendaries/regigigas.png",
             "chest_opened_img": "images/locations/legendaries/regigigas-gray.png"
           },

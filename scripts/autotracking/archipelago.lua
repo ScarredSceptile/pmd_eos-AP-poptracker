@@ -264,6 +264,9 @@ function apply_slot_data(slot_data)
 	if slot_data["LongLocations"] then
 		Tracker:FindObjectForCode("LongLocations").Active = tonumber(slot_data["LongLocations"]) == 1
 	end
+	if slot_data["CursedAegisCave"] then
+		Tracker:FindObjectForCode("CursedAegisCave").Active = tonumber(slot_data["CursedAegisCave"]) == 1
+	end
 end
 
 -- called right after an AP slot is connected
