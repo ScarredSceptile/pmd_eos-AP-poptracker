@@ -240,7 +240,7 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("DojoDungeonsRandomization").AcquiredCount = 0
 	end
 	if slot_data["SkyPeakType"] then
-		Tracker:FindObjectForCode("SkyPeakMode").CurrentStage = tonumber(slot_data["SkyPeakType"])
+		Tracker:FindObjectForCode("SkyPeakMode").CurrentStage = tonumber(slot_data["SkyPeakType"]) - 1
 	end
 	if slot_data["DrinkEvents"] then
 		Tracker:FindObjectForCode("DrinkEvents").AcquiredCount = tonumber(slot_data["DrinkEvents"])
@@ -260,6 +260,9 @@ function apply_slot_data(slot_data)
 	end
 	if slot_data["MaxRank"] then
 		Tracker:FindObjectForCode("MaxRank").CurrentStage = tonumber(slot_data["MaxRank"])
+	end
+	if slot_data["LongLocations"] then
+		Tracker:FindObjectForCode("LongLocations").Active = tonumber(slot_data["LongLocations"]) == 1
 	end
 end
 
