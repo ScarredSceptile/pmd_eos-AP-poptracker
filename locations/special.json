@@ -14,7 +14,10 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete SE Star Cave"
+				  "name": "Complete Deep SE Star Cave"
+			  },
+			  {
+				  "name": "Complete SE Star Cave Pit"
 			  }
 			],
 			"map_locations":
@@ -337,7 +340,13 @@
 			"sections":
 			[
 			  {
-				  "name": "Complete SE Spring Cave"
+				  "name": "Complete SE Upper Spring Cave"
+			  },
+			  {
+				  "name": "Complete SE Middle Spring Cave"
+			  },
+			  {
+				  "name": "Complete SE Spring Cave Pit"
 			  }
 			],
 			"map_locations":
