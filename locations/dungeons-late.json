@@ -1090,7 +1090,7 @@
           },
           {
             "name": "Regice Chamber",
-            "access_rules": [ "$aegisAccess|1", "Ice Seal" ]
+            "access_rules": [ "$aegisAccess|1, Complete Temporal Tower", "Ice Seal, Complete Temporal Tower" ]
           },
           {
             "name": "Recruit Regice",
@@ -1104,7 +1104,7 @@
           },
           {
             "name": "Regirock Chamber",
-            "access_rules": [ "$aegisAccess|2", "Ice Seal, Rock Seal" ]
+            "access_rules": [ "$aegisAccess|2, Complete Temporal Tower", "Ice Seal, Rock Seal, Complete Temporal Tower" ]
           },
           {
             "name": "Recruit Regirock",
@@ -1118,7 +1118,7 @@
           },
           {
             "name": "Registeel Chamber",
-            "access_rules": [ "$aegisAccess|3", "Ice Seal, Rock Seal, Steel Seal" ]
+            "access_rules": [ "$aegisAccess|3, Complete Temporal Tower", "Ice Seal, Rock Seal, Steel Seal, Complete Temporal Tower" ]
           },
           {
             "name": "Recruit Registeel",
@@ -1356,21 +1356,21 @@
           },
           {
             "name": "Machoke",
-            "access_rules": "Recruitment",
+            "access_rules": "Recruitment, Ice Seal",
             "visibility_rules": "RecruitAll",
             "chest_unopened_img": "images/pokemon/gen1/machoke.png",
             "chest_opened_img": "images/pokemon/gen1/machoke-gray.png"
           },
           {
             "name": "Machamp",
-            "access_rules": "Recruitment",
+            "access_rules": "Recruitment, Ice Seal",
             "visibility_rules": "RecruitAll",
             "chest_unopened_img": "images/pokemon/gen1/machamp.png",
             "chest_opened_img": "images/pokemon/gen1/machamp-gray.png"
           },
           {
             "name": "Crobat",
-            "access_rules": "Recruitment",
+            "access_rules": "Recruitment, Ice Seal, Rock Seal, Steel Seal",
             "visibility_rules": "RecruitAll",
             "chest_unopened_img": "images/pokemon/gen2/crobat.png",
             "chest_opened_img": "images/pokemon/gen2/crobat-gray.png"
