@@ -91,43 +91,43 @@
 			"sections":[
 				{
 					"name": "Aqua-Monica Mission",
-					"access_rules": ["Bottomless Sea"],
+					"access_rules": ["Complete Bottomless Sea"],
 				    "chest_unopened_img": "images/locations/legendaries/kyogre.png",
 				    "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
 				},
 				{
 					"name": "Terra Cymbal Mission",
-					"access_rules": ["Shimmer Desert"],
+					"access_rules": ["Complete Shimmer Desert"],
 				    "chest_unopened_img": "images/locations/legendaries/groudon.png",
 				    "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
 				},
 				{
 					"name": "Icy Flute Mission",
-					"access_rules": ["Mt. Avalanche"],
+					"access_rules": ["Complete Mt. Avalanche"],
 				    "chest_unopened_img": "images/locations/legendaries/articuno.png",
 				    "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
 				},
 				{
 					"name": "Fiery Drum Mission",
-					"access_rules": ["Giant Volcano"],
+					"access_rules": ["Complete Giant Volcano"],
 				    "chest_unopened_img": "images/locations/legendaries/heatran.png",
 				    "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
 				},
 				{
 					"name": "Rock Horn Mission",
-					"access_rules": ["World Abyss"],
+					"access_rules": ["Complete World Abyss"],
 				    "chest_unopened_img": "images/locations/legendaries/giratina.png",
 				    "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
 				},
 				{
 					"name": "Sky Melodica Mission",
-					"access_rules": ["Sky Stairway"],
+					"access_rules": ["Complete Sky Stairway"],
 				    "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
 				    "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
 				},
 				{
 					"name": "Grass Cornet Mission",
-					"access_rules": ["Mystery Jungle"],
+					"access_rules": ["Complete Mystery Jungle"],
 				    "chest_unopened_img": "images/locations/legendaries/mew.png",
 				    "chest_opened_img": "images/locations/legendaries/mew-gray.png",
 				}
