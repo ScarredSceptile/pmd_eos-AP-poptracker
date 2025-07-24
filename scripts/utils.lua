@@ -56,12 +56,14 @@ function updateItemGrid(code)
 end
 
 function spindaDrinks(code)
-	local drinks = Tracker:ProviderCountForCode("DrinkEvents")
+	local drinks = Tracker:ProviderCountForCode("SpindaDrinks")
+	print("drinks"..drinks)
 	Tracker:FindObjectForCode("@Spinda's Cafe/Spinda/Drink").AvailableChestCount = drinks
 end
 
 function spindaDrinksEvent(code)
-	local drinks = Tracker:ProviderCountForCode("SpindaDrinksEvent")
+	local drinks = Tracker:ProviderCountForCode("DrinkEvents")
+	print("events"..drinks)
 	Tracker:FindObjectForCode("@Spinda's Cafe/Spinda/Drink Event").AvailableChestCount = drinks
 end
 
