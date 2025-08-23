@@ -1,7 +1,7 @@
 [
   {
     "name": "Dungeons",
-    "access_rules": [ "Main Game Unlock" ],
+    "access_rules": [ "Main Game Unlock, [Complete Temporal Tower]" ],
     "visibility_rules": [ "LongLocations" ],
     "chest_unopened_img": "images/locations/available.png",
     "chest_opened_img": "images/locations/collected.png",
