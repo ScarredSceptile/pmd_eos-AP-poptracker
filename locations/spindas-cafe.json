@@ -13,6 +13,7 @@
 					"name": "Drink",
 				    "clear_as_group": false,
 				    "item_count": 20,
+					"access_rules": ["[$hasBags|1]", "Bidoof SE", "Sunflora SE"],
 				    "chest_unopened_img": "images/locations/spinda.png",
 				    "chest_opened_img": "images/locations/spinda-gray.png",
 				},
@@ -20,6 +21,7 @@
 					"name": "Drink Event",
 				    "clear_as_group": false,
 				    "item_count": 20,
+					"access_rules": ["[$hasBags|3]", "Bidoof SE", "Sunflora SE"],
 				    "chest_unopened_img": "images/locations/drink.png",
 				    "chest_opened_img": "images/locations/drink-gray.png",
 				}

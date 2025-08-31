@@ -8,7 +8,7 @@ As an example of this, Mt. Bristle has 9 floors, meaning that until generation f
 Dungeons gotten from Spindas Cafe cannot generate missions on the Final floor, meaning there will always be 1 less possible mission for these dungeons.
 
 Current issues:
-- Bad or missing images
+- Missing dungeon item images
 
 # Example image
 

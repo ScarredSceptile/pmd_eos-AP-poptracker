@@ -101,3 +101,11 @@ end
 function specialEpisodeAccess()
 	return Tracker:ProviderCountForCode("ExcludeSpecial") == 0
 end
+
+function hasBags(num)
+	local count = tonumber(num)
+	if Tracker:ProviderCountForCode("BagUpgrades") >= count then
+		return true
+	end
+	return false
+end
