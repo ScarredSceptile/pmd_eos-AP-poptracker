@@ -120,29 +120,29 @@
           },
           {
             "name": "Master ★ Rank",
-            "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★Rank" ],
+            "access_rules": [ "Secret Rank, Complete Temporal Tower" ],
+            "visibility_rules": [ "$darkraiGoal, Master★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★.png",
             "chest_opened_img": "images/locations/ranks/master★-gray.png"
           },
           {
             "name": "Master ★★ Rank",
-            "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★★Rank" ],
+            "access_rules": [ "Secret Rank, Complete Temporal Tower" ],
+            "visibility_rules": [ "$darkraiGoal, Master★★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★★.png",
             "chest_opened_img": "images/locations/ranks/master★★-gray.png"
           },
           {
             "name": "Master ★★★ Rank",
-            "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations, Master★★★Rank" ],
+            "access_rules": [ "Secret Rank, Complete Temporal Tower" ],
+            "visibility_rules": [ "$darkraiGoal, Master★★★Rank" ],
             "chest_unopened_img": "images/locations/ranks/master★★★.png",
             "chest_opened_img": "images/locations/ranks/master★★★-gray.png"
           },
           {
             "name": "Guildmaster Rank",
-            "access_rules": [ "Secret Rank" ],
-            "visibility_rules": [ "$darkraiGoal, LongLocations, GuildmasterRank" ],
+            "access_rules": [ "Secret Rank, Complete Temporal Tower" ],
+            "visibility_rules": [ "$darkraiGoal, GuildmasterRank" ],
             "chest_unopened_img": "images/locations/ranks/guildmaster.png",
             "chest_opened_img": "images/locations/ranks/guildmaster-gray.png"
           }
@@ -232,33 +232,39 @@
           },
           {
             "name": "Duskull 5000G Reward",
+			"access_rules": "[$hasBags|1]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png"
           },
           {
             "name": "Duskull 10000G Reward",
+			"access_rules": "[$hasBags|2, Main Game Unlock]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png"
           },
           {
             "name": "Duskull 20000G Reward",
+			"access_rules": "[$hasBags|2, Main Game Unlock]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png"
           },
           {
             "name": "Duskull 50000G Reward",
+			"access_rules": "[$hasBags|3]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 100000G Reward",
+			"access_rules": "[$hasBags|3]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 9999999G Reward",
+			"access_rules": "[$hasBags|3, Complete Temporal Tower]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]
@@ -308,13 +314,13 @@
         "sections": [
           {
             "name": "Manaphy Join Team",
-            "access_rules": [ "Complete Surrounded Sea, Complete Miracle Sea,Complete Temporal Tower" ],
+            "access_rules": [ "Complete Surrounded Sea, Complete Miracle Sea, Complete Temporal Tower" ],
             "chest_unopened_img": "images/locations/legendaries/manaphy.png",
             "chest_opened_img": "images/locations/legendaries/manaphy-gray.png"
           },
           {
             "name": "Manaphy Leads To Marine Resort",
-            "access_rules": [ "Manaphy, Main Game Unlock" ],
+            "access_rules": [ "Manaphy, Main Game Unlock, Complete Temporal Tower" ],
             "chest_unopened_img": "images/locations/manaphy.png",
             "chest_opened_img": "images/locations/manaphy-gray.png"
           }

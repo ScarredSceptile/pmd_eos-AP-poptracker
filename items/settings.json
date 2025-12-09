@@ -22,7 +22,7 @@
   {
 	  "name": "Required Relic Fragment Shards",
 	  "type": "consumable",
-      "max_quantity": 10,
+      "max_quantity": 15,
 	  "min_quantity": 4,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
@@ -31,7 +31,7 @@
 	  "codes": "RequiredRelicFragmentShards"
   },
   {
-	  "name": "Extra Relic Fragment Shards",
+	  "name": "Total Relic Fragment Shards",
 	  "type": "consumable",
       "max_quantity": 10,
 	  "initial_quantity": 4,
@@ -43,7 +43,7 @@
   {
 	  "name": "Early Mission Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
+      "max_quantity": 31,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/mission.png",
@@ -53,14 +53,14 @@
   {
 	  "name": "Early Stored Mission Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
-	  "initial_quantity": 50,
+      "max_quantity": 31,
+	  "initial_quantity": 31,
 	  "codes": "EarlyStoredMissionChecks"
   },
   {
 	  "name": "Late Mission Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
+      "max_quantity": 31,
 	  "initial_quantity": 2,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/mission.png",
@@ -70,14 +70,14 @@
   {
 	  "name": "Late Stored Mission Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
-	  "initial_quantity": 50,
+      "max_quantity": 31,
+	  "initial_quantity": 31,
 	  "codes": "LateStoredMissionChecks"
   },
   {
 	  "name": "Early Outlaw Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
+      "max_quantity": 31,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/outlaw.png",
@@ -87,14 +87,14 @@
   {
 	  "name": "Early Stored Outlaw Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
-	  "initial_quantity": 50,
+      "max_quantity": 31,
+	  "initial_quantity": 31,
 	  "codes": "EarlyStoredOutlawChecks"
   },
   {
 	  "name": "Late Outlaw Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
+      "max_quantity": 31,
 	  "initial_quantity": 2,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/outlaw.png",
@@ -104,8 +104,8 @@
   {
 	  "name": "Late Stored Outlaw Checks",
 	  "type": "consumable",
-      "max_quantity": 50,
-	  "initial_quantity": 50,
+      "max_quantity": 31,
+	  "initial_quantity": 31,
 	  "codes": "LateStoredOutlawChecks"
   },
   {
@@ -131,7 +131,7 @@
   {
 	  "name": "Required Instruments",
 	  "type": "consumable",
-      "max_quantity": 10,
+      "max_quantity": 15,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/instrument.png",
@@ -159,6 +159,13 @@
 	  "codes": "DrinkEvents"
   },
   {
+	  "name": "Stored Drink Events",
+	  "type": "consumable",
+      "max_quantity": 20,
+	  "initial_quantity": 20,
+	  "codes": "StoredDrinkEvents"
+  },
+  {
 	  "name": "Spinda Drinks",
 	  "type": "consumable",
       "max_quantity": 20,
@@ -167,6 +174,13 @@
 	  "img": "images/settings/spinda.png",
 	  "disabled_img_mods": "none",
 	  "codes": "SpindaDrinks"
+  },
+  {
+	  "name": "Stored Spinda Drinks",
+	  "type": "consumable",
+      "max_quantity": 20,
+	  "initial_quantity": 20,
+	  "codes": "StoredSpindaDrinks"
   },
   {
     "name": "Sky Peak Mode",

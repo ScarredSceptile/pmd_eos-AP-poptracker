@@ -2025,7 +2025,7 @@
             "name": "Mission",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Hidden Land" ],
+            "access_rules": [ "Complete Hidden Land, [Complete Temporal Tower]" ],
             "chest_unopened_img": "images/locations/mission.png",
             "chest_opened_img": "images/locations/mission_done.png",
             "visibility_rules": [ "$late_missions,$darkraiGoal" ]
@@ -2034,7 +2034,7 @@
             "name": "Outlaw",
             "clear_as_group": false,
             "item_count": 50,
-            "access_rules": [ "Complete Hidden Land" ],
+            "access_rules": [ "Complete Hidden Land, [Complete Temporal Tower]" ],
             "chest_unopened_img": "images/locations/outlaw.png",
             "chest_opened_img": "images/locations/outlaw-gray.png",
             "visibility_rules": [ "$late_outlaws,$darkraiGoal" ]

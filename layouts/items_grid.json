@@ -29,7 +29,7 @@
             }
           },
           {
-            "title": "Completetions",
+            "title": "Completions",
             "type": "array",
             "orientation": "horizontal",
             "margin": "0,0",

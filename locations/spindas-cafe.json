@@ -1,147 +1,147 @@
 [
-{
-	"name": "Spinda's Cafe",
-	  "chest_unopened_img": "images/locations/available.png",
-	  "chest_opened_img": "images/locations/collected.png",
-	  "access_rules": ["Main Game Unlock"],
-	  "children":
-	[
-		{
-			"name": "Spinda",
-			"sections":[
-				{
-					"name": "Drink",
-				    "clear_as_group": false,
-				    "item_count": 20,
-					"access_rules": ["[$hasBags|1]", "Bidoof SE", "Sunflora SE"],
-				    "chest_unopened_img": "images/locations/spinda.png",
-				    "chest_opened_img": "images/locations/spinda-gray.png",
-				},
-				{
-					"name": "Drink Event",
-				    "clear_as_group": false,
-				    "item_count": 20,
-					"access_rules": ["[$hasBags|3]", "Bidoof SE", "Sunflora SE"],
-				    "chest_unopened_img": "images/locations/drink.png",
-				    "chest_opened_img": "images/locations/drink-gray.png",
-				}
-			],
-			"map_locations": [
-				{
-					"map": "spindas",
-					"x": 250,
-					"y": 150
-				}
-			]
-		},
-		{
-			"name": "Wynaut",
-			"access_rules": ["Main Game Unlock"],
-			"sections":[
-				{
-					"name": "Recycle Shop Treasure Found",
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Recycle Shop Dungeon #1",
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Recycle Shop Dungeon #2",
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Recycle Shop Dungeon #3",
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Recycle Shop Dungeon #4",
-					"access_rules": ["Complete Mystifying Forest"],
-					"visibility_rules": ["$darkraiGoal"],
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Recycle Shop Dungeon #5",
-					"access_rules": ["Complete Mystifying Forest"],
-					"visibility_rules": ["$darkraiGoal"],
-				    "chest_unopened_img": "images/locations/wynaut.png",
-				    "chest_opened_img": "images/locations/wynaut-gray.png",
-				},
-				{
-					"name": "Ludicolo Dance",
-				    "chest_unopened_img": "images/locations/ludicolo.png",
-				    "chest_opened_img": "images/locations/ludicolo-gray.png",
-				}
-			],
-			"map_locations": [
-				{
-					"map": "spindas",
-					"x": 450,
-					"y": 150
-				}
-			]
-		},
-		{
-			"name": "Missions",
-			"access_rules": ["Secret Rank, Main Game Unlock"],
-			"visibility_rules": ["$darkraiGoal"],
-			"sections":[
-				{
-					"name": "Aqua-Monica Mission",
-					"access_rules": ["Complete Bottomless Sea"],
-				    "chest_unopened_img": "images/locations/legendaries/kyogre.png",
-				    "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
-				},
-				{
-					"name": "Terra Cymbal Mission",
-					"access_rules": ["Complete Shimmer Desert"],
-				    "chest_unopened_img": "images/locations/legendaries/groudon.png",
-				    "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
-				},
-				{
-					"name": "Icy Flute Mission",
-					"access_rules": ["Complete Mt. Avalanche"],
-				    "chest_unopened_img": "images/locations/legendaries/articuno.png",
-				    "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
-				},
-				{
-					"name": "Fiery Drum Mission",
-					"access_rules": ["Complete Giant Volcano"],
-				    "chest_unopened_img": "images/locations/legendaries/heatran.png",
-				    "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
-				},
-				{
-					"name": "Rock Horn Mission",
-					"access_rules": ["Complete World Abyss"],
-				    "chest_unopened_img": "images/locations/legendaries/giratina.png",
-				    "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
-				},
-				{
-					"name": "Sky Melodica Mission",
-					"access_rules": ["Complete Sky Stairway"],
-				    "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
-				    "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
-				},
-				{
-					"name": "Grass Cornet Mission",
-					"access_rules": ["Complete Mystery Jungle"],
-				    "chest_unopened_img": "images/locations/legendaries/mew.png",
-				    "chest_opened_img": "images/locations/legendaries/mew-gray.png",
-				}
-			],
-			"map_locations": [
-				{
-					"map": "spindas",
-					"x": 285,
-					"y": 300
-				}
-			]
-		}
-	]
-}
+  {
+    "name": "Spinda's Cafe",
+    "chest_unopened_img": "images/locations/available.png",
+    "chest_opened_img": "images/locations/collected.png",
+    "access_rules": [ "Main Game Unlock" ],
+    "children": [
+      {
+        "name": "Spinda",
+        "sections": [
+          {
+            "name": "Drink",
+            "clear_as_group": false,
+            "item_count": 20,
+            "access_rules": [ "[$hasBags|1]", "Bidoof SE", "Sunflora SE" ],
+            "chest_unopened_img": "images/locations/spinda.png",
+            "chest_opened_img": "images/locations/spinda-gray.png",
+          },
+          {
+            "name": "Drink Event",
+            "clear_as_group": false,
+            "item_count": 20,
+            "access_rules": [ "[$hasBags|3]", "Bidoof SE", "Sunflora SE" ],
+            "chest_unopened_img": "images/locations/drink.png",
+            "chest_opened_img": "images/locations/drink-gray.png",
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "spindas",
+            "x": 250,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Wynaut",
+        "access_rules": [ "Main Game Unlock, [$hasBags|3]" ],
+        "sections": [
+          {
+            "name": "Recycle Shop Treasure Found",
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Recycle Shop Dungeon #1",
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Recycle Shop Dungeon #2",
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Recycle Shop Dungeon #3",
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Recycle Shop Dungeon #4",
+            "access_rules": [ "[Complete Temporal Tower, Formation Control]" ],
+            "visibility_rules": [ "$darkraiGoal" ],
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Recycle Shop Dungeon #5",
+            "access_rules": [ "[Complete Temporal Tower, Formation Control]" ],
+            "visibility_rules": [ "$darkraiGoal" ],
+            "chest_unopened_img": "images/locations/wynaut.png",
+            "chest_opened_img": "images/locations/wynaut-gray.png",
+          },
+          {
+            "name": "Ludicolo Dance",
+            "access_rules": [ "$hasBags|1" ],
+            "chest_unopened_img": "images/locations/ludicolo.png",
+            "chest_opened_img": "images/locations/ludicolo-gray.png",
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "spindas",
+            "x": 450,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Missions",
+        "access_rules": [ "Secret Rank, Main Game Unlock" ],
+        "visibility_rules": [ "$darkraiGoal" ],
+        "sections": [
+          {
+            "name": "Aqua-Monica Mission",
+            "access_rules": [ "Complete Bottomless Sea" ],
+            "chest_unopened_img": "images/locations/legendaries/kyogre.png",
+            "chest_opened_img": "images/locations/legendaries/kyogre-gray.png",
+          },
+          {
+            "name": "Terra Cymbal Mission",
+            "access_rules": [ "Complete Shimmer Desert" ],
+            "chest_unopened_img": "images/locations/legendaries/groudon.png",
+            "chest_opened_img": "images/locations/legendaries/groudon-gray.png",
+          },
+          {
+            "name": "Icy Flute Mission",
+            "access_rules": [ "Complete Mt. Avalanche" ],
+            "chest_unopened_img": "images/locations/legendaries/articuno.png",
+            "chest_opened_img": "images/locations/legendaries/articuno-gray.png",
+          },
+          {
+            "name": "Fiery Drum Mission",
+            "access_rules": [ "Complete Giant Volcano" ],
+            "chest_unopened_img": "images/locations/legendaries/heatran.png",
+            "chest_opened_img": "images/locations/legendaries/heatran-gray.png",
+          },
+          {
+            "name": "Rock Horn Mission",
+            "access_rules": [ "Complete World Abyss" ],
+            "chest_unopened_img": "images/locations/legendaries/giratina.png",
+            "chest_opened_img": "images/locations/legendaries/giratina-gray.png",
+          },
+          {
+            "name": "Sky Melodica Mission",
+            "access_rules": [ "Complete Sky Stairway" ],
+            "chest_unopened_img": "images/locations/legendaries/rayquaza.png",
+            "chest_opened_img": "images/locations/legendaries/rayquaza-gray.png",
+          },
+          {
+            "name": "Grass Cornet Mission",
+            "access_rules": [ "Complete Mystery Jungle" ],
+            "chest_unopened_img": "images/locations/legendaries/mew.png",
+            "chest_opened_img": "images/locations/legendaries/mew-gray.png",
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "spindas",
+            "x": 285,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  }
 ]

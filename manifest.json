@@ -1,7 +1,7 @@
 ﻿{
 	"name": "Pokémon Mystery Dungeon: Explorers of Sky AP Tracker",
 	"game_name": "Pokemon Mystery Dungeon Explorers of Sky",
-	"package_version": "0.2.0",
+	"package_version": "0.2.1",
 	"package_uid": "ap_pmd_eos",
 	"author": "ScarredSceptile",
 	"variants": {
