@@ -41,3 +41,5 @@ ScriptHost:LoadScript("scripts/watch.lua")
 
 initialize_watch_items()
 updateMissionCounts()
+spindaDrinks()
+spindaDrinksEvent()

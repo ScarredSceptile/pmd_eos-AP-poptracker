@@ -250,21 +250,21 @@
           },
           {
             "name": "Duskull 50000G Reward",
-			"access_rules": "[$hasBags|3]",
+			"access_rules": "[$hasBags|3, Main Game Unlock]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 100000G Reward",
-			"access_rules": "[$hasBags|3]",
+			"access_rules": "[$hasBags|3, Main Game Unlock]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]
           },
           {
             "name": "Duskull 9999999G Reward",
-			"access_rules": "[$hasBags|3, Complete Temporal Tower]",
+			"access_rules": "[$hasBags|3, Main Game Unlock, Temporal Tower Complete]",
             "chest_unopened_img": "images/locations/duskull.png",
             "chest_opened_img": "images/locations/duskull-gray.png",
 			"visibility_rules": [ "LongLocations" ]

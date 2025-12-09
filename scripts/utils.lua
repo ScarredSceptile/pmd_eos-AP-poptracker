@@ -59,10 +59,10 @@ function spindaDrinks(code)
 	local drinks = Tracker:ProviderCountForCode("SpindaDrinks")
 	local storedDrinks = Tracker:ProviderCountForCode("StoredSpindaDrinks")
 	local difference = storedDrinks - drinks
-	print("drinks"..drinks)
+	print("drinks"..difference)
 	if difference ~= 0 then
 		local obj = Tracker:FindObjectForCode("@Spinda's Cafe/Spinda/Drink")
-		obj.AvailableChestCount = obj.AvailableChestCount + difference
+		obj.AvailableChestCount = obj.AvailableChestCount - difference
 	end
 end
 
@@ -70,10 +70,10 @@ function spindaDrinksEvent(code)
 	local drinks = Tracker:ProviderCountForCode("DrinkEvents")
 	local storedDrinks = Tracker:ProviderCountForCode("StoredDrinkEvents")
 	local difference = storedDrinks - drinks
-	print("events"..drinks)
+	print("events"..difference)
 	if difference ~= 0 then
 		local obj = Tracker:FindObjectForCode("@Spinda's Cafe/Spinda/Drink Event")
-		obj.AvailableChestCount = obj.AvailableChestCount + difference
+		obj.AvailableChestCount = obj.AvailableChestCount - difference
 	end
 end
 
