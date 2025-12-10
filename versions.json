@@ -2,8 +2,8 @@
 	"versions": [
 		{
 			"package_version": "0.2.2",
-			"download_url": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/archive/refs/tags/v0.2.2.zip",
-			"sha256": "D2F16421CD15AB75ED35D5F9F8DCAF7D5FF1C6231E15B37A6302FCB5738EBFB4",
+			"download_url": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/archive/refs/tags/v0.2.2.1.zip",
+			"sha256": "7BE1D2FFD3FD6E5EB4E6AD42B5CCAAC3B5BEB20766A558997AAF81C378D5421B",
 			"changelog": [ "Fix spinda drinks default value" ]
 		},
 		{
