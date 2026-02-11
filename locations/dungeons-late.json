@@ -5034,10 +5034,6 @@
             "access_rules": [ "$canAccessSkyPeak|4" ]
           },
           {
-            "name": "Complete 5th Station Clearing",
-            "access_rules": [ "$canAccessSkyPeak|4" ]
-          },
-          {
             "name": "4th Station Mission",
             "clear_as_group": false,
             "item_count": 50,
@@ -5057,6 +5053,10 @@
           },
           {
             "name": "Complete 5th Station Pass",
+            "access_rules": [ "$canAccessSkyPeak|5" ]
+          },
+          {
+            "name": "Complete 5th Station Clearing",
             "access_rules": [ "$canAccessSkyPeak|5" ]
           },
           {
@@ -5329,48 +5329,6 @@
             "map": "overworld",
             "x": 372,
             "y": 164
-          }
-        ]
-
-      },
-      {
-        "name": "Star Cave (15F)",
-        "access_rules": [ "Star Cave" ],
-        "sections": [
-          {
-            "name": "Complete Star Cave"
-          },
-          {
-            "name": "Mission",
-            "clear_as_group": false,
-            "item_count": 50,
-            "access_rules": [ "Complete Star Cave" ],
-            "chest_unopened_img": "images/locations/mission.png",
-            "chest_opened_img": "images/locations/mission_done.png",
-            "visibility_rules": [ "$late_missions" ]
-          },
-          {
-            "name": "Outlaw",
-            "clear_as_group": false,
-            "item_count": 50,
-            "access_rules": [ "Complete Star Cave" ],
-            "chest_unopened_img": "images/locations/outlaw.png",
-            "chest_opened_img": "images/locations/outlaw-gray.png",
-            "visibility_rules": [ "$late_outlaws" ]
-          },
-          {
-            "name": "Jirachi",
-            "access_rules": "Recruitment",
-            "visibility_rules": "RecruitAll",
-            "chest_unopened_img": "images/pokemon/gen3/jirachi.png",
-            "chest_opened_img": "images/pokemon/gen3/jirachi-gray.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 316,
-            "y": 192
           }
         ]
 

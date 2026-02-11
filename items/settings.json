@@ -33,7 +33,7 @@
   {
 	  "name": "Total Relic Fragment Shards",
 	  "type": "consumable",
-      "max_quantity": 10,
+      "max_quantity": 20,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/relic.png",
@@ -139,9 +139,9 @@
 	  "codes": "RequiredInstruments"
   },
   {
-	  "name": "Extra Instruments",
+	  "name": "Total Instruments Count",
 	  "type": "consumable",
-      "max_quantity": 10,
+      "max_quantity": 20,
 	  "initial_quantity": 4,
 	  "overlay_font_size": 16,
 	  "img": "images/settings/instrument.png",
