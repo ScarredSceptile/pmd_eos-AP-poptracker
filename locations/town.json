@@ -6,18 +6,18 @@
     "children": [
       {
         "name": "Guildmasters Chamber",
-		"access_rules": "Main Game Unlock",
         "sections": [
           {
             "name": "Progressive Bag loc 1",
-            "access_rules": [ "Complete Beach Cave" ]
+            "access_rules": [ "Main Game Unlock", "Complete Beach Cave" ]
           },
           {
             "name": "Team Name",
-            "access_rules": [ "Complete Beach Cave" ]
+            "access_rules": [ "Main Game Unlock", "Complete Beach Cave" ]
           },
           {
             "name": "Igglybuff SE Location",
+			"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
             "chest_unopened_img": "images/locations/igglybuff.png",
             "chest_opened_img": "images/locations/igglybuff-gray.png"
           }
@@ -32,7 +32,7 @@
       },
       {
         "name": "Bidoofs Room",
-		"access_rules": "Main Game Unlock",
+		"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
         "sections": [
           {
             "name": "Bidoof SE Location",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Sunfloras Room",
-		"access_rules": "Main Game Unlock",
+		"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
         "sections": [
           {
             "name": "Sunflora SE Location",
@@ -162,7 +162,7 @@
       },
       {
         "name": "Guild B2",
-		"access_rules": "Main Game Unlock",
+		"access_rules": ["Main Game Unlock", "Bidoof SE", "Sunflora SE"],
         "sections": [
           {
             "name": "Team Charm SE Location",

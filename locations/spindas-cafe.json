@@ -3,7 +3,6 @@
     "name": "Spinda's Cafe",
     "chest_unopened_img": "images/locations/available.png",
     "chest_opened_img": "images/locations/collected.png",
-    "access_rules": [ "Main Game Unlock" ],
     "children": [
       {
         "name": "Spinda",
@@ -12,7 +11,7 @@
             "name": "Drink",
             "clear_as_group": false,
             "item_count": 20,
-            "access_rules": [ "[$hasBags|1]", "Bidoof SE", "Sunflora SE" ],
+            "access_rules": [ "Main Game Unlock, [$hasBags|1]", "Bidoof SE, [$hasBags|1]", "Sunflora SE, [$hasBags|1]" ],
             "chest_unopened_img": "images/locations/spinda.png",
             "chest_opened_img": "images/locations/spinda-gray.png",
           },
@@ -20,7 +19,7 @@
             "name": "Drink Event",
             "clear_as_group": false,
             "item_count": 20,
-            "access_rules": [ "[$hasBags|3]", "Bidoof SE", "Sunflora SE" ],
+            "access_rules": [ "Main Game Unlock, [$hasBags|3]", "Bidoof SE, [$hasBags|3]", "Sunflora SE, [$hasBags|3]" ],
             "chest_unopened_img": "images/locations/drink.png",
             "chest_opened_img": "images/locations/drink-gray.png",
           }
