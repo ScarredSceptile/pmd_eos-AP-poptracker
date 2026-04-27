@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.5",
+			"download_url": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/archive/refs/tags/v0.2.5.zip",
+			"sha256": "5E7AD2512342C81703C4E9FA7BB8858FD05128E050FFFEA2177CD83015BFA777",
+			"changelog": [ "Fixes more logic issues" ]
+		},
+		{
 			"package_version": "0.2.4",
 			"download_url": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/archive/refs/tags/v0.2.4.zip",
 			"sha256": "7329845A65587F7294443BBCE9A1555C1F9130D3DC73531288793CE7F64A5B58",
