@@ -162,7 +162,7 @@
 	  "name": "Stored Drink Events",
 	  "type": "consumable",
       "max_quantity": 20,
-	  "initial_quantity": 20,
+	  "initial_quantity": 4,
 	  "codes": "StoredDrinkEvents"
   },
   {
@@ -179,7 +179,7 @@
 	  "name": "Stored Spinda Drinks",
 	  "type": "consumable",
       "max_quantity": 20,
-	  "initial_quantity": 20,
+	  "initial_quantity": 4,
 	  "codes": "StoredSpindaDrinks"
   },
   {
